@@ -1,0 +1,85 @@
+[colors]
+ansi = [
+  '#EBDFD3',
+  '#C34165',
+  '#288043',
+  '#8A7400',
+  '#1675AB',
+  '#6A67B4',
+  '#007E7D',
+  '#757480',
+]
+background = '#FAF4ED'
+brights = [
+  '#9C8282',
+  '#C34165',
+  '#288043',
+  '#8A7400',
+  '#1675AB',
+  '#6A67B4',
+  '#007E7D',
+  '#757480',
+]
+compose_cursor = '#A352A0'
+cursor_bg = '#6A67B4'
+cursor_border = '#6A67B4'
+cursor_fg = '#FCF9F5'
+foreground = '#706F7A'
+scrollbar_thumb = '#9C8282'
+selection_bg = '#EBDFD3'
+selection_fg = '#706F7A'
+split = '#84828F'
+visual_bell = '#EBDFD3'
+
+[colors.indexed]
+16 = '#AC591C'
+17 = '#A352A0'
+
+[colors.tab_bar]
+background = '#FCF9F5'
+inactive_tab_edge = '#EBDFD3'
+
+[colors.tab_bar.active_tab]
+bg_color = '#6A67B4'
+fg_color = '#FCF9F5'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab]
+bg_color = '#FCF9F5'
+fg_color = '#706F7A'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = '#FAF4ED'
+fg_color = '#706F7A'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab]
+bg_color = '#EBDFD3'
+fg_color = '#706F7A'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[colors.tab_bar.new_tab_hover]
+bg_color = '#EBDFD3'
+fg_color = '#706F7A'
+intensity = 'Normal'
+italic = false
+strikethrough = false
+underline = 'None'
+
+[metadata]
+aliases = []
+author = 'schemar'
+name = 'Blueberry Peach Light'
