@@ -1,6 +1,6 @@
 # 🫐 BlueberryPeach 🍑
 
-Pleasant light and dark color scheme for NeoVim and the Terminal.
+Light and dark color scheme for NeoVim and the Terminal.
 
 See below for [palette](#palette) and [ports](#ports).
 
