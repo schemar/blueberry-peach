@@ -34,7 +34,7 @@ See below for [palette](#palette) and [ports](#ports).
     <td><code>#BF7789</code></td>
   </tr>
   <tr>
-	<td>yello</td>
+	<td>yellow</td>
     <td><img valign='middle' src="./assets/light_yello.svg" /></td>
     <td><code>#8A7400</code></td>
     <td><img valign='middle' src="./assets/dark_yello.svg" /></td>
