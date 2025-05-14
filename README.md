@@ -162,6 +162,7 @@ See below for [palette](#palette) and [ports](#ports).
 - [bat](./ports/bat)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
 - [wezterm](./ports/wezterm)
+- [slack](./ports/slack)
 
 ## Standing on the shoulders of giants
 
