@@ -5,9 +5,18 @@ Light and dark color scheme for neovim and the terminal.
 See below for [palette](#palette) and [ports](#ports).
 
 <p align="center">
-  <img src="./ports/neovim/screenshots/light.png" />
-  <img src="./ports/neovim/screenshots/dark.png" />
+  <img src="./assets/social.png" alt="BlueberryPeach theme screenshot" />
 </p>
+
+## Screenshots
+
+<details>
+<summary>neovim</summary>
+  <p align="center">
+    <img src="./ports/neovim/screenshots/light.png" alt="BlueberryPeach light variant" />
+    <img src="./ports/neovim/screenshots/dark.png" alt="BlueberryPeach dark variant" />
+  </p>
+</details>
 
 ## Palette
 
