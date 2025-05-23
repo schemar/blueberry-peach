@@ -73,7 +73,7 @@ See below for [palette](#palette) and [ports](#ports).
     <td><img valign='middle' src="./assets/light_violet.svg" /></td>
     <td><code>#6A67B4</code></td>
     <td><img valign='middle' src="./assets/dark_violet.svg" /></td>
-    <td><code>#8A87B9</code></td>
+    <td><code>#8884CB</code></td>
   </tr>
   <tr>
 	<td>pink</td>

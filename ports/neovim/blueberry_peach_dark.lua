@@ -1,6 +1,6 @@
 local color_overrides = {
-  mauve = "#8A87B9",
-  pink = "#8A87B9",
+  mauve = "#8884CB",
+  pink = "#8884CB",
   flamingo = "#B079AD",
   rosewater = "#B079AD",
   red = "#BF7789",

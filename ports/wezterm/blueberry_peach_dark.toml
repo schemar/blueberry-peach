@@ -5,7 +5,7 @@ ansi = [
   '#659774',
   '#9D8C30',
   '#6292AD',
-  '#8A87B9',
+  '#8884CB',
   '#519897',
   '#878794',
 ]
@@ -16,13 +16,13 @@ brights = [
   '#659774',
   '#9D8C30',
   '#6292AD',
-  '#8A87B9',
+  '#8884CB',
   '#519897',
   '#878794',
 ]
 compose_cursor = '#B079AD'
-cursor_bg = '#8A87B9'
-cursor_border = '#8A87B9'
+cursor_bg = '#8884CB'
+cursor_border = '#8884CB'
 cursor_fg = '#0B0A0F'
 foreground = '#8A8A9E'
 scrollbar_thumb = '#7C7992'
@@ -40,7 +40,7 @@ background = '#0B0A0F'
 inactive_tab_edge = '#2D2B37'
 
 [colors.tab_bar.active_tab]
-bg_color = '#8A87B9'
+bg_color = '#8884CB'
 fg_color = '#0B0A0F'
 intensity = 'Normal'
 italic = false
