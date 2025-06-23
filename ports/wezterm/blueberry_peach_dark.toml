@@ -3,8 +3,8 @@ ansi = [
   '#2D2B37',
   '#DF8BA0',
   '#75B087',
-  '#B7A338',
-  '#72AAC9',
+  '#C7B96F',
+  '#7AA8CE',
   '#A19DD4',
   '#5EB1AF',
   '#878794',
@@ -14,13 +14,13 @@ brights = [
   '#7C7992',
   '#DF8BA0',
   '#75B087',
-  '#B7A338',
-  '#72AAC9',
+  '#C7B96F',
+  '#7AA8CE',
   '#A19DD4',
   '#5EB1AF',
   '#878794',
 ]
-compose_cursor = '#C394C0'
+compose_cursor = '#C394C2'
 cursor_bg = '#A19DD4'
 cursor_border = '#A19DD4'
 cursor_fg = '#0B0A0F'
@@ -33,7 +33,7 @@ visual_bell = '#2D2B37'
 
 [colors.indexed]
 16 = '#C79A76'
-17 = '#C394C0'
+17 = '#C394C2'
 
 [colors.tab_bar]
 background = '#0B0A0F'
