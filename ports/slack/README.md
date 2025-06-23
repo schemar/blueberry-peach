@@ -15,5 +15,5 @@ Copy the following codes and import them in Slack > Settings > Appearance > Cust
 **Dark**
 
 ```
-#191724,#8884CB,#8884CB,#519897
+#191724,#A19DD4,#A19DD4,#5EB1AF
 ```
