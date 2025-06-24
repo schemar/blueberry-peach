@@ -129,14 +129,14 @@ See below for [palette](#palette) and [ports](#ports).
     <td><img valign='middle' src="./assets/light_surface2.svg" /></td>
     <td><code>#E8DFD4</code></td>
     <td><img valign='middle' src="./assets/dark_surface2.svg" /></td>
-    <td><code>#2D2B37</code></td>
+    <td><code>#37363E</code></td>
   </tr>
   <tr>
 	<td>surface1</td>
     <td><img valign='middle' src="./assets/light_surface1.svg" /></td>
     <td><code>#F1ECE5</code></td>
     <td><img valign='middle' src="./assets/dark_surface1.svg" /></td>
-    <td><code>#2D2B37</code></td>
+    <td><code>#37363E</code></td>
   </tr>
   <tr>
 	<td>background</td>
