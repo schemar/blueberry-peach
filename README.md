@@ -80,7 +80,7 @@ See below for [palette](#palette) and [ports](#ports).
     <td><img valign='middle' src="./assets/light_pink.svg" /></td>
     <td><code>#A352A0</code></td>
     <td><img valign='middle' src="./assets/dark_pink.svg" /></td>
-    <td><code>#A19DD4</code></td>
+    <td><code>#C394C2</code></td>
   </tr>
   <tr>
 	<td>text</td>
