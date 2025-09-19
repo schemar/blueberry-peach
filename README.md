@@ -163,6 +163,9 @@ See below for [palette](#palette) and [ports](#ports).
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
 - [wezterm](./ports/wezterm)
 - [slack](./ports/slack)
+- vivaldi browser
+  - [Light](https://themes.vivaldi.net/themes/V6kJNwMp7WX)
+  - [Dark](https://themes.vivaldi.net/themes/okQlZoM3vDX)
 
 ## Standing on the shoulders of giants
 
