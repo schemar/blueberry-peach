@@ -161,6 +161,7 @@ See below for [palette](#palette) and [ports](#ports).
 - [fzf](./ports/fzf)
 - [bat](./ports/bat)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
+- [ghostty](./ports/ghostty)
 - [wezterm](./ports/wezterm)
 - [slack](./ports/slack)
 - vivaldi browser

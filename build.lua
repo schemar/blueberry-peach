@@ -126,6 +126,11 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/ghostty/blueberry_peach",
+    target = "./ports/ghostty/blueberry_peach_light",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/neovim/blueberry_peach.lua",
     target = "./ports/neovim/blueberry_peach_light.lua",
     colors = blueberry_peach_light,
@@ -153,6 +158,11 @@ local template_files = {
   {
     source = "./templates/fzf/blueberry_peach.sh",
     target = "./ports/fzf/blueberry_peach_dark-fzf-colors.sh",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/ghostty/blueberry_peach",
+    target = "./ports/ghostty/blueberry_peach_dark",
     colors = blueberry_peach_dark,
   },
   {
