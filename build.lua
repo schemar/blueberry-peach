@@ -136,6 +136,11 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/lazygit/blueberry_peach.yml",
+    target = "./ports/lazygit/blueberry_peach_light.yml",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/tmux/blueberry_peach.conf",
     target = "./ports/tmux/blueberry_peach_light.conf",
     colors = blueberry_peach_light,
@@ -168,6 +173,11 @@ local template_files = {
   {
     source = "./templates/neovim/blueberry_peach.lua",
     target = "./ports/neovim/blueberry_peach_dark.lua",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/lazygit/blueberry_peach.yml",
+    target = "./ports/lazygit/blueberry_peach_dark.yml",
     colors = blueberry_peach_dark,
   },
   {

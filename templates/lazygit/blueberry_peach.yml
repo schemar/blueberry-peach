@@ -1,0 +1,23 @@
+gui:
+  theme:
+    activeBorderColor:
+      - "{{mauve}}"
+      - bold
+    authorColors:
+      "*": "{{mauve}}"
+    cherryPickedCommitBgColor:
+      - "{{surface1}}"
+    cherryPickedCommitFgColor:
+      - "{{mauve}}"
+    defaultFgColor:
+      - "{{text}}"
+    inactiveBorderColor:
+      - "{{subtext1}}"
+    optionsTextColor:
+      - "{{blue}}"
+    searchingActiveBorderColor:
+      - "{{yellow}}"
+    selectedLineBgColor:
+      - "{{mantle}}"
+    unstagedChangesColor:
+      - "{{red}}"

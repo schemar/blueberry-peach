@@ -160,6 +160,7 @@ See below for [palette](#palette) and [ports](#ports).
 - [tmux](./ports/tmux)
 - [fzf](./ports/fzf)
 - [bat](./ports/bat)
+- [lazygit](./ports/lazygit)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
 - [ghostty](./ports/ghostty)
 - [wezterm](./ports/wezterm)
