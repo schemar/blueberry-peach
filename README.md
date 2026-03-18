@@ -13,8 +13,8 @@ See below for [palette](#palette) and [ports](#ports).
 <details>
 <summary>neovim</summary>
   <p align="center">
-    <img src="./ports/neovim/screenshots/light.png" alt="BlueberryPeach light variant" />
     <img src="./ports/neovim/screenshots/dark.png" alt="BlueberryPeach dark variant" />
+    <img src="./ports/neovim/screenshots/light.png" alt="BlueberryPeach light variant" />
   </p>
 </details>
 
