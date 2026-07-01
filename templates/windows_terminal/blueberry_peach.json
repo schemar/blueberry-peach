@@ -1,0 +1,26 @@
+{
+  "name": "{{name}}",
+
+  "cursorColor": "{{mauve}}",
+  "selectionBackground": "{{surface1}}",
+
+  "background": "{{base}}",
+  "foreground": "{{text}}",
+
+  "black": "{{surface1}}",
+  "blue": "{{blue}}",
+  "cyan": "{{teal}}",
+  "green": "{{green}}",
+  "purple": "{{pink}}",
+  "red": "{{red}}",
+  "white": "{{subtext1}}",
+  "yellow": "{{yellow}}",
+  "brightBlack": "{{surface2}}",
+  "brightBlue": "{{blue}}",
+  "brightCyan": "{{teal}}",
+  "brightGreen": "{{green}}",
+  "brightPurple": "{{pink}}",
+  "brightRed": "{{red}}",
+  "brightWhite": "{{subtext0}}",
+  "brightYellow": "{{yellow}}"
+}

@@ -156,6 +156,11 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/windows_terminal/blueberry_peach.json",
+    target = "./ports/windows_terminal/blueberry_peach_light.json",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/bat/blueberry_peach.tmTheme",
     target = "./ports/bat/blueberry_peach_dark.tmTheme",
     colors = blueberry_peach_dark,
@@ -188,6 +193,11 @@ local template_files = {
   {
     source = "./templates/wezterm/blueberry_peach.toml",
     target = "./ports/wezterm/blueberry_peach_dark.toml",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/windows_terminal/blueberry_peach.json",
+    target = "./ports/windows_terminal/blueberry_peach_dark.json",
     colors = blueberry_peach_dark,
   },
   {

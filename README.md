@@ -161,6 +161,7 @@ See below for [palette](#palette) and [ports](#ports).
 - vivaldi browser
   - [Light](https://themes.vivaldi.net/themes/V6kJNwMp7WX)
   - [Dark](https://themes.vivaldi.net/themes/okQlZoM3vDX)
+- [windows terminal](./ports/windows_terminal)
 
 ## Standing on the shoulders of giants
 
