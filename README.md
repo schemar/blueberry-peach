@@ -154,6 +154,7 @@ See below for [palette](#palette) and [ports](#ports).
 - [fzf](./ports/fzf)
 - [bat](./ports/bat)
 - [lazygit](./ports/lazygit)
+- [yazi](./ports/yazi)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
 - [ghostty](./ports/ghostty)
 - [wezterm](./ports/wezterm)

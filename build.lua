@@ -54,6 +54,16 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/yazi/blueberry_peach.toml",
+    target = "./ports/yazi/blueberry-peach-light.yazi/flavor.toml",
+    colors = blueberry_peach_light,
+  },
+  {
+    source = "./templates/bat/blueberry_peach.tmTheme",
+    target = "./ports/yazi/blueberry-peach-light.yazi/tmtheme.xml",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/bat/blueberry_peach.tmTheme",
     target = "./ports/bat/blueberry_peach_dark.tmTheme",
     colors = blueberry_peach_dark,
@@ -96,6 +106,16 @@ local template_files = {
   {
     source = "./templates/zsh_syntax_highlighting/blueberry_peach.sh",
     target = "./ports/zsh_syntax_highlighting/blueberry_peach_dark-syntax-highlighting.sh",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/yazi/blueberry_peach.toml",
+    target = "./ports/yazi/blueberry-peach-dark.yazi/flavor.toml",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/bat/blueberry_peach.tmTheme",
+    target = "./ports/yazi/blueberry-peach-dark.yazi/tmtheme.xml",
     colors = blueberry_peach_dark,
   },
 }
