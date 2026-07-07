@@ -149,13 +149,19 @@ See below for [palette](#palette) and [ports](#ports).
 
 ## Ports
 
+Terminal:
+
 - [neovim](./ports/neovim)
 - [tmux](./ports/tmux)
 - [fzf](./ports/fzf)
 - [bat](./ports/bat)
 - [lazygit](./ports/lazygit)
+- [sway](./ports/sway)
 - [yazi](./ports/yazi)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
+
+Graphical:
+
 - [ghostty](./ports/ghostty)
 - [wezterm](./ports/wezterm)
 - [slack](./ports/slack)
