@@ -156,12 +156,12 @@ Terminal:
 - [fzf](./ports/fzf)
 - [bat](./ports/bat)
 - [lazygit](./ports/lazygit)
-- [sway](./ports/sway)
 - [yazi](./ports/yazi)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
 
 Graphical:
 
+- [sway](./ports/sway)
 - [ghostty](./ports/ghostty)
 - [wezterm](./ports/wezterm)
 - [slack](./ports/slack)
