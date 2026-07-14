@@ -7,6 +7,7 @@ local blueberry_peach_light = require("scripts.lua.light")
 local blueberry_peach_dark = require("scripts.lua.dark")
 local map_blueberry_peach_to_catppuccin = require("scripts.lua.map_blueberry_peach_catppuccin")
 
+-- NeoVim is built from catppuccin directly in a separate build file.
 local template_files = {
   {
     source = "./templates/bat/blueberry_peach.tmTheme",
@@ -21,11 +22,6 @@ local template_files = {
   {
     source = "./templates/ghostty/blueberry_peach",
     target = "./ports/ghostty/blueberry_peach_light",
-    colors = blueberry_peach_light,
-  },
-  {
-    source = "./templates/neovim/blueberry_peach.lua",
-    target = "./ports/neovim/blueberry_peach_light.lua",
     colors = blueberry_peach_light,
   },
   {
@@ -81,11 +77,6 @@ local template_files = {
   {
     source = "./templates/ghostty/blueberry_peach",
     target = "./ports/ghostty/blueberry_peach_dark",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/neovim/blueberry_peach.lua",
-    target = "./ports/neovim/blueberry_peach_dark.lua",
     colors = blueberry_peach_dark,
   },
   {
