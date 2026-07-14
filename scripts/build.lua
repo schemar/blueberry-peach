@@ -3,9 +3,9 @@
 -- Make nix' lua happy:
 package.path = package.path .. ";./?.lua"
 
-local blueberry_peach_light = require("lua.light")
-local blueberry_peach_dark = require("lua.dark")
-local map_blueberry_peach_to_catppuccin = require("lua.map_blueberry_peach_catppuccin")
+local blueberry_peach_light = require("scripts.lua.light")
+local blueberry_peach_dark = require("scripts.lua.dark")
+local map_blueberry_peach_to_catppuccin = require("scripts.lua.map_blueberry_peach_catppuccin")
 
 local template_files = {
   {
