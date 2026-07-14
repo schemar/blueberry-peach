@@ -3,6 +3,7 @@ local function apply()
   package.loaded["blueberry-peach." .. variant] = nil
   require("blueberry-peach." .. variant)
   vim.g.colors_name = "blueberry-peach"
+  vim.api.nvim_exec_autocmds("ColorScheme", { pattern = "blueberry-peach" })
 end
 
 apply()
