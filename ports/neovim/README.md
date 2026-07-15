@@ -34,7 +34,8 @@ Supports almost all integrations that catppuccin includes.
    })
    ```
 
-> [!INFO]
+> [!NOTE]
+> 
 > The theme should automatically select the light or dark variant based on your terminal setup.
 >
 > If you want to set the variant explicitly, use `:set background=dark` or `:set background=light` or set it from your `init.lua`.
