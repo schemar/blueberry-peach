@@ -18,11 +18,14 @@ Supports almost all integrations that catppuccin includes.
    mkdir -p ~/.local/share/nvim/site/pack/themes/start
    ln -s /path/to/blueberry-peach/ports/neovim ~/.local/share/nvim/site/pack/themes/start/blueberry-peach
    ```
-3. Set the colorscheme in your `init.lua`:
+
+## Usage
+
+1. Set the colorscheme in your `init.lua`:
    ```lua
    vim.cmd([[colorscheme blueberry-peach]])
    ```
-4. (Optional) Set the colorscheme for [lualine](https://github.com/nvim-lualine/lualine.nvim):
+2. (Optional) Set the colorscheme for [lualine](https://github.com/nvim-lualine/lualine.nvim):
    ```lua
    require('lualine').setup({
      options = {
@@ -30,3 +33,8 @@ Supports almost all integrations that catppuccin includes.
      }
    })
    ```
+
+> [!INFO]
+> The theme should automatically select the light or dark variant based on your terminal setup.
+>
+> If you want to set the variant explicitly, use `:set background=dark` or `:set background=light` or set it from your `init.lua`.
