@@ -183,6 +183,20 @@ M.compile = function(variant)
     end
   end
 
+  table.sort(lines, function(left, right)
+    if string.match(left, "^vim") and not string.match(right, "^vim") then
+      return true
+    elseif not string.match(left, "^vim") and string.match(right, "^vim") then
+      return false
+    elseif string.match(left, "^local") and not string.match(right, "^local") then
+      return true
+    elseif not string.match(left, "^local") and string.match(right, "^local") then
+      return false
+    end
+
+    return left < right
+  end)
+
   return lines
 end
 
