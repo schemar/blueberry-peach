@@ -6,7 +6,16 @@ M.setup = function(variant)
   local color_overrides = function()
     package.path = package.path .. ";./?.lua"
     local blueberry_peach = require(variant)
-    return blueberry_peach
+
+    -- convert to use all catppuccin color names instead:
+    local catppuccin_names_to_blueberry_peach_colors = {}
+    local catppuccin_names_to_blueberry_peach_names = require("map_catppuccin_blueberry_peach")
+    for catppuccin_name, blueberry_peach_name in pairs(catppuccin_names_to_blueberry_peach_names) do
+      catppuccin_names_to_blueberry_peach_colors[catppuccin_name] =
+        blueberry_peach[blueberry_peach_name]
+    end
+
+    return catppuccin_names_to_blueberry_peach_colors
   end
 
   local highlight_overrides = function(colors)

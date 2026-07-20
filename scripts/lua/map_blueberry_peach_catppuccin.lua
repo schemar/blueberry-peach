@@ -13,7 +13,6 @@ return {
   overlay1 = "overlay1",
   overlay0 = "overlay0",
   dimmed = "surface2",
-  surface2 = "surface1",
   surface1 = "surface0",
   background = "base",
   surface0 = "mantle",

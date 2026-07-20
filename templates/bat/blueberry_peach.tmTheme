@@ -20,17 +20,17 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>{{base}}</string>
+          <string>{{background}}</string>
           <key>foreground</key>
           <string>{{text}}</string>
           <key>caret</key>
-          <string>{{rosewater}}</string>
+          <string>{{pink}}</string>
           <key>lineHighlight</key>
-          <string>{{surface0}}</string>
+          <string>{{surface1}}</string>
           <key>misspelling</key>
           <string>{{red}}</string>
           <key>accent</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
           <key>selection</key>
           <string>{{overlay2}}4d</string>
           <key>activeGuide</key>
@@ -93,7 +93,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -104,7 +104,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -113,7 +113,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -124,7 +124,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -218,7 +218,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -227,7 +227,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -271,7 +271,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
         </dict>
       </dict>
       <dict>
@@ -350,7 +350,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -447,7 +447,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -469,7 +469,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
         </dict>
       </dict>
       <dict>
@@ -480,7 +480,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
         </dict>
       </dict>
       <dict>
@@ -502,7 +502,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -537,7 +537,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -572,7 +572,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -583,7 +583,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -594,7 +594,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -605,7 +605,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -682,7 +682,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -693,7 +693,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
         </dict>
       </dict>
       <dict>
@@ -704,7 +704,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -715,7 +715,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -737,7 +737,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{flamingo}}</string>
+          <string>{{pink}}</string>
         </dict>
       </dict>
       <dict>
@@ -759,7 +759,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{flamingo}}</string>
+          <string>{{pink}}</string>
         </dict>
       </dict>
       <dict>
@@ -770,7 +770,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -816,7 +816,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -829,7 +829,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -873,7 +873,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
         </dict>
       </dict>
       <dict>
@@ -895,7 +895,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -928,7 +928,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -939,7 +939,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -950,7 +950,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -994,7 +994,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1018,7 +1018,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1029,7 +1029,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
         </dict>
       </dict>
       <dict>
@@ -1051,7 +1051,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
         </dict>
       </dict>
       <dict>
@@ -1062,7 +1062,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{flamingo}}</string>
+          <string>{{pink}}</string>
         </dict>
       </dict>
       <dict>
@@ -1073,7 +1073,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -1104,7 +1104,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1140,7 +1140,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1171,7 +1171,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{subtext0}}</string>
+          <string>{{subtext}}</string>
           <key>fontStyle</key>
           <string>strikethrough</string>
         </dict>
@@ -1195,7 +1195,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{lavender}}</string>
+          <string>{{blue}}</string>
         </dict>
       </dict>
       <dict>
@@ -1217,7 +1217,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
         </dict>
       </dict>
       <dict>
@@ -1239,7 +1239,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1296,7 +1296,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{lavender}}</string>
+          <string>{{blue}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -1309,7 +1309,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -1333,7 +1333,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
         </dict>
       </dict>
       <dict>
@@ -1344,7 +1344,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1355,7 +1355,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
         </dict>
       </dict>
       <dict>
@@ -1388,7 +1388,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -1414,7 +1414,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1425,7 +1425,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1436,7 +1436,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
         </dict>
       </dict>
       <dict>
@@ -1458,7 +1458,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -1471,7 +1471,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1482,7 +1482,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1493,7 +1493,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1504,7 +1504,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1515,7 +1515,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -1552,7 +1552,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1563,7 +1563,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1607,7 +1607,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1618,7 +1618,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{rosewater}}</string>
+          <string>{{pink}}</string>
         </dict>
       </dict>
       <dict>
@@ -1640,7 +1640,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1686,7 +1686,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -1699,7 +1699,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -1712,7 +1712,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1736,7 +1736,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1819,7 +1819,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1852,7 +1852,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{sky}}</string>
+          <string>{{teal}}</string>
         </dict>
       </dict>
       <dict>
@@ -1863,7 +1863,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>
@@ -1874,7 +1874,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{maroon}}</string>
+          <string>{{red}}</string>
         </dict>
       </dict>
       <dict>
@@ -1907,7 +1907,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1918,7 +1918,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -1955,7 +1955,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
           <key>fontStyle</key>
           <string>italic</string>
         </dict>
@@ -1977,7 +1977,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -1997,7 +1997,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{mauve}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -2015,7 +2015,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{pink}}</string>
+          <string>{{violet}}</string>
         </dict>
       </dict>
       <dict>
@@ -2033,7 +2033,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{peach}}</string>
+          <string>{{orange}}</string>
         </dict>
       </dict>
       <dict>

@@ -154,8 +154,8 @@ end
 local content = file:read("*all")
 file:close()
 
-for blueberry_color, catppuccin_color in pairs(map_blueberry_peach_to_catppuccin) do
-  local svg = content:gsub("{{color}}", blueberry_peach_light[catppuccin_color])
+for blueberry_color, _ in pairs(map_blueberry_peach_to_catppuccin) do
+  local svg = content:gsub("{{color}}", blueberry_peach_light[blueberry_color])
   file = io.open("./assets/light_" .. blueberry_color .. ".svg", "w")
   if file == nil then
     print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")
@@ -164,7 +164,7 @@ for blueberry_color, catppuccin_color in pairs(map_blueberry_peach_to_catppuccin
   file:write(svg)
   file:close()
 
-  svg = content:gsub("{{color}}", blueberry_peach_dark[catppuccin_color])
+  svg = content:gsub("{{color}}", blueberry_peach_dark[blueberry_color])
   file = io.open("./assets/dark_" .. blueberry_color .. ".svg", "w")
   if file == nil then
     print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")

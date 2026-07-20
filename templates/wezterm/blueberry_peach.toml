@@ -5,50 +5,50 @@ ansi = [
   '{{green}}',
   '{{yellow}}',
   '{{blue}}',
-  '{{pink}}',
+  '{{violet}}',
   '{{teal}}',
-  '{{subtext1}}',
+  '{{subtext}}',
 ]
-background = '{{base}}'
+background = '{{background}}'
 brights = [
-  '{{surface2}}',
+  '{{dimmed}}',
   '{{red}}',
   '{{green}}',
   '{{yellow}}',
   '{{blue}}',
-  '{{pink}}',
+  '{{violet}}',
   '{{teal}}',
-  '{{subtext0}}',
+  '{{subtext}}',
 ]
-compose_cursor = '{{flamingo}}'
-cursor_bg = '{{mauve}}'
-cursor_border = '{{mauve}}'
-cursor_fg = '{{crust}}'
+compose_cursor = '{{pink}}'
+cursor_bg = '{{violet}}'
+cursor_border = '{{violet}}'
+cursor_fg = '{{surface0}}'
 foreground = '{{text}}'
-scrollbar_thumb = '{{surface2}}'
+scrollbar_thumb = '{{dimmed}}'
 selection_bg = '{{surface1}}'
 selection_fg = '{{text}}'
 split = '{{overlay0}}'
-visual_bell = '{{surface0}}'
+visual_bell = '{{surface1}}'
 
 [colors.indexed]
-16 = '{{peach}}'
-17 = '{{rosewater}}'
+16 = '{{orange}}'
+17 = '{{pink}}'
 
 [colors.tab_bar]
-background = '{{crust}}'
-inactive_tab_edge = '{{surface0}}'
+background = '{{surface0}}'
+inactive_tab_edge = '{{surface1}}'
 
 [colors.tab_bar.active_tab]
-bg_color = '{{mauve}}'
-fg_color = '{{crust}}'
+bg_color = '{{violet}}'
+fg_color = '{{surface0}}'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.inactive_tab]
-bg_color = '{{mantle}}'
+bg_color = '{{surface0}}'
 fg_color = '{{text}}'
 intensity = 'Normal'
 italic = false
@@ -56,7 +56,7 @@ strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.inactive_tab_hover]
-bg_color = '{{base}}'
+bg_color = '{{background}}'
 fg_color = '{{text}}'
 intensity = 'Normal'
 italic = false
@@ -64,7 +64,7 @@ strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.new_tab]
-bg_color = '{{surface0}}'
+bg_color = '{{surface1}}'
 fg_color = '{{text}}'
 intensity = 'Normal'
 italic = false

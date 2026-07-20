@@ -1,4 +1,4 @@
 export FZF_DEFAULT_OPTS=" \
---color=bg+:{{surface0}},bg:{{base}},spinner:{{rosewater}},hl:{{red}} \
---color=fg:{{text}},header:{{red}},info:{{mauve}},pointer:{{rosewater}} \
---color=marker:{{rosewater}},fg+:{{text}},prompt:{{mauve}},hl+:{{red}}"
+--color=bg+:{{surface1}},bg:{{background}},spinner:{{pink}},hl:{{red}} \
+--color=fg:{{text}},header:{{red}},info:{{violet}},pointer:{{pink}} \
+--color=marker:{{pink}},fg+:{{text}},prompt:{{violet}},hl+:{{red}}"
