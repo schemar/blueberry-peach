@@ -8,6 +8,13 @@ See below for [palette](#palette) and [ports](#ports).
   <img src="./assets/social.png" alt="BlueberryPeach theme screenshot" />
 </p>
 
+## Goals
+
+- Uniform contrast for colors and text
+  - With a minimum contrast (different for light/dark) for most combinations
+- Uniform _perceived_ brightness of colors
+- As high a deltaE between colors as possible while keeping uniform contrast and perceived brightness in mind
+
 ## Screenshots
 
 <details>
