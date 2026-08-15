@@ -6,7 +6,7 @@ return {
   green = "#1D8200",
   teal = "#007D85",
   blue = "#0074C2",
-  violet = "#7854ED",
+  violet = "#725ED5",
   pink = "#AB4AA9",
   text = "#706F7A",
   subtext = "#757480",

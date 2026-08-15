@@ -78,7 +78,7 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>violet</td>
     <td><img valign='middle' src="./assets/light_violet.svg" /></td>
-    <td><code>#7854ED</code></td>
+    <td><code>#725ED5</code></td>
     <td><img valign='middle' src="./assets/dark_violet.svg" /></td>
     <td><code>#A19DD4</code></td>
   </tr>
