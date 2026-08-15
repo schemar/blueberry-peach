@@ -36,56 +36,56 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>red</td>
     <td><img valign='middle' src="./assets/light_red.svg" /></td>
-    <td><code>#C34165</code></td>
+    <td><code>#DE005C</code></td>
     <td><img valign='middle' src="./assets/dark_red.svg" /></td>
     <td><code>#DF8BA0</code></td>
   </tr>
   <tr>
-    <td>yellow</td>
-    <td><img valign='middle' src="./assets/light_yellow.svg" /></td>
-    <td><code>#8A7400</code></td>
-    <td><img valign='middle' src="./assets/dark_yellow.svg" /></td>
-    <td><code>#C7B96F</code></td>
-  </tr>
-  <tr>
     <td>orange</td>
     <td><img valign='middle' src="./assets/light_orange.svg" /></td>
-    <td><code>#AC591C</code></td>
+    <td><code>#D62E00</code></td>
     <td><img valign='middle' src="./assets/dark_orange.svg" /></td>
     <td><code>#C79A76</code></td>
   </tr>
   <tr>
+    <td>yellow</td>
+    <td><img valign='middle' src="./assets/light_yellow.svg" /></td>
+    <td><code>#8A6B00</code></td>
+    <td><img valign='middle' src="./assets/dark_yellow.svg" /></td>
+    <td><code>#C7B96F</code></td>
+  </tr>
+  <tr>
     <td>green</td>
     <td><img valign='middle' src="./assets/light_green.svg" /></td>
-    <td><code>#288043</code></td>
+    <td><code>#1D8200</code></td>
     <td><img valign='middle' src="./assets/dark_green.svg" /></td>
     <td><code>#75B087</code></td>
   </tr>
   <tr>
     <td>teal</td>
     <td><img valign='middle' src="./assets/light_teal.svg" /></td>
-    <td><code>#007E7D</code></td>
+    <td><code>#007D85</code></td>
     <td><img valign='middle' src="./assets/dark_teal.svg" /></td>
     <td><code>#5EB1AF</code></td>
   </tr>
   <tr>
     <td>blue</td>
     <td><img valign='middle' src="./assets/light_blue.svg" /></td>
-    <td><code>#1675AB</code></td>
+    <td><code>#0074C2</code></td>
     <td><img valign='middle' src="./assets/dark_blue.svg" /></td>
     <td><code>#7AA8CE</code></td>
   </tr>
   <tr>
     <td>violet</td>
     <td><img valign='middle' src="./assets/light_violet.svg" /></td>
-    <td><code>#6A67B4</code></td>
+    <td><code>#734DFF</code></td>
     <td><img valign='middle' src="./assets/dark_violet.svg" /></td>
     <td><code>#A19DD4</code></td>
   </tr>
   <tr>
     <td>pink</td>
     <td><img valign='middle' src="./assets/light_pink.svg" /></td>
-    <td><code>#A352A0</code></td>
+    <td><code>#C700BE</code></td>
     <td><img valign='middle' src="./assets/dark_pink.svg" /></td>
     <td><code>#C394C2</code></td>
   </tr>
@@ -106,21 +106,21 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>overlay2</td>
     <td><img valign='middle' src="./assets/light_overlay2.svg" /></td>
-    <td><code>#797985</code></td>
+    <td><code>#857F79</code></td>
     <td><img valign='middle' src="./assets/dark_overlay2.svg" /></td>
     <td><code>#7D7D7D</code></td>
   </tr>
   <tr>
     <td>overlay1</td>
     <td><img valign='middle' src="./assets/light_overlay1.svg" /></td>
-    <td><code>#7E7D8A</code></td>
+    <td><code>#8A847D</code></td>
     <td><img valign='middle' src="./assets/dark_overlay1.svg" /></td>
     <td><code>#808084</code></td>
   </tr>
   <tr>
     <td>overlay0</td>
     <td><img valign='middle' src="./assets/light_overlay0.svg" /></td>
-    <td><code>#84828F</code></td>
+    <td><code>#8F8982</code></td>
     <td><img valign='middle' src="./assets/dark_overlay0.svg" /></td>
     <td><code>#84848C</code></td>
   </tr>
