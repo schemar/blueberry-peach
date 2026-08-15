@@ -1,13 +1,13 @@
 return {
   command = {
     a = {
-      bg = "#D62E00",
+      bg = "#C33513",
       fg = "#FAF4ED",
       gui = "bold"
     },
     b = {
       bg = "#EBDFD3",
-      fg = "#D62E00"
+      fg = "#C33513"
     }
   },
   inactive = {
@@ -53,13 +53,13 @@ return {
   },
   replace = {
     a = {
-      bg = "#DE005C",
+      bg = "#D52067",
       fg = "#FAF4ED",
       gui = "bold"
     },
     b = {
       bg = "#EBDFD3",
-      fg = "#DE005C"
+      fg = "#D52067"
     }
   },
   terminal = {
@@ -75,13 +75,13 @@ return {
   },
   visual = {
     a = {
-      bg = "#734DFF",
+      bg = "#7854ED",
       fg = "#FAF4ED",
       gui = "bold"
     },
     b = {
       bg = "#EBDFD3",
-      fg = "#734DFF"
+      fg = "#7854ED"
     }
   }
 }

@@ -1,13 +1,13 @@
 -- Color names are from catppuccin:
 return {
-  red = "#DE005C",
-  orange = "#D62E00",
+  red = "#D52067",
+  orange = "#C33513",
   yellow = "#8A6B00",
   green = "#1D8200",
   teal = "#007D85",
   blue = "#0074C2",
-  violet = "#734DFF",
-  pink = "#C700BE",
+  violet = "#7854ED",
+  pink = "#AB4AA9",
   text = "#706F7A",
   subtext = "#757480",
   overlay2 = "#857F79",

@@ -36,14 +36,14 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>red</td>
     <td><img valign='middle' src="./assets/light_red.svg" /></td>
-    <td><code>#DE005C</code></td>
+    <td><code>#D52067</code></td>
     <td><img valign='middle' src="./assets/dark_red.svg" /></td>
     <td><code>#DF8BA0</code></td>
   </tr>
   <tr>
     <td>orange</td>
     <td><img valign='middle' src="./assets/light_orange.svg" /></td>
-    <td><code>#D62E00</code></td>
+    <td><code>#C33513</code></td>
     <td><img valign='middle' src="./assets/dark_orange.svg" /></td>
     <td><code>#C79A76</code></td>
   </tr>
@@ -78,14 +78,14 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>violet</td>
     <td><img valign='middle' src="./assets/light_violet.svg" /></td>
-    <td><code>#734DFF</code></td>
+    <td><code>#7854ED</code></td>
     <td><img valign='middle' src="./assets/dark_violet.svg" /></td>
     <td><code>#A19DD4</code></td>
   </tr>
   <tr>
     <td>pink</td>
     <td><img valign='middle' src="./assets/light_pink.svg" /></td>
-    <td><code>#C700BE</code></td>
+    <td><code>#AB4AA9</code></td>
     <td><img valign='middle' src="./assets/dark_pink.svg" /></td>
     <td><code>#C394C2</code></td>
   </tr>
