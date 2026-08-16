@@ -1,4 +1,4 @@
 export FZF_DEFAULT_OPTS=" \
---color=bg+:#DDC8B6,bg:#FAF4ED,spinner:#8F2E68,hl:#9D2033 \
---color=fg:#57534C,header:#9D2033,info:#6E3B96,pointer:#8F2E68 \
---color=marker:#8F2E68,fg+:#57534C,prompt:#6E3B96,hl+:#9D2033"
+--color=bg+:#EFE3D7,bg:#FAF4ED,spinner:#8E4876,hl:#B22F32 \
+--color=fg:#68625A,header:#B22F32,info:#62569A,pointer:#8E4876 \
+--color=marker:#8E4876,fg+:#68625A,prompt:#62569A,hl+:#B22F32"

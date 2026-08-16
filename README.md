@@ -10,9 +10,9 @@ See below for [palette](#palette) and [ports](#ports).
 
 ## Goals
 
+- Apply to both light and dark mode
 - High contrast
 - Uniform background contrast for colors and text
-  - With a minimum background contrast of aroung 7 for most colors
 - As high a deltaE between colors as possible while keeping uniform contrast in mind
 
 ## Screenshots
@@ -36,70 +36,70 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>red</td>
     <td><img valign='middle' src="./assets/light_red.svg" /></td>
-    <td><code>#9D2033</code></td>
+    <td><code>#B22F32</code></td>
     <td><img valign='middle' src="./assets/dark_red.svg" /></td>
     <td><code>#DF8BA0</code></td>
   </tr>
   <tr>
     <td>orange</td>
     <td><img valign='middle' src="./assets/light_orange.svg" /></td>
-    <td><code>#8A3B00</code></td>
+    <td><code>#954D04</code></td>
     <td><img valign='middle' src="./assets/dark_orange.svg" /></td>
     <td><code>#C79A76</code></td>
   </tr>
   <tr>
     <td>yellow</td>
     <td><img valign='middle' src="./assets/light_yellow.svg" /></td>
-    <td><code>#7C5C00</code></td>
+    <td><code>#7a6e00</code></td>
     <td><img valign='middle' src="./assets/dark_yellow.svg" /></td>
     <td><code>#C7B96F</code></td>
   </tr>
   <tr>
     <td>green</td>
     <td><img valign='middle' src="./assets/light_green.svg" /></td>
-    <td><code>#0C610C</code></td>
+    <td><code>#186F11</code></td>
     <td><img valign='middle' src="./assets/dark_green.svg" /></td>
     <td><code>#75B087</code></td>
   </tr>
   <tr>
     <td>teal</td>
     <td><img valign='middle' src="./assets/light_teal.svg" /></td>
-    <td><code>#245C53</code></td>
+    <td><code>#096C62</code></td>
     <td><img valign='middle' src="./assets/dark_teal.svg" /></td>
     <td><code>#5EB1AF</code></td>
   </tr>
   <tr>
     <td>blue</td>
     <td><img valign='middle' src="./assets/light_blue.svg" /></td>
-    <td><code>#374D9F</code></td>
+    <td><code>#226491</code></td>
     <td><img valign='middle' src="./assets/dark_blue.svg" /></td>
     <td><code>#7AA8CE</code></td>
   </tr>
   <tr>
     <td>violet</td>
     <td><img valign='middle' src="./assets/light_violet.svg" /></td>
-    <td><code>#6E3B96</code></td>
+    <td><code>#62569A</code></td>
     <td><img valign='middle' src="./assets/dark_violet.svg" /></td>
     <td><code>#A19DD4</code></td>
   </tr>
   <tr>
     <td>pink</td>
     <td><img valign='middle' src="./assets/light_pink.svg" /></td>
-    <td><code>#8F2E68</code></td>
+    <td><code>#8E4876</code></td>
     <td><img valign='middle' src="./assets/dark_pink.svg" /></td>
     <td><code>#C394C2</code></td>
   </tr>
   <tr>
     <td>text</td>
     <td><img valign='middle' src="./assets/light_text.svg" /></td>
-    <td><code>#57534C</code></td>
+    <td><code>#68625A</code></td>
     <td><img valign='middle' src="./assets/dark_text.svg" /></td>
     <td><code>#A2A2A9</code></td>
   </tr>
   <tr>
     <td>subtext</td>
     <td><img valign='middle' src="./assets/light_subtext.svg" /></td>
-    <td><code>#6E6863</code></td>
+    <td><code>#76706A</code></td>
     <td><img valign='middle' src="./assets/dark_subtext.svg" /></td>
     <td><code>#878794</code></td>
   </tr>
@@ -134,7 +134,7 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>surface1</td>
     <td><img valign='middle' src="./assets/light_surface2.svg" /></td>
-    <td><code>#DDC8B6</code></td>
+    <td><code>#EFE3D7</code></td>
     <td><img valign='middle' src="./assets/dark_surface2.svg" /></td>
     <td><code>#37363E</code></td>
   </tr>
@@ -148,7 +148,7 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
 	<td>surface0</td>
     <td><img valign='middle' src="./assets/light_surface0.svg" /></td>
-    <td><code>#FEFCFB</code></td>
+    <td><code>#FEFDFB</code></td>
     <td><img valign='middle' src="./assets/dark_surface0.svg" /></td>
     <td><code>#0B0A0F</code></td>
   </tr>

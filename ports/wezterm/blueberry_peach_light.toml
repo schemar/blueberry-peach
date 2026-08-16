@@ -1,55 +1,55 @@
 [colors]
 ansi = [
-  '#DDC8B6',
-  '#9D2033',
-  '#0C610C',
-  '#7C5C00',
-  '#374D9F',
-  '#6E3B96',
-  '#245C53',
-  '#6E6863',
+  '#EFE3D7',
+  '#B22F32',
+  '#186F11',
+  '#7a6e00',
+  '#226491',
+  '#62569A',
+  '#096C62',
+  '#76706A',
 ]
 background = '#FAF4ED'
 brights = [
   '#8B6E6E',
-  '#9D2033',
-  '#0C610C',
-  '#7C5C00',
-  '#374D9F',
-  '#6E3B96',
-  '#245C53',
-  '#6E6863',
+  '#B22F32',
+  '#186F11',
+  '#7a6e00',
+  '#226491',
+  '#62569A',
+  '#096C62',
+  '#76706A',
 ]
-compose_cursor = '#8F2E68'
-cursor_bg = '#6E3B96'
-cursor_border = '#6E3B96'
-cursor_fg = '#FEFCFB'
-foreground = '#57534C'
+compose_cursor = '#8E4876'
+cursor_bg = '#62569A'
+cursor_border = '#62569A'
+cursor_fg = '#FEFDFB'
+foreground = '#68625A'
 scrollbar_thumb = '#8B6E6E'
-selection_bg = '#DDC8B6'
-selection_fg = '#57534C'
+selection_bg = '#EFE3D7'
+selection_fg = '#68625A'
 split = '#8F8982'
-visual_bell = '#DDC8B6'
+visual_bell = '#EFE3D7'
 
 [colors.indexed]
-16 = '#8A3B00'
-17 = '#8F2E68'
+16 = '#954D04'
+17 = '#8E4876'
 
 [colors.tab_bar]
-background = '#FEFCFB'
-inactive_tab_edge = '#DDC8B6'
+background = '#FEFDFB'
+inactive_tab_edge = '#EFE3D7'
 
 [colors.tab_bar.active_tab]
-bg_color = '#6E3B96'
-fg_color = '#FEFCFB'
+bg_color = '#62569A'
+fg_color = '#FEFDFB'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.inactive_tab]
-bg_color = '#FEFCFB'
-fg_color = '#57534C'
+bg_color = '#FEFDFB'
+fg_color = '#68625A'
 intensity = 'Normal'
 italic = false
 strikethrough = false
@@ -57,23 +57,23 @@ underline = 'None'
 
 [colors.tab_bar.inactive_tab_hover]
 bg_color = '#FAF4ED'
-fg_color = '#57534C'
+fg_color = '#68625A'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.new_tab]
-bg_color = '#DDC8B6'
-fg_color = '#57534C'
+bg_color = '#EFE3D7'
+fg_color = '#68625A'
 intensity = 'Normal'
 italic = false
 strikethrough = false
 underline = 'None'
 
 [colors.tab_bar.new_tab_hover]
-bg_color = '#DDC8B6'
-fg_color = '#57534C'
+bg_color = '#EFE3D7'
+fg_color = '#68625A'
 intensity = 'Normal'
 italic = false
 strikethrough = false
