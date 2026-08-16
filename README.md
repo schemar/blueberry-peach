@@ -36,70 +36,70 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>red</td>
     <td><img valign='middle' src="./assets/light_red.svg" /></td>
-    <td><code>#B22F32</code></td>
+    <td><code>#C42229</code></td>
     <td><img valign='middle' src="./assets/dark_red.svg" /></td>
     <td><code>#DF8BA0</code></td>
   </tr>
   <tr>
     <td>orange</td>
     <td><img valign='middle' src="./assets/light_orange.svg" /></td>
-    <td><code>#954D04</code></td>
+    <td><code>#995200</code></td>
     <td><img valign='middle' src="./assets/dark_orange.svg" /></td>
     <td><code>#C79A76</code></td>
   </tr>
   <tr>
     <td>yellow</td>
     <td><img valign='middle' src="./assets/light_yellow.svg" /></td>
-    <td><code>#7a6e00</code></td>
+    <td><code>#807000</code></td>
     <td><img valign='middle' src="./assets/dark_yellow.svg" /></td>
     <td><code>#C7B96F</code></td>
   </tr>
   <tr>
     <td>green</td>
     <td><img valign='middle' src="./assets/light_green.svg" /></td>
-    <td><code>#186F11</code></td>
+    <td><code>#007500</code></td>
     <td><img valign='middle' src="./assets/dark_green.svg" /></td>
     <td><code>#75B087</code></td>
   </tr>
   <tr>
     <td>teal</td>
     <td><img valign='middle' src="./assets/light_teal.svg" /></td>
-    <td><code>#096C62</code></td>
+    <td><code>#007070</code></td>
     <td><img valign='middle' src="./assets/dark_teal.svg" /></td>
     <td><code>#5EB1AF</code></td>
   </tr>
   <tr>
     <td>blue</td>
     <td><img valign='middle' src="./assets/light_blue.svg" /></td>
-    <td><code>#226491</code></td>
+    <td><code>#0866BA</code></td>
     <td><img valign='middle' src="./assets/dark_blue.svg" /></td>
     <td><code>#7AA8CE</code></td>
   </tr>
   <tr>
     <td>violet</td>
     <td><img valign='middle' src="./assets/light_violet.svg" /></td>
-    <td><code>#62569A</code></td>
+    <td><code>#8346BE</code></td>
     <td><img valign='middle' src="./assets/dark_violet.svg" /></td>
     <td><code>#A19DD4</code></td>
   </tr>
   <tr>
     <td>pink</td>
     <td><img valign='middle' src="./assets/light_pink.svg" /></td>
-    <td><code>#8E4876</code></td>
+    <td><code>#B92282</code></td>
     <td><img valign='middle' src="./assets/dark_pink.svg" /></td>
     <td><code>#C394C2</code></td>
   </tr>
   <tr>
     <td>text</td>
     <td><img valign='middle' src="./assets/light_text.svg" /></td>
-    <td><code>#68625A</code></td>
+    <td><code>#6B635C</code></td>
     <td><img valign='middle' src="./assets/dark_text.svg" /></td>
     <td><code>#A2A2A9</code></td>
   </tr>
   <tr>
     <td>subtext</td>
     <td><img valign='middle' src="./assets/light_subtext.svg" /></td>
-    <td><code>#76706A</code></td>
+    <td><code>#746E68</code></td>
     <td><img valign='middle' src="./assets/dark_subtext.svg" /></td>
     <td><code>#878794</code></td>
   </tr>

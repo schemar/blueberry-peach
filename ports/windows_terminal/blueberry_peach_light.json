@@ -1,26 +1,26 @@
 {
   "name": "Blueberry Peach Light",
 
-  "cursorColor": "#62569A",
+  "cursorColor": "#8346BE",
   "selectionBackground": "#EFE3D7",
 
   "background": "#FAF4ED",
-  "foreground": "#68625A",
+  "foreground": "#6B635C",
 
   "black": "#EFE3D7",
-  "blue": "#226491",
-  "cyan": "#096C62",
-  "green": "#186F11",
-  "purple": "#62569A",
-  "red": "#B22F32",
-  "white": "#76706A",
-  "yellow": "#7a6e00",
+  "blue": "#0866BA",
+  "cyan": "#007070",
+  "green": "#007500",
+  "purple": "#8346BE",
+  "red": "#C42229",
+  "white": "#746E68",
+  "yellow": "#807000",
   "brightBlack": "#8B6E6E",
-  "brightBlue": "#226491",
-  "brightCyan": "#096C62",
-  "brightGreen": "#186F11",
-  "brightPurple": "#62569A",
-  "brightRed": "#B22F32",
-  "brightWhite": "#76706A",
-  "brightYellow": "#7a6e00"
+  "brightBlue": "#0866BA",
+  "brightCyan": "#007070",
+  "brightGreen": "#007500",
+  "brightPurple": "#8346BE",
+  "brightRed": "#C42229",
+  "brightWhite": "#746E68",
+  "brightYellow": "#807000"
 }
