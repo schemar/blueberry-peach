@@ -36,14 +36,14 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>red</td>
     <td><img valign='middle' src="./assets/light_red.svg" /></td>
-    <td><code>#C42229</code></td>
+    <td><code>#B43B3E</code></td>
     <td><img valign='middle' src="./assets/dark_red.svg" /></td>
     <td><code>#DF8BA0</code></td>
   </tr>
   <tr>
     <td>orange</td>
     <td><img valign='middle' src="./assets/light_orange.svg" /></td>
-    <td><code>#995200</code></td>
+    <td><code>#9A5518</code></td>
     <td><img valign='middle' src="./assets/dark_orange.svg" /></td>
     <td><code>#C79A76</code></td>
   </tr>
@@ -57,35 +57,35 @@ See below for [palette](#palette) and [ports](#ports).
   <tr>
     <td>green</td>
     <td><img valign='middle' src="./assets/light_green.svg" /></td>
-    <td><code>#007500</code></td>
+    <td><code>#247500</code></td>
     <td><img valign='middle' src="./assets/dark_green.svg" /></td>
     <td><code>#75B087</code></td>
   </tr>
   <tr>
     <td>teal</td>
     <td><img valign='middle' src="./assets/light_teal.svg" /></td>
-    <td><code>#007070</code></td>
+    <td><code>#017468</code></td>
     <td><img valign='middle' src="./assets/dark_teal.svg" /></td>
     <td><code>#5EB1AF</code></td>
   </tr>
   <tr>
     <td>blue</td>
     <td><img valign='middle' src="./assets/light_blue.svg" /></td>
-    <td><code>#0866BA</code></td>
+    <td><code>#2169A6</code></td>
     <td><img valign='middle' src="./assets/dark_blue.svg" /></td>
     <td><code>#7AA8CE</code></td>
   </tr>
   <tr>
     <td>violet</td>
     <td><img valign='middle' src="./assets/light_violet.svg" /></td>
-    <td><code>#8346BE</code></td>
+    <td><code>#6F58A2</code></td>
     <td><img valign='middle' src="./assets/dark_violet.svg" /></td>
     <td><code>#A19DD4</code></td>
   </tr>
   <tr>
     <td>pink</td>
     <td><img valign='middle' src="./assets/light_pink.svg" /></td>
-    <td><code>#B92282</code></td>
+    <td><code>#A5407B</code></td>
     <td><img valign='middle' src="./assets/dark_pink.svg" /></td>
     <td><code>#C394C2</code></td>
   </tr>
