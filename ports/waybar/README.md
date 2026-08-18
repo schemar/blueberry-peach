@@ -6,15 +6,19 @@ BlueberryPeach for [Waybar](https://github.com/Alexays/Waybar).
 
 Because configuring Waybar is so personal, BlueberryPeach does not provide the full styling of all elements. Instead, you can use the provided color palette to setup your Waybar with BlueberryPeach colors.
 
-Use `./blueberry_peach_light.css` or `./blueberry_peach_dark.css` as a base for your Waybar styling.
+1. Copy the `blueberry_peach_dark.css` and/or `blueberry_peach_light.css` file to your Waybar config directory (usually `~/.config/waybar/`).
+2. In your Waybar style file (usually `style.css`, `style-dark.css`, or `style-light.css`), import the desired BlueberryPeach CSS file (for example `@import "blueberry_peach_dark.css"`).
+3. Use the provided colors in your Waybar styling (for example `color: @text;` or `border-top: 2px solid @red;`).
 
-You can use the provided colors in your styling like this:
+For more details on how to style Waybar, see the [Waybar Wiki](https://github.com/Alexays/Waybar/wiki/Styling).
+
+**Example:** You can use the provided colors in your styling like this:
 
 ```css
+/* This file: ~/.config/waybar/style.css (or style-dark.css or style-light.css) */
+
 /* Use the colors from the provided CSS files: */
-@define-color red #DF8BA0;
-/* ... */
-@define-color surface0 #0B0A0F;
+@import "blueberry_peach_dark.css"; /* or blueberry_peach_light.css */
 
 /* Example Waybar styling using BlueberryPeach colors: */
 * {
@@ -218,4 +222,11 @@ label:focus {
 #privacy-item.audio-out {
   border-top: 2px solid @blue;
 }
+```
+
+You could also have a `~/.config/waybar/common.css` file with your common styling and import it in your `style-dark.css` and `style-light.css` files, like this:
+
+```css
+@import "blueberry_peach_dark.css"; /* or blueberry_peach_light.css */
+@import "common.css";
 ```
