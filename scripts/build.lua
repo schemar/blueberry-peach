@@ -50,6 +50,11 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/waybar/blueberry_peach.css",
+    target = "./ports/waybar/blueberry_peach_light.css",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/windows_terminal/blueberry_peach.json",
     target = "./ports/windows_terminal/blueberry_peach_light.json",
     colors = blueberry_peach_light,
@@ -102,6 +107,11 @@ local template_files = {
   {
     source = "./templates/windows_terminal/blueberry_peach.json",
     target = "./ports/windows_terminal/blueberry_peach_dark.json",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/waybar/blueberry_peach.css",
+    target = "./ports/waybar/blueberry_peach_dark.css",
     colors = blueberry_peach_dark,
   },
   {

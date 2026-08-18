@@ -171,6 +171,7 @@ Graphical:
 - [sway](./ports/sway)
 - [ghostty](./ports/ghostty)
 - [wezterm](./ports/wezterm)
+- [Waybar](./ports/waybar)
 - [slack](./ports/slack)
 - vivaldi browser
   - [Light](https://themes.vivaldi.net/themes/V6kJNwMp7WX)

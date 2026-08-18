@@ -9,6 +9,10 @@ build:
     ./scripts/build.lua
     ./scripts/build_nvim.sh
 
+# Replace blueberry peach dark colors with their names in a file
+from_blueberry_peach_dark input_file output_file:
+    ./scripts/from_blueberry_peach_dark.lua {{ input_file }} {{ output_file }}
+
 # Replace catppuccin colors with their names in a file
 from_catppuccin input_file output_file:
     ./scripts/from_catppuccin.lua {{ input_file }} {{ output_file }}
