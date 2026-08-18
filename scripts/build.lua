@@ -15,6 +15,15 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/fuzzel/blueberry_peach.ini",
+    target = "./ports/fuzzel/blueberry_peach_light.ini",
+    colors = blueberry_peach_light,
+    value_transform = function(value)
+      -- Lowercase hex; remove leading #
+      return string.sub(string.lower(value), 2)
+    end,
+  },
+  {
     source = "./templates/fzf/blueberry_peach.sh",
     target = "./ports/fzf/blueberry_peach_light-fzf-colors.sh",
     colors = blueberry_peach_light,
@@ -73,6 +82,15 @@ local template_files = {
     source = "./templates/bat/blueberry_peach.tmTheme",
     target = "./ports/yazi/blueberry-peach-light.yazi/tmtheme.xml",
     colors = blueberry_peach_light,
+  },
+  {
+    source = "./templates/fuzzel/blueberry_peach.ini",
+    target = "./ports/fuzzel/blueberry_peach_dark.ini",
+    colors = blueberry_peach_dark,
+    value_transform = function(value)
+      -- Lowercase hex; remove leading #
+      return string.sub(string.lower(value), 2)
+    end,
   },
   {
     source = "./templates/bat/blueberry_peach.tmTheme",
@@ -152,8 +170,11 @@ for _, template_file in pairs(template_files) do
   local content = file:read("*all")
   file:close()
 
+  local value_transform = template_file.value_transform or function(value)
+    return value
+  end
   for key, value in pairs(template_file.colors) do
-    content = content:gsub("{{" .. key .. "}}", value)
+    content = content:gsub("{{" .. key .. "}}", value_transform(value))
   end
 
   file = io.open(template_file.target, "w")
@@ -164,6 +185,10 @@ for _, template_file in pairs(template_files) do
   file:write(content)
   file:close()
 end
+
+--
+-- SVGs in README:
+--
 
 local file = io.open("./templates/svg/swatch.svg")
 if file == nil then

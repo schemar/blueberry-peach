@@ -1,4 +1,4 @@
--- Only Moccha theme. Always using Moccha as base.
+-- Only Mocha theme. Always using Moccha as base.
 return {
   red = "#f38ba8",
   maroon = "#eba0ac",

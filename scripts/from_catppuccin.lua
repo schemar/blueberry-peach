@@ -3,6 +3,7 @@
 -- Make nix' lua happy:
 package.path = package.path .. ";./?.lua"
 
+-- Mocha
 local map_catppuccin_color_names = require("scripts.lua.map_catppuccin_color_names")
 
 local input_file = arg[1]
