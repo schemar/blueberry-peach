@@ -30,6 +30,11 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/mako/blueberry_peach",
+    target = "./ports/mako/blueberry_peach_light",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/sway/blueberry_peach",
     target = "./ports/sway/blueberry_peach_light",
     colors = blueberry_peach_light,
@@ -87,6 +92,11 @@ local template_files = {
   {
     source = "./templates/lazygit/blueberry_peach.yml",
     target = "./ports/lazygit/blueberry_peach_dark.yml",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/mako/blueberry_peach",
+    target = "./ports/mako/blueberry_peach_dark",
     colors = blueberry_peach_dark,
   },
   {

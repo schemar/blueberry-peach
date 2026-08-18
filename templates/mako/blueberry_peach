@@ -1,0 +1,4 @@
+background-color={{surface1}}
+text-color={{text}}
+border-color={{violet}}
+progress-color=over {{violet}}
