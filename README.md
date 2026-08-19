@@ -169,6 +169,7 @@ Terminal:
 Graphical:
 
 - [sway](./ports/sway)
+- [swaylock](./ports/swaylock)
 - [ghostty](./ports/ghostty)
 - [wezterm](./ports/wezterm)
 - [Waybar](./ports/waybar)

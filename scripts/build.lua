@@ -49,6 +49,15 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/swaylock/blueberry_peach.conf",
+    target = "./ports/swaylock/blueberry_peach_light.conf",
+    colors = blueberry_peach_light,
+    value_transform = function(value)
+      -- Lowercase hex; remove leading #
+      return string.sub(string.lower(value), 2)
+    end,
+  },
+  {
     source = "./templates/tmux/blueberry_peach.conf",
     target = "./ports/tmux/blueberry_peach_light.conf",
     colors = blueberry_peach_light,
@@ -121,6 +130,15 @@ local template_files = {
     source = "./templates/sway/blueberry_peach",
     target = "./ports/sway/blueberry_peach_dark",
     colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/swaylock/blueberry_peach.conf",
+    target = "./ports/swaylock/blueberry_peach_dark.conf",
+    colors = blueberry_peach_dark,
+    value_transform = function(value)
+      -- Lowercase hex; remove leading #
+      return string.sub(string.lower(value), 2)
+    end,
   },
   {
     source = "./templates/tmux/blueberry_peach.conf",
