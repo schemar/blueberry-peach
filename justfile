@@ -7,7 +7,11 @@ help:
 # Create ports files from templates
 build:
     ./scripts/build.lua
+
+build_nvim:
     ./scripts/build_nvim.sh
+
+build_all: build build_nvim
 
 # Replace blueberry peach dark colors with their names in a file
 from_blueberry_peach_dark input_file output_file:
