@@ -174,6 +174,7 @@ Graphical:
 - [wezterm](./ports/wezterm)
 - [Waybar](./ports/waybar)
 - [fuzzel](./ports/fuzzel)
+- [mako](./ports/mako)
 - [slack](./ports/slack)
 - vivaldi browser
   - [Light](https://themes.vivaldi.net/themes/V6kJNwMp7WX)
