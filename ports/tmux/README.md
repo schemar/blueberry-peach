@@ -30,6 +30,9 @@ set -gF message-command-style "fg=#{@thm_teal},bg=#{@thm_surface_0},align=centre
 
 set -gF popup-style "bg=#{@thm_surface_0},fg=#{@thm_text}"
 set -gF popup-border-style "fg=#{@thm_violet}"
+
+set -gF mode-style "bg=#{@thm_surface_1},bold"
+set -gF clock-mode-colour "#{@thm_violet}"
 ```
 
 > [!NOTE]
