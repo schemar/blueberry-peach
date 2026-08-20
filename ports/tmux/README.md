@@ -18,8 +18,18 @@ Simple example:
 source-file ~/.config/tmux/blueberry_peach_dark.conf
 
 set -gF status-style "bg=#{@thm_surface_0},fg=#{@thm_text}"
+
 set -gF window-status-format "#[fg=#{@thm_surface_0},bg=#{@thm_dimmed}] ##I #[fg=#{@thm_text},bg=#{@thm_surface_0}] ##W ##F "
 set -gF window-status-current-format "#[fg=#{@thm_surface_0},bg=#{@thm_violet}] ##I #[fg=#{@thm_text},bg=#{@thm_surface_1}] ##W ##F "
+
+set -wgF pane-active-border-style "##{?pane_in_mode,fg=#{@thm_pink},##{?pane_synchronized,fg=#{@thm_violet},fg=#{@thm_pink}}}"
+set -wgF pane-border-style "fg=#{@thm_overlay_2}"
+
+set -gF message-style "fg=#{@thm_teal},bg=#{@thm_surface_0},align=centre"
+set -gF message-command-style "fg=#{@thm_teal},bg=#{@thm_surface_0},align=centre"
+
+set -gF popup-style "bg=#{@thm_surface_0},fg=#{@thm_text}"
+set -gF popup-border-style "fg=#{@thm_violet}"
 ```
 
 > [!NOTE]
