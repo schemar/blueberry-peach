@@ -2,20 +2,25 @@
 
 BlueberryPeach for [tmux](https://github.com/tmux/tmux).
 
-Requires [catppuccin/tmux](https://github.com/catppuccin/tmux).
-
 ## Installation
 
-Decide whether you want to use `blueberry_peach_dark` or `blueberry_peach_light`.
+Because configuring tmux is so personal, BlueberryPeach does not provide any styling.
+It's just a collection of colors that you can use to style your tmux.
 
-1. Install [catppuccin/tmux](https://github.com/catppuccin/tmux).
-2. Copy the `.conf` files from this directory into your `~/.config/tmux` directory or somewhere else from where you want to source it with `tmux`.
+1. Copy the `.conf` files from this directory into your `~/.config/tmux` directory or somewhere else from where you want to source it with `tmux`.
    - Alternatively, you can clone this repository and source the file directly.
-3. **Before** sourcing the `catppuccin` theme, source BlueberryPeach's `.conf` file.
-   - Example:
-   ```tmux
-   source-file /path/to/blueberry_peach_dark.conf
-   ```
+2. In your tmux config (for example `~/.config/tmux/tmux.conf`) source BlueberryPeach's `.conf` file.
+3. Use the provided colors for your styles.
+
+Simple example:
+
+```tmux
+source-file ~/.config/tmux/blueberry_peach_dark.conf
+
+set -gF status-style "bg=#{@thm_surface_0},fg=#{@thm_text}"
+set -gF window-status-format "#[fg=#{@thm_surface_0},bg=#{@thm_dimmed}] ##I #[fg=#{@thm_text},bg=#{@thm_surface_0}] ##W ##F "
+set -gF window-status-current-format "#[fg=#{@thm_surface_0},bg=#{@thm_violet}] ##I #[fg=#{@thm_text},bg=#{@thm_surface_1}] ##W ##F "
+```
 
 > [!NOTE]
 > You can still overwrite colors by setting them **before** sourcing BlueberryPeach's `.conf` file.
