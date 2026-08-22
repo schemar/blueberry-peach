@@ -11,6 +11,13 @@ M.setup = function(variant)
     local catppuccin_names_to_blueberry_peach_colors = {}
     local catppuccin_names_to_blueberry_peach_names = require("map_catppuccin_blueberry_peach")
     for catppuccin_name, blueberry_peach_name in pairs(catppuccin_names_to_blueberry_peach_names) do
+      -- Flip blue and violet:
+      if blueberry_peach_name == "blue" then
+        blueberry_peach_name = "violet"
+      elseif blueberry_peach_name == "violet" then
+        blueberry_peach_name = "blue"
+      end
+
       catppuccin_names_to_blueberry_peach_colors[catppuccin_name] =
         blueberry_peach[blueberry_peach_name]
     end
