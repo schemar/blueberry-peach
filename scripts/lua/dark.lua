@@ -1,4 +1,3 @@
--- Color names are from catppuccin:
 return {
   red = "#DF8BA0",
   yellow = "#C7B96F",
