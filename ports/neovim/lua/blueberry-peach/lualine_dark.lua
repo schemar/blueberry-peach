@@ -13,7 +13,7 @@ return {
   inactive = {
     a = {
       bg = "#0B0A0F",
-      fg = "#A19DD4"
+      fg = "#7AA8CE"
     },
     b = {
       bg = "#0B0A0F",
@@ -38,13 +38,13 @@ return {
   },
   normal = {
     a = {
-      bg = "#A19DD4",
+      bg = "#7AA8CE",
       fg = "#0B0A0F",
       gui = "bold"
     },
     b = {
       bg = "#242428",
-      fg = "#A19DD4"
+      fg = "#7AA8CE"
     },
     c = {
       bg = "#0B0A0F",
@@ -75,13 +75,13 @@ return {
   },
   visual = {
     a = {
-      bg = "#7AA8CE",
+      bg = "#A19DD4",
       fg = "#191724",
       gui = "bold"
     },
     b = {
       bg = "#242428",
-      fg = "#7AA8CE"
+      fg = "#A19DD4"
     }
   }
 }
