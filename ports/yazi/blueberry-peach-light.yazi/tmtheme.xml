@@ -26,7 +26,7 @@
           <key>caret</key>
           <string>#A5407B</string>
           <key>lineHighlight</key>
-          <string>#EFE3D7</string>
+          <string>#F0DFDB</string>
           <key>misspelling</key>
           <string>#B43B3E</string>
           <key>accent</key>
@@ -34,9 +34,9 @@
           <key>selection</key>
           <string>#857F794d</string>
           <key>activeGuide</key>
-          <string>#EFE3D7</string>
+          <string>#F0DFDB</string>
           <key>findHighlight</key>
-          <string>#EFE3D7</string>
+          <string>#F0DFDB</string>
           <key>gutterForeground</key>
           <string>#8A847D</string>
         </dict>

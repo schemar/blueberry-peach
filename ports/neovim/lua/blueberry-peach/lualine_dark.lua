@@ -6,18 +6,18 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#37363E",
+      bg = "#242428",
       fg = "#C79A76"
     }
   },
   inactive = {
     a = {
       bg = "#0B0A0F",
-      fg = "#7AA8CE"
+      fg = "#A19DD4"
     },
     b = {
       bg = "#0B0A0F",
-      fg = "#37363E",
+      fg = "#242428",
       gui = "bold"
     },
     c = {
@@ -32,19 +32,19 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#37363E",
+      bg = "#242428",
       fg = "#75B087"
     }
   },
   normal = {
     a = {
-      bg = "#7AA8CE",
+      bg = "#A19DD4",
       fg = "#0B0A0F",
       gui = "bold"
     },
     b = {
-      bg = "#37363E",
-      fg = "#7AA8CE"
+      bg = "#242428",
+      fg = "#A19DD4"
     },
     c = {
       bg = "#0B0A0F",
@@ -58,7 +58,7 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#37363E",
+      bg = "#242428",
       fg = "#DF8BA0"
     }
   },
@@ -69,19 +69,19 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#37363E",
+      bg = "#242428",
       fg = "#75B087"
     }
   },
   visual = {
     a = {
-      bg = "#A19DD4",
+      bg = "#7AA8CE",
       fg = "#191724",
       gui = "bold"
     },
     b = {
-      bg = "#37363E",
-      fg = "#A19DD4"
+      bg = "#242428",
+      fg = "#7AA8CE"
     }
   }
 }
