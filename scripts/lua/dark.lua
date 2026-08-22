@@ -1,7 +1,7 @@
 return {
   red = "#DF8BA0",
-  yellow = "#C7B96F",
   orange = "#C79A76",
+  yellow = "#C7B96F",
   green = "#75B087",
   teal = "#5EB1AF",
   blue = "#7AA8CE",
@@ -13,7 +13,7 @@ return {
   overlay1 = "#808084",
   overlay0 = "#84848C",
   dimmed = "#7C7992",
-  surface1 = "#37363E",
+  surface1 = "#242428",
   background = "#191724",
   surface0 = "#0B0A0F",
   id = "dark",
