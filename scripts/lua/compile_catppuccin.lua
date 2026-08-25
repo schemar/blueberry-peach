@@ -44,14 +44,13 @@ M.setup = function(variant)
 
       GitSignsCurrentLineBlame = { fg = colors.surface2 },
 
-      -- More contrast whitespace:
+      -- More contrast:
       Whitespace = { fg = colors.surface2 },
+      EndOfBuffer = { fg = colors.surface2 },
 
-      -- More contrast menus:
       Pmenu = { bg = colors.mantle, fg = colors.overlay2 }, -- Popup menu: normal item.
       PmenuSel = { bg = colors.surface1, style = { "bold" } }, -- Popup menu: selected item.
 
-      -- More contrast for window separator:
       WinSeparator = { fg = colors.surface2 }, -- Separator between windows.
     }
   end
