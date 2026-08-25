@@ -6,7 +6,7 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#F4E5D7",
+      bg = "#F3E2D3",
       fg = "#9A5518"
     }
   },
@@ -17,7 +17,7 @@ return {
     },
     b = {
       bg = "#FEFDFB",
-      fg = "#F4E5D7",
+      fg = "#F3E2D3",
       gui = "bold"
     },
     c = {
@@ -32,7 +32,7 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#F4E5D7",
+      bg = "#F3E2D3",
       fg = "#247500"
     }
   },
@@ -43,7 +43,7 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#F4E5D7",
+      bg = "#F3E2D3",
       fg = "#2169A6"
     },
     c = {
@@ -58,7 +58,7 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#F4E5D7",
+      bg = "#F3E2D3",
       fg = "#B43B3E"
     }
   },
@@ -69,7 +69,7 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#F4E5D7",
+      bg = "#F3E2D3",
       fg = "#247500"
     }
   },
@@ -80,7 +80,7 @@ return {
       gui = "bold"
     },
     b = {
-      bg = "#F4E5D7",
+      bg = "#F3E2D3",
       fg = "#6F58A2"
     }
   }
