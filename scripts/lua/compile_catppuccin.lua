@@ -44,6 +44,9 @@ M.setup = function(variant)
 
       GitSignsCurrentLineBlame = { fg = colors.surface2 },
 
+      -- More contrast whitespace:
+      Whitespace = { fg = colors.surface2 },
+
       -- More contrast menus:
       Pmenu = { bg = colors.mantle, fg = colors.overlay2 }, -- Popup menu: normal item.
       PmenuSel = { bg = colors.surface1, style = { "bold" } }, -- Popup menu: selected item.
