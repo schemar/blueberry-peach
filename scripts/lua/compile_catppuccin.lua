@@ -45,6 +45,7 @@ M.setup = function(variant)
       GitSignsCurrentLineBlame = { fg = colors.surface2 },
 
       -- More contrast:
+      Whitespace = { fg = colors.surface2 },
       EndOfBuffer = { fg = colors.surface2 },
 
       Pmenu = { bg = colors.mantle, fg = colors.overlay2 }, -- Popup menu: normal item.
