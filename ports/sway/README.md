@@ -15,8 +15,8 @@ After including the theme, you can set colors for example like so:
 ```sway
 client.focused $bp_violet $bp_background $bp_text $bp_pink $bp_violet
 client.focused_inactive $bp_overlay0 $bp_surface0 $bp_subtext $bp_surface1 $bp_surface1
-client.unfocused $bp_surface0 $bp_surface0 $bp_subtext $bp_surface1 $bp_surface1
+client.unfocused $bp_overlay0 $bp_surface0 $bp_subtext $bp_surface1 $bp_surface1
 client.urgent $bp_red $bp_orange $bp_background $bp_orange $bp_red
-client.placeholder $bp_surface0 $bp_background $bp_text $bp_surface0 $bp_surface0
+client.placeholder $bp_overlay0 $bp_background $bp_text $bp_surface0 $bp_surface0
 client.background $bp_background
 ```
