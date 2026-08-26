@@ -136,7 +136,7 @@ See below for [palette](#palette) and [ports](#ports).
     <td><img valign='middle' src="./assets/light_surface1.svg" /></td>
     <td><code>#F3E2D3</code></td>
     <td><img valign='middle' src="./assets/dark_surface1.svg" /></td>
-    <td><code>#242428</code></td>
+    <td><code>#2A292D</code></td>
   </tr>
   <tr>
     <td>background</td>
@@ -146,11 +146,11 @@ See below for [palette](#palette) and [ports](#ports).
     <td><code>#191724</code></td>
   </tr>
   <tr>
-	<td>surface0</td>
+    <td>surface0</td>
     <td><img valign='middle' src="./assets/light_surface0.svg" /></td>
     <td><code>#FEFDFB</code></td>
     <td><img valign='middle' src="./assets/dark_surface0.svg" /></td>
-    <td><code>#0B0A0F</code></td>
+    <td><code>#08090C</code></td>
   </tr>
 </table>
 

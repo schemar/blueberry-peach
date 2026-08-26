@@ -12,7 +12,7 @@ set $bp_overlay2 #7D7D7D
 set $bp_overlay1 #808084
 set $bp_overlay0 #84848C
 set $bp_dimmed #7C7992
-set $bp_surface2 #242428
-set $bp_surface1 #242428
+set $bp_surface2 #2A292D
+set $bp_surface1 #2A292D
 set $bp_background #191724
-set $bp_surface0 #0B0A0F
+set $bp_surface0 #08090C

@@ -13,9 +13,9 @@ return {
   overlay1 = "#808084",
   overlay0 = "#84848C",
   dimmed = "#7C7992",
-  surface1 = "#242428",
+  surface1 = "#2A292D",
   background = "#191724",
-  surface0 = "#0B0A0F",
+  surface0 = "#08090C",
   id = "dark",
   name = "Blueberry Peach Dark",
 }
