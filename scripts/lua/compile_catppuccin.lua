@@ -52,6 +52,9 @@ M.setup = function(variant)
       PmenuSel = { bg = colors.surface1, style = { "bold" } }, -- Popup menu: selected item.
 
       WinSeparator = { fg = colors.surface2 }, -- Separator between windows.
+
+      -- Comments are important:
+      Comment = { fg = colors.teal, style = { "italic" } }, -- Any comment
     }
   end
 
