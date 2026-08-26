@@ -32,7 +32,7 @@ set -g popup-style "bg=#{@thm_surface_0},fg=#{@thm_text}"
 set -g popup-border-style "fg=#{@thm_violet}"
 
 set -g mode-style "bg=#{@thm_surface_1},bold"
-set -g clock-mode-colour "#{@thm_violet}"
+set -gF clock-mode-colour "#{@thm_violet}"
 
 set -gF status-left "#[bg=#{?client_prefix,blue,default},fg=#{?client_prefix,black,default}]#S#[default] "
 ```
