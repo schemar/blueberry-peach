@@ -5,10 +5,20 @@ BlueberryPeach for [neovim](https://github.com/neovim/neovim).
 Based on, but does not require [catppuccin/nvim](https://github.com/catppuccin/nvim).
 Supports almost all integrations that catppuccin includes.
 
-<p align="center">
-  <img src="./screenshots/light.png" />
-  <img src="./screenshots/dark.png" />
-</p>
+<table>
+  <tr>
+    <td>
+      <a href="./screenshots/light.png">
+        <img src="./screenshots/light.png" />
+      </a>
+    </td>
+    <td>
+      <a href="./screenshots/dark.png">
+        <img src="./screenshots/dark.png" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Installation
 
