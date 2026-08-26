@@ -13,7 +13,7 @@ return {
   overlay1 = "#808084",
   overlay0 = "#84848C",
   dimmed = "#7C7992",
-  surface1 = "#2A292D",
+  surface1 = "#353144",
   background = "#191724",
   surface0 = "#08090C",
   id = "dark",

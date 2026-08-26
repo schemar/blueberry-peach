@@ -2,12 +2,12 @@
   "name": "Blueberry Peach Dark",
 
   "cursorColor": "#A19DD4",
-  "selectionBackground": "#2A292D",
+  "selectionBackground": "#353144",
 
   "background": "#191724",
   "foreground": "#A2A2A9",
 
-  "black": "#2A292D",
+  "black": "#353144",
   "blue": "#7AA8CE",
   "cyan": "#5EB1AF",
   "green": "#75B087",

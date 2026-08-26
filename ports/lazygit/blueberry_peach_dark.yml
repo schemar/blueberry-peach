@@ -6,7 +6,7 @@ gui:
     authorColors:
       "*": "#A19DD4"
     cherryPickedCommitBgColor:
-      - "#2A292D"
+      - "#353144"
     cherryPickedCommitFgColor:
       - "#A19DD4"
     defaultFgColor:
