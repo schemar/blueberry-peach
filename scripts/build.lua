@@ -29,7 +29,7 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
-    source = "./templates/ghostty/blueberry_peach",
+    source = "./templates/ghostty/blueberry_peach_light",
     target = "./ports/ghostty/blueberry_peach_light",
     colors = blueberry_peach_light,
   },
@@ -112,7 +112,7 @@ local template_files = {
     colors = blueberry_peach_dark,
   },
   {
-    source = "./templates/ghostty/blueberry_peach",
+    source = "./templates/ghostty/blueberry_peach_dark",
     target = "./ports/ghostty/blueberry_peach_dark",
     colors = blueberry_peach_dark,
   },
