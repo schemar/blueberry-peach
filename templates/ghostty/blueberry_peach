@@ -1,4 +1,4 @@
-palette = 0={{surface1}}
+palette = 0={{surface0}}
 palette = 1={{red}}
 palette = 2={{green}}
 palette = 3={{yellow}}
@@ -13,12 +13,11 @@ palette = 11={{yellow}}
 palette = 12={{blue}}
 palette = 13={{violet}}
 palette = 14={{teal}}
-palette = 15={{subtext}}
-palette = 16={{orange}}
-palette = 17={{pink}}
+palette = 15={{text}}
 background = {{background}}
 foreground = {{text}}
 cursor-color = {{violet}}
 cursor-text = {{surface0}}
 selection-background = {{surface1}}
 selection-foreground = {{text}}
+split-divider-color = {{overlay0}}
