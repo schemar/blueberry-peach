@@ -34,6 +34,11 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/helix/blueberry_peach.toml",
+    target = "./ports/helix/blueberry_peach_light.toml",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/lazygit/blueberry_peach.yml",
     target = "./ports/lazygit/blueberry_peach_light.yml",
     colors = blueberry_peach_light,
@@ -114,6 +119,11 @@ local template_files = {
   {
     source = "./templates/ghostty/blueberry_peach_dark",
     target = "./ports/ghostty/blueberry_peach_dark",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/helix/blueberry_peach.toml",
+    target = "./ports/helix/blueberry_peach_dark.toml",
     colors = blueberry_peach_dark,
   },
   {
