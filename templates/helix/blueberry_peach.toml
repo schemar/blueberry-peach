@@ -17,7 +17,7 @@
 "string.special" = "blue"
 "string.special.symbol" = "red"
 
-"comment" = { fg = "overlay2", modifiers = ["italic"] }
+"comment" = { fg = "teal", modifiers = ["italic"] }
 
 "variable" = "text"
 "variable.parameter" = { fg = "red", modifiers = ["italic"] }
