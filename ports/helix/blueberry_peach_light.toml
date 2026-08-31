@@ -3,12 +3,12 @@
 "attribute" = "yellow"
 
 "type" = "yellow"
-"type.builtin" = "mauve"
+"type.builtin" = "violet"
 "type.enum.variant" = "teal"
 
-"constructor" = "sapphire"
+"constructor" = "teal"
 
-"constant" = "peach"
+"constant" = "orange"
 "constant.character" = "teal"
 "constant.character.escape" = "pink"
 
@@ -20,22 +20,22 @@
 "comment" = { fg = "overlay2", modifiers = ["italic"] }
 
 "variable" = "text"
-"variable.parameter" = { fg = "maroon", modifiers = ["italic"] }
+"variable.parameter" = { fg = "red", modifiers = ["italic"] }
 "variable.builtin" = "red"
 "variable.other.member" = "blue"
 
-"label" = "sapphire" # used for lifetimes
+"label" = "teal" # used for lifetimes
 
 "punctuation" = "overlay2"
-"punctuation.special" = "sky"
+"punctuation.special" = "teal"
 
-"keyword" = "mauve"
-"keyword.control.conditional" = { fg = "mauve", modifiers = ["italic"] }
+"keyword" = "violet"
+"keyword.control.conditional" = { fg = "violet", modifiers = ["italic"] }
 
-"operator" = "sky"
+"operator" = "teal"
 
 "function" = "blue"
-"function.macro" = "rosewater"
+"function.macro" = "pink"
 
 "tag" = "blue"
 
@@ -44,11 +44,11 @@
 "special" = "blue" # fuzzy highlight
 
 "markup.heading.1" = "red"
-"markup.heading.2" = "peach"
+"markup.heading.2" = "orange"
 "markup.heading.3" = "yellow"
 "markup.heading.4" = "green"
-"markup.heading.5" = "sapphire"
-"markup.heading.6" = "lavender"
+"markup.heading.5" = "teal"
+"markup.heading.6" = "blue"
 "markup.list" = "teal"
 "markup.list.unchecked" = "overlay2"
 "markup.list.checked" = "green"
@@ -56,112 +56,103 @@
 "markup.italic" = { fg = "red", modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 "markup.link.url" = { fg = "blue", modifiers = ["italic", "underlined"] }
-"markup.link.text" = "lavender"
-"markup.link.label" = "sapphire"
+"markup.link.text" = "blue"
+"markup.link.label" = "teal"
 "markup.raw" = "green"
 "markup.quote" = "pink"
 
 "diff.plus" = "green"
 "diff.minus" = "red"
-"diff.delta" = "blue"
+"diff.delta" = "yellow"
 
 # User Interface
 # --------------
-"ui.background" = { fg = "text", bg = "base" }
+"ui.background" = { fg = "text", bg = "background" }
 
 "ui.linenr" = { fg = "surface1" }
-"ui.linenr.selected" = { fg = "lavender" }
+"ui.linenr.selected" = { fg = "blue" }
 
-"ui.statusline" = { fg = "subtext1", bg = "mantle" }
-"ui.statusline.inactive" = { fg = "surface2", bg = "mantle" }
-"ui.statusline.normal" = { fg = "base", bg = "rosewater", modifiers = ["bold"] }
-"ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"]  }
-"ui.statusline.select" = { fg = "base", bg = "lavender", modifiers = ["bold"]  }
+"ui.statusline" = { fg = "subtext", bg = "surface0" }
+"ui.statusline.inactive" = { fg = "dimmed", bg = "surface0" }
+"ui.statusline.normal" = { fg = "background", bg = "violet", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "background", bg = "green", modifiers = ["bold"]  }
+"ui.statusline.select" = { fg = "background", bg = "blue", modifiers = ["bold"]  }
 
-"ui.popup" = { fg = "text", bg = "surface0" }
-"ui.window" = { fg = "crust" }
-"ui.help" = { fg = "overlay2", bg = "surface0" }
+"ui.popup" = { fg = "text", bg = "surface1" }
+"ui.window" = { fg = "surface0" }
+"ui.help" = { fg = "text", bg = "surface1" }
 
-"ui.bufferline" = { fg = "subtext0", bg = "mantle" }
-"ui.bufferline.active" = { fg = "mauve", bg = "base", underline = { color = "mauve", style = "line" } }
-"ui.bufferline.background" = { bg = "crust" }
+"ui.bufferline" = { fg = "subtext", bg = "surface0" }
+"ui.bufferline.active" = { fg = "violet", bg = "background", underline = { color = "violet", style = "line" } }
+"ui.bufferline.background" = { bg = "surface0" }
 
 "ui.text" = "text"
-"ui.text.focus" = { fg = "text", bg = "surface0", modifiers = ["bold"] }
-"ui.text.inactive" = { fg = "overlay1" }
-"ui.text.directory" = { fg = "blue" }
+"ui.text.focus" = { fg = "text", bg = "surface1", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "dimmed" }
+"ui.text.directory" = { fg = "text" }
 
 "ui.virtual" = "overlay0"
-"ui.virtual.ruler" = { bg = "surface0" }
-"ui.virtual.indent-guide" = "surface0"
-"ui.virtual.inlay-hint" = { fg = "surface1", bg = "mantle" }
-"ui.virtual.jump-label" = { fg = "rosewater", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "surface1" }
+"ui.virtual.indent-guide" = "surface1"
+"ui.virtual.inlay-hint" = { fg = "surface1", bg = "surface0" }
+"ui.virtual.jump-label" = { fg = "pink", modifiers = ["bold"] }
 
 "ui.selection" = { bg = "surface1" }
 
-"ui.cursor" = { fg = "base", bg = "secondary_cursor" }
-"ui.cursor.primary" = { fg = "base", bg = "rosewater" }
-"ui.cursor.match" = { fg = "peach", modifiers = ["bold"] }
+"ui.cursor" = { fg = "background", bg = "secondary_cursor" }
+"ui.cursor.primary" = { fg = "background", bg = "violet" }
+"ui.cursor.match" = { fg = "orange", modifiers = ["bold"] }
 
-"ui.cursor.primary.normal" = { fg = "base", bg = "rosewater" }
-"ui.cursor.primary.insert" = { fg = "base", bg = "green" }
-"ui.cursor.primary.select" = { fg = "base", bg = "lavender" }
+"ui.cursor.primary.normal" = { fg = "background", bg = "violet" }
+"ui.cursor.primary.insert" = { fg = "background", bg = "green" }
+"ui.cursor.primary.select" = { fg = "background", bg = "blue" }
 
-"ui.cursor.normal" = { fg = "base", bg = "secondary_cursor_normal" }
-"ui.cursor.insert" = { fg = "base", bg = "secondary_cursor_insert" }
-"ui.cursor.select" = { fg = "base", bg = "secondary_cursor_select" }
+"ui.cursor.normal" = { fg = "background", bg = "secondary_cursor_normal" }
+"ui.cursor.insert" = { fg = "background", bg = "secondary_cursor_insert" }
+"ui.cursor.select" = { fg = "background", bg = "secondary_cursor_select" }
 
 "ui.cursorline.primary" = { bg = "cursorline" }
 
 "ui.highlight" = { bg = "surface1", modifiers = ["bold"] }
 
-"ui.menu" = { fg = "overlay2", bg = "surface0" }
-"ui.menu.selected" = { fg = "text", bg = "surface1", modifiers = ["bold"] }
+"ui.menu" = { fg = "text", bg = "surface1" }
+"ui.menu.selected" = { fg = "text", bg = "surface0", modifiers = ["bold"] }
 
 "diagnostic.error" = { underline = { color = "red", style = "curl" } }
 "diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
-"diagnostic.info" = { underline = { color = "sky", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
 "diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
 error = "red"
 warning = "yellow"
-info = "sky"
+info = "blue"
 hint = "teal"
 
-rainbow = ["red", "peach", "yellow", "green", "sapphire", "lavender"]
+rainbow = ["red", "orange", "yellow", "green", "teal", "blue", "violet"]
 
 [palette]
-rosewater = "#A5407B"
-flamingo = "#A5407B"
-pink = "#6F58A2"
-mauve = "#6F58A2"
+pink = "#A5407B"
+violet = "#6F58A2"
 red = "#B43B3E"
-maroon = "#B43B3E"
-peach = "#9A5518"
+orange = "#9A5518"
 yellow = "#807000"
 green = "#247500"
 teal = "#017468"
-sky = "#017468"
-sapphire = "#017468"
 blue = "#2169A6"
-lavender = "#2169A6"
 text = "#6B635C"
-subtext1 = "#746E68"
-subtext0 = "#746E68"
+subtext = "#746E68"
 overlay2 = "#857F79"
 overlay1 = "#8A847D"
 overlay0 = "#8F8982"
-surface2 = "#8B6E6E"
+dimmed = "#8B6E6E"
 surface1 = "#F3E2D3"
-surface0 = "#F3E2D3"
-base = "#FAF4ED"
-mantle = "#FEFDFB"
-crust = "#FEFDFB"
+background = "#FAF4ED"
+surface0 = "#FEFDFB"
 
-cursorline = "#2a2b3c"
-secondary_cursor = "#b5a6a8"
-secondary_cursor_select = "#878ec0"
-secondary_cursor_normal = "#b5a6a8"
-secondary_cursor_insert = "#7ea87f"
+cursorline = "#FEFDFB"
+secondary_cursor = "#A5407B"
+secondary_cursor_select = "#2169A6"
+secondary_cursor_normal = "#A5407B"
+secondary_cursor_insert = "#247500"
