@@ -78,6 +78,11 @@ local template_files = {
     colors = blueberry_peach_light,
   },
   {
+    source = "./templates/zsh_helix_mode/blueberry_peach.sh",
+    target = "./ports/zsh_helix_mode/blueberry_peach_light-helix-mode.sh",
+    colors = blueberry_peach_light,
+  },
+  {
     source = "./templates/waybar/blueberry_peach.css",
     target = "./ports/waybar/blueberry_peach_light.css",
     colors = blueberry_peach_light,
@@ -173,6 +178,11 @@ local template_files = {
   {
     source = "./templates/zsh_syntax_highlighting/blueberry_peach.sh",
     target = "./ports/zsh_syntax_highlighting/blueberry_peach_dark-syntax-highlighting.sh",
+    colors = blueberry_peach_dark,
+  },
+  {
+    source = "./templates/zsh_helix_mode/blueberry_peach.sh",
+    target = "./ports/zsh_helix_mode/blueberry_peach_dark-helix-mode.sh",
     colors = blueberry_peach_dark,
   },
   {

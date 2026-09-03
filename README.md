@@ -164,6 +164,7 @@ Terminal:
 - [bat](./ports/bat)
 - [lazygit](./ports/lazygit)
 - [yazi](./ports/yazi)
+- [zsh helix mode](./ports/zsh_helix_mode)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)
 
 Graphical:
