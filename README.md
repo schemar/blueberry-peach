@@ -1,30 +1,7 @@
 # 🫐 BlueberryPeach 🍑
 
 Handcrafted light *and* dark color scheme for the terminal and sway.
-Check the [ports](#ports) for installation instractions.
-
-See below for [palette](#palette) and [ports](#ports).
-
-<p align="center">
-  <img src="./assets/social.png" alt="BlueberryPeach theme screenshot" />
-</p>
-
-## Goals
-
-- Legible light *and* dark mode
-- Sufficient [contrast](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) in most cases
-- Uniform contrast between colors and backgrounds
-- As high a [color difference](https://en.wikipedia.org/wiki/Color_difference#CIELAB_%CE%94E*) between colors as possible (while keeping uniform contrast in mind)
-
-## Screenshots
-
-<details>
-  <summary>neovim</summary>
-  <p align="center">
-    <img src="./ports/neovim/screenshots/dark.png" alt="BlueberryPeach dark variant" />
-    <img src="./ports/neovim/screenshots/light.png" alt="BlueberryPeach light variant" />
-  </p>
-</details>
+Check the [ports](#ports) below for installation instructions.
 
 ## Palette
 
@@ -163,6 +140,27 @@ See below for [palette](#palette) and [ports](#ports).
       <td><code>#08090C</code></td>
     </tr>
 </table>
+</details>
+
+<p align="center">
+  <img src="./assets/social.png" alt="BlueberryPeach theme screenshot" />
+</p>
+
+## Goals
+
+- Legible light *and* dark mode
+- Sufficient [contrast](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) in most cases
+- Uniform contrast between colors and backgrounds
+- As high a [color difference](https://en.wikipedia.org/wiki/Color_difference#CIELAB_%CE%94E*) between colors as possible (while keeping uniform contrast in mind)
+
+## Screenshots
+
+<details>
+  <summary>neovim</summary>
+  <p align="center">
+    <img src="./ports/neovim/screenshots/dark.png" alt="BlueberryPeach dark variant" />
+    <img src="./ports/neovim/screenshots/light.png" alt="BlueberryPeach light variant" />
+  </p>
 </details>
 
 ## Ports
