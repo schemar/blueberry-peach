@@ -1,6 +1,6 @@
 # 🫐 BlueberryPeach 🍑
 
-Light and dark color scheme for neovim and the terminal.
+Handcrafted light *and* dark color scheme for the terminal and sway.
 
 See below for [palette](#palette) and [ports](#ports).
 
@@ -10,10 +10,10 @@ See below for [palette](#palette) and [ports](#ports).
 
 ## Goals
 
-- Apply to both light and dark mode
-- High contrast
-- Uniform background contrast for colors and text
-- As high a deltaE between colors as possible while keeping uniform contrast in mind
+- Legible light *and* dark mode
+- Sufficient [contrast](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) in most cases
+- Uniform contrast between colors and backgrounds
+- As high a [color difference](https://en.wikipedia.org/wiki/Color_difference#CIELAB_%CE%94E*) between colors as possible (while keeping uniform contrast in mind)
 
 ## Screenshots
 
