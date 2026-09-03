@@ -1,6 +1,6 @@
 # 🫐 BlueberryPeach 🍑
 
-Handcrafted dark *and* light color scheme for the terminal and sway.
+Handcrafted dark *and* light color scheme with contrast in mind.
 Check the [ports](#ports) below for installation instructions.
 
 <p>
