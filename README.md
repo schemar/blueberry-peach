@@ -1,19 +1,20 @@
 # 🫐 BlueberryPeach 🍑
 
-Handcrafted light *and* dark color scheme for the terminal and sway.
-Check the [ports](#ports) below for installation instructions.
-
-## Palette
-
-<p align="center">
+<p>
   Dark: <img valign="middle" src="./assets/dark_background.svg" />&nbsp;<img valign="middle" src="./assets/dark_text.svg" />&nbsp;<img valign="middle" src="./assets/dark_red.svg" />&nbsp;<img valign="middle" src="./assets/dark_orange.svg" />&nbsp;<img valign="middle" src="./assets/dark_yellow.svg" />&nbsp;<img valign="middle" src="./assets/dark_green.svg" />&nbsp;<img valign="middle" src="./assets/dark_teal.svg" />&nbsp;<img valign="middle" src="./assets/dark_blue.svg" />&nbsp;<img valign="middle" src="./assets/dark_violet.svg" />&nbsp;<img valign="middle" src="./assets/dark_pink.svg" />
-</p>
-<p align="center">
+  
   Light: <img valign="middle" src="./assets/light_background.svg" />&nbsp;<img valign="middle" src="./assets/light_text.svg" />&nbsp;<img valign="middle" src="./assets/light_red.svg" />&nbsp;<img valign="middle" src="./assets/light_orange.svg" />&nbsp;<img valign="middle" src="./assets/light_yellow.svg" />&nbsp;<img valign="middle" src="./assets/light_green.svg" />&nbsp;<img valign="middle" src="./assets/light_teal.svg" />&nbsp;<img valign="middle" src="./assets/light_blue.svg" />&nbsp;<img valign="middle" src="./assets/light_violet.svg" />&nbsp;<img valign="middle" src="./assets/light_pink.svg" />
 </p>
 
+Handcrafted light *and* dark color scheme for the terminal and sway.
+Check the [ports](#ports) below for installation instructions.
+
+<p align="center">
+  <img src="./assets/social.png" alt="BlueberryPeach theme screenshot" />
+</p>
+
 <details>
-  <summary>Full palettes with hex codes</summary>
+  <summary><b>Full palettes with hex codes</b></summary>
   <table>
     <tr>
       <th>Color</th>
@@ -141,10 +142,6 @@ Check the [ports](#ports) below for installation instructions.
     </tr>
 </table>
 </details>
-
-<p align="center">
-  <img src="./assets/social.png" alt="BlueberryPeach theme screenshot" />
-</p>
 
 ## Goals
 
