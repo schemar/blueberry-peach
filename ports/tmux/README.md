@@ -23,7 +23,7 @@ set -gF window-status-format "#[fg=#{@thm_surface_0},bg=#{@thm_dimmed}] ##I #[fg
 set -gF window-status-current-format "#[fg=#{@thm_surface_0},bg=#{@thm_violet}] ##I #[fg=#{@thm_text},bg=#{@thm_surface_1}] ##W ##F "
 
 set -wgF pane-active-border-style "##{?pane_in_mode,fg=#{@thm_pink},##{?pane_synchronized,fg=#{@thm_violet},fg=#{@thm_pink}}}"
-set -wgF pane-border-style "fg=#{@thm_overlay_2}"
+set -wgF pane-border-style "fg=#{@thm_dimmed}"
 
 set -g message-style "fg=#{@thm_teal},bg=#{@thm_surface_0},align=centre"
 set -g message-command-style "fg=#{@thm_teal},bg=#{@thm_surface_0},align=centre"

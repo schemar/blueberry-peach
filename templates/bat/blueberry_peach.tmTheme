@@ -32,13 +32,13 @@
           <key>accent</key>
           <string>{{violet}}</string>
           <key>selection</key>
-          <string>{{overlay2}}4d</string>
+          <string>{{dimmed}}4d</string>
           <key>activeGuide</key>
           <string>{{surface1}}</string>
           <key>findHighlight</key>
           <string>{{surface1}}</string>
           <key>gutterForeground</key>
-          <string>{{overlay1}}</string>
+          <string>{{dimmed}}</string>
         </dict>
       </dict>
       <dict>
@@ -60,7 +60,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{overlay2}}</string>
+          <string>{{dimmed}}</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -1228,7 +1228,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>{{overlay2}}</string>
+          <string>{{dimmed}}</string>
         </dict>
       </dict>
       <dict>

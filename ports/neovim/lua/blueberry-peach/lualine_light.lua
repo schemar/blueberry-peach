@@ -22,7 +22,7 @@ return {
     },
     c = {
       bg = "#FEFDFB",
-      fg = "#8F8982"
+      fg = "#8B6E6E"
     }
   },
   insert = {

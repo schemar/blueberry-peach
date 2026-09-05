@@ -26,7 +26,7 @@
 
 "label" = "teal" # used for lifetimes
 
-"punctuation" = "overlay2"
+"punctuation" = "dimmed"
 "punctuation.special" = "teal"
 
 "keyword" = "violet"
@@ -50,7 +50,7 @@
 "markup.heading.5" = "teal"
 "markup.heading.6" = "blue"
 "markup.list" = "teal"
-"markup.list.unchecked" = "overlay2"
+"markup.list.unchecked" = "dimmed"
 "markup.list.checked" = "green"
 "markup.bold" = { fg = "red", modifiers = ["bold"] }
 "markup.italic" = { fg = "red", modifiers = ["italic"] }
@@ -97,7 +97,7 @@
 "ui.text.inactive" = { fg = "dimmed" }
 "ui.text.directory" = { fg = "text" }
 
-"ui.virtual" = "overlay0"
+"ui.virtual" = "dimmed"
 "ui.virtual.ruler" = { bg = "surface1" }
 "ui.virtual.indent-guide" = "surface1"
 "ui.virtual.inlay-hint" = { fg = "surface1", bg = "surface0" }
@@ -149,9 +149,6 @@ teal = "{{teal}}"
 blue = "{{blue}}"
 text = "{{text}}"
 subtext = "{{subtext}}"
-overlay2 = "{{overlay2}}"
-overlay1 = "{{overlay1}}"
-overlay0 = "{{overlay0}}"
 dimmed = "{{dimmed}}"
 surface1 = "{{surface1}}"
 background = "{{background}}"

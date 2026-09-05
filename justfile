@@ -8,22 +8,22 @@ help:
 build:
     ./scripts/build.lua
 
-build_nvim:
+build-nvim:
     ./scripts/build_nvim.sh
 
-build_all: build build_nvim
+build-all: build build-nvim
 
 # Replace blueberry peach dark colors with their names in a file
-from_blueberry_peach_dark input_file output_file:
+from-blueberry-peach-dark input_file output_file:
     ./scripts/from_blueberry_peach_dark.lua {{ input_file }} {{ output_file }}
 
 # Replace catppuccin mocha colors with their names in a file
-from_catppuccin input_file output_file:
+from-catppuccin input_file output_file:
     ./scripts/from_catppuccin.lua {{ input_file }} {{ output_file }}
 
 # Replace catppuccin color names with blueberry peach color names
-catppuccin_to_blueberry_peach input_file output_file:
+catppuccin-to-blueberry-peach input_file output_file:
     ./scripts/catppuccin_to_blueberry_peach.lua {{ input_file }} {{ output_file }}
 
 # Convert a catppuccin theme file to a blueberry peach template
-catppuccin_to_template input_file output_file: (from_catppuccin input_file output_file) (catppuccin_to_blueberry_peach output_file output_file)
+catppuccin-to-template input_file output_file: (from-catppuccin input_file output_file) (catppuccin-to-blueberry-peach output_file output_file)
