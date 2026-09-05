@@ -5,7 +5,7 @@ Check the [ports](#ports) below for installation instructions.
 
 <p>
   Dark: <img valign="middle" src="./assets/dark_background.svg" />&nbsp;<img valign="middle" src="./assets/dark_text.svg" />&nbsp;<img valign="middle" src="./assets/dark_red.svg" />&nbsp;<img valign="middle" src="./assets/dark_orange.svg" />&nbsp;<img valign="middle" src="./assets/dark_yellow.svg" />&nbsp;<img valign="middle" src="./assets/dark_green.svg" />&nbsp;<img valign="middle" src="./assets/dark_teal.svg" />&nbsp;<img valign="middle" src="./assets/dark_blue.svg" />&nbsp;<img valign="middle" src="./assets/dark_violet.svg" />&nbsp;<img valign="middle" src="./assets/dark_pink.svg" />
-  
+
   Light: <img valign="middle" src="./assets/light_background.svg" />&nbsp;<img valign="middle" src="./assets/light_text.svg" />&nbsp;<img valign="middle" src="./assets/light_red.svg" />&nbsp;<img valign="middle" src="./assets/light_orange.svg" />&nbsp;<img valign="middle" src="./assets/light_yellow.svg" />&nbsp;<img valign="middle" src="./assets/light_green.svg" />&nbsp;<img valign="middle" src="./assets/light_teal.svg" />&nbsp;<img valign="middle" src="./assets/light_blue.svg" />&nbsp;<img valign="middle" src="./assets/light_violet.svg" />&nbsp;<img valign="middle" src="./assets/light_pink.svg" />
 </p>
 
@@ -162,11 +162,20 @@ Check the [ports](#ports) below for installation instructions.
   </p>
 </details>
 
+<details>
+  <summary>helix</summary>
+  <p align="center">
+    <img src="./ports/helix/screenshots/dark.png" alt="BlueberryPeach dark variant" />
+    <img src="./ports/helix/screenshots/light.png" alt="BlueberryPeach light variant" />
+  </p>
+</details>
+
 ## Ports
 
 Terminal:
 
 - [neovim](./ports/neovim)
+- [helix](./ports/helix)
 - [tmux](./ports/tmux)
 - [fzf](./ports/fzf)
 - [bat](./ports/bat)
