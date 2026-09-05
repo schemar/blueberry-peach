@@ -32,13 +32,13 @@
           <key>accent</key>
           <string>#A19DD4</string>
           <key>selection</key>
-          <string>#7D7D7D4d</string>
+          <string>#7C79924d</string>
           <key>activeGuide</key>
           <string>#353144</string>
           <key>findHighlight</key>
           <string>#353144</string>
           <key>gutterForeground</key>
-          <string>#808084</string>
+          <string>#7C7992</string>
         </dict>
       </dict>
       <dict>
@@ -60,7 +60,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#7D7D7D</string>
+          <string>#7C7992</string>
           <key>fontStyle</key>
           <string/>
         </dict>
@@ -1228,7 +1228,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#7D7D7D</string>
+          <string>#7C7992</string>
         </dict>
       </dict>
       <dict>

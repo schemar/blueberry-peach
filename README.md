@@ -94,27 +94,6 @@ Check the [ports](#ports) below for installation instructions.
       <td><code>#878794</code></td>
     </tr>
     <tr>
-      <td>overlay2</td>
-      <td><img valign='middle' src="./assets/light_overlay2.svg" /></td>
-      <td><code>#857F79</code></td>
-      <td><img valign='middle' src="./assets/dark_overlay2.svg" /></td>
-      <td><code>#7D7D7D</code></td>
-    </tr>
-    <tr>
-      <td>overlay1</td>
-      <td><img valign='middle' src="./assets/light_overlay1.svg" /></td>
-      <td><code>#8A847D</code></td>
-      <td><img valign='middle' src="./assets/dark_overlay1.svg" /></td>
-      <td><code>#808084</code></td>
-    </tr>
-    <tr>
-      <td>overlay0</td>
-      <td><img valign='middle' src="./assets/light_overlay0.svg" /></td>
-      <td><code>#8F8982</code></td>
-      <td><img valign='middle' src="./assets/dark_overlay0.svg" /></td>
-      <td><code>#84848C</code></td>
-    </tr>
-    <tr>
       <td>dimmed</td>
       <td><img valign='middle' src="./assets/light_dimmed.svg" /></td>
       <td><code>#8B6E6E</code></td>

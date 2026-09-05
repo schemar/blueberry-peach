@@ -28,7 +28,7 @@ foreground = '{{text}}'
 scrollbar_thumb = '{{dimmed}}'
 selection_bg = '{{surface1}}'
 selection_fg = '{{text}}'
-split = '{{overlay0}}'
+split = '{{dimmed}}'
 visual_bell = '{{surface1}}'
 
 [colors.indexed]

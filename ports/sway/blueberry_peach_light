@@ -8,9 +8,6 @@ set $bp_violet #6F58A2
 set $bp_pink #A5407B
 set $bp_text #6B635C
 set $bp_subtext #746E68
-set $bp_overlay2 #857F79
-set $bp_overlay1 #8A847D
-set $bp_overlay0 #8F8982
 set $bp_dimmed #8B6E6E
 set $bp_surface2 #F3E2D3
 set $bp_surface1 #F3E2D3

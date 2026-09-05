@@ -28,7 +28,7 @@ foreground = '#A2A2A9'
 scrollbar_thumb = '#7C7992'
 selection_bg = '#353144'
 selection_fg = '#A2A2A9'
-split = '#84848C'
+split = '#7C7992'
 visual_bell = '#353144'
 
 [colors.indexed]

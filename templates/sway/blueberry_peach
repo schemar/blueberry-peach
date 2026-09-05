@@ -8,9 +8,6 @@ set $bp_violet {{violet}}
 set $bp_pink {{pink}}
 set $bp_text {{text}}
 set $bp_subtext {{subtext}}
-set $bp_overlay2 {{overlay2}}
-set $bp_overlay1 {{overlay1}}
-set $bp_overlay0 {{overlay0}}
 set $bp_dimmed {{dimmed}}
 set $bp_surface2 {{surface1}}
 set $bp_surface1 {{surface1}}

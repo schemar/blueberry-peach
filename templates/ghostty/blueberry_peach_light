@@ -20,4 +20,4 @@ cursor-color = {{violet}}
 cursor-text = {{surface0}}
 selection-background = {{surface1}}
 selection-foreground = {{text}}
-split-divider-color = {{overlay0}}
+split-divider-color = {{dimmed}}
