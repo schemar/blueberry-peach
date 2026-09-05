@@ -33,14 +33,14 @@ Check the [ports](#ports) below for installation instructions.
     <tr>
       <td>orange</td>
       <td><img valign='middle' src="./assets/light_orange.svg" /></td>
-      <td><code>#9A5518</code></td>
+      <td><code>#A7491B</code></td>
       <td><img valign='middle' src="./assets/dark_orange.svg" /></td>
       <td><code>#C79A76</code></td>
     </tr>
     <tr>
       <td>yellow</td>
       <td><img valign='middle' src="./assets/light_yellow.svg" /></td>
-      <td><code>#807000</code></td>
+      <td><code>#8A5C05</code></td>
       <td><img valign='middle' src="./assets/dark_yellow.svg" /></td>
       <td><code>#C7B96F</code></td>
     </tr>
@@ -82,14 +82,14 @@ Check the [ports](#ports) below for installation instructions.
     <tr>
       <td>text</td>
       <td><img valign='middle' src="./assets/light_text.svg" /></td>
-      <td><code>#6F6358</code></td>
+      <td><code>#6B635C</code></td>
       <td><img valign='middle' src="./assets/dark_text.svg" /></td>
       <td><code>#A0A1B6</code></td>
     </tr>
     <tr>
       <td>subtext</td>
       <td><img valign='middle' src="./assets/light_subtext.svg" /></td>
-      <td><code>#746A5D</code></td>
+      <td><code>#6D675F</code></td>
       <td><img valign='middle' src="./assets/dark_subtext.svg" /></td>
       <td><code>#8D8DA5</code></td>
     </tr>

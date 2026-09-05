@@ -1,13 +1,13 @@
 return {
   command = {
     a = {
-      bg = "#9A5518",
+      bg = "#A7491B",
       fg = "#FAF4ED",
       gui = "bold"
     },
     b = {
       bg = "#F3E2D3",
-      fg = "#9A5518"
+      fg = "#A7491B"
     }
   },
   inactive = {
@@ -48,7 +48,7 @@ return {
     },
     c = {
       bg = "#FEFDFB",
-      fg = "#6F6358"
+      fg = "#6B635C"
     }
   },
   replace = {

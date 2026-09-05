@@ -1,13 +1,13 @@
 set $bp_red #B43B3E
-set $bp_yellow #807000
-set $bp_orange #9A5518
+set $bp_yellow #8A5C05
+set $bp_orange #A7491B
 set $bp_green #247500
 set $bp_teal #017468
 set $bp_blue #2169A6
 set $bp_violet #6F58A2
 set $bp_pink #A5407B
-set $bp_text #6F6358
-set $bp_subtext #746A5D
+set $bp_text #6B635C
+set $bp_subtext #6D675F
 set $bp_dimmed #8B6E6E
 set $bp_surface2 #F3E2D3
 set $bp_surface1 #F3E2D3
