@@ -5,223 +5,129 @@ package.path = package.path .. ";./?.lua"
 
 local blueberry_peach_light = require("scripts.lua.light")
 local blueberry_peach_dark = require("scripts.lua.dark")
-local map_blueberry_peach_to_catppuccin = require("scripts.lua.map_blueberry_peach_catppuccin")
 
 -- NeoVim is built from catppuccin directly in a separate build file.
-local template_files = {
+local ports = {
   {
-    source = "./templates/bat/blueberry_peach.tmTheme",
-    target = "./ports/bat/blueberry_peach_light.tmTheme",
-    colors = blueberry_peach_light,
+    template = "./templates/bat/blueberry_peach.tmTheme",
+    dark = "./ports/bat/blueberry_peach_dark.tmTheme",
+    light = "./ports/bat/blueberry_peach_light.tmTheme",
   },
   {
-    source = "./templates/fuzzel/blueberry_peach.ini",
-    target = "./ports/fuzzel/blueberry_peach_light.ini",
-    colors = blueberry_peach_light,
+    template = "./templates/fuzzel/blueberry_peach.ini",
+    dark = "./ports/fuzzel/blueberry_peach_dark.ini",
+    light = "./ports/fuzzel/blueberry_peach_light.ini",
     value_transform = function(value)
       -- Lowercase hex; remove leading #
       return string.sub(string.lower(value), 2)
     end,
   },
   {
-    source = "./templates/fzf/blueberry_peach.sh",
-    target = "./ports/fzf/blueberry_peach_light-fzf-colors.sh",
-    colors = blueberry_peach_light,
+    template = "./templates/fzf/blueberry_peach.sh",
+    dark = "./ports/fzf/blueberry_peach_dark-fzf-colors.sh",
+    light = "./ports/fzf/blueberry_peach_light-fzf-colors.sh",
   },
   {
-    source = "./templates/ghostty/blueberry_peach_light",
-    target = "./ports/ghostty/blueberry_peach_light",
-    colors = blueberry_peach_light,
+    template = "./templates/ghostty/blueberry_peach",
+    dark = "./ports/ghostty/blueberry_peach_dark",
+    light = "./ports/ghostty/blueberry_peach_light",
   },
   {
-    source = "./templates/helix/blueberry_peach.toml",
-    target = "./ports/helix/blueberry_peach_light.toml",
-    colors = blueberry_peach_light,
+    template = "./templates/helix/blueberry_peach.toml",
+    dark = "./ports/helix/blueberry_peach_dark.toml",
+    light = "./ports/helix/blueberry_peach_light.toml",
   },
   {
-    source = "./templates/lazygit/blueberry_peach.yml",
-    target = "./ports/lazygit/blueberry_peach_light.yml",
-    colors = blueberry_peach_light,
+    template = "./templates/lazygit/blueberry_peach.yml",
+    dark = "./ports/lazygit/blueberry_peach_dark.yml",
+    light = "./ports/lazygit/blueberry_peach_light.yml",
   },
   {
-    source = "./templates/mako/blueberry_peach",
-    target = "./ports/mako/blueberry_peach_light",
-    colors = blueberry_peach_light,
+    template = "./templates/mako/blueberry_peach",
+    dark = "./ports/mako/blueberry_peach_dark",
+    light = "./ports/mako/blueberry_peach_light",
   },
   {
-    source = "./templates/sway/blueberry_peach",
-    target = "./ports/sway/blueberry_peach_light",
-    colors = blueberry_peach_light,
+    template = "./templates/sway/blueberry_peach",
+    dark = "./ports/sway/blueberry_peach_dark",
+    light = "./ports/sway/blueberry_peach_light",
   },
   {
-    source = "./templates/swaylock/blueberry_peach.conf",
-    target = "./ports/swaylock/blueberry_peach_light.conf",
-    colors = blueberry_peach_light,
+    template = "./templates/swaylock/blueberry_peach.conf",
+    dark = "./ports/swaylock/blueberry_peach_dark.conf",
+    light = "./ports/swaylock/blueberry_peach_light.conf",
     value_transform = function(value)
       -- Lowercase hex; remove leading #
       return string.sub(string.lower(value), 2)
     end,
   },
   {
-    source = "./templates/tmux/blueberry_peach.conf",
-    target = "./ports/tmux/blueberry_peach_light.conf",
-    colors = blueberry_peach_light,
+    template = "./templates/tmux/blueberry_peach.conf",
+    dark = "./ports/tmux/blueberry_peach_dark.conf",
+    light = "./ports/tmux/blueberry_peach_light.conf",
   },
   {
-    source = "./templates/wezterm/blueberry_peach.toml",
-    target = "./ports/wezterm/blueberry_peach_light.toml",
-    colors = blueberry_peach_light,
+    template = "./templates/waybar/blueberry_peach.css",
+    dark = "./ports/waybar/blueberry_peach_dark.css",
+    light = "./ports/waybar/blueberry_peach_light.css",
   },
   {
-    source = "./templates/zsh_syntax_highlighting/blueberry_peach.sh",
-    target = "./ports/zsh_syntax_highlighting/blueberry_peach_light-syntax-highlighting.sh",
-    colors = blueberry_peach_light,
+    template = "./templates/wezterm/blueberry_peach.toml",
+    dark = "./ports/wezterm/blueberry_peach_dark.toml",
+    light = "./ports/wezterm/blueberry_peach_light.toml",
   },
   {
-    source = "./templates/zsh_helix_mode/blueberry_peach.sh",
-    target = "./ports/zsh_helix_mode/blueberry_peach_light-helix-mode.sh",
-    colors = blueberry_peach_light,
+    template = "./templates/windows_terminal/blueberry_peach.json",
+    dark = "./ports/windows_terminal/blueberry_peach_dark.json",
+    light = "./ports/windows_terminal/blueberry_peach_light.json",
   },
   {
-    source = "./templates/waybar/blueberry_peach.css",
-    target = "./ports/waybar/blueberry_peach_light.css",
-    colors = blueberry_peach_light,
+    template = "./templates/yazi/blueberry_peach.toml",
+    dark = "./ports/yazi/blueberry-peach-dark.yazi/flavor.toml",
+    light = "./ports/yazi/blueberry-peach-light.yazi/flavor.toml",
   },
   {
-    source = "./templates/windows_terminal/blueberry_peach.json",
-    target = "./ports/windows_terminal/blueberry_peach_light.json",
-    colors = blueberry_peach_light,
+    template = "./templates/zsh_syntax_highlighting/blueberry_peach.sh",
+    dark = "./ports/zsh_syntax_highlighting/blueberry_peach_dark-syntax-highlighting.sh",
+    light = "./ports/zsh_syntax_highlighting/blueberry_peach_light-syntax-highlighting.sh",
   },
   {
-    source = "./templates/yazi/blueberry_peach.toml",
-    target = "./ports/yazi/blueberry-peach-light.yazi/flavor.toml",
-    colors = blueberry_peach_light,
-  },
-  {
-    source = "./templates/bat/blueberry_peach.tmTheme",
-    target = "./ports/yazi/blueberry-peach-light.yazi/tmtheme.xml",
-    colors = blueberry_peach_light,
-  },
-  {
-    source = "./templates/fuzzel/blueberry_peach.ini",
-    target = "./ports/fuzzel/blueberry_peach_dark.ini",
-    colors = blueberry_peach_dark,
-    value_transform = function(value)
-      -- Lowercase hex; remove leading #
-      return string.sub(string.lower(value), 2)
-    end,
-  },
-  {
-    source = "./templates/bat/blueberry_peach.tmTheme",
-    target = "./ports/bat/blueberry_peach_dark.tmTheme",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/fzf/blueberry_peach.sh",
-    target = "./ports/fzf/blueberry_peach_dark-fzf-colors.sh",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/ghostty/blueberry_peach_dark",
-    target = "./ports/ghostty/blueberry_peach_dark",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/helix/blueberry_peach.toml",
-    target = "./ports/helix/blueberry_peach_dark.toml",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/lazygit/blueberry_peach.yml",
-    target = "./ports/lazygit/blueberry_peach_dark.yml",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/mako/blueberry_peach",
-    target = "./ports/mako/blueberry_peach_dark",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/sway/blueberry_peach",
-    target = "./ports/sway/blueberry_peach_dark",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/swaylock/blueberry_peach.conf",
-    target = "./ports/swaylock/blueberry_peach_dark.conf",
-    colors = blueberry_peach_dark,
-    value_transform = function(value)
-      -- Lowercase hex; remove leading #
-      return string.sub(string.lower(value), 2)
-    end,
-  },
-  {
-    source = "./templates/tmux/blueberry_peach.conf",
-    target = "./ports/tmux/blueberry_peach_dark.conf",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/wezterm/blueberry_peach.toml",
-    target = "./ports/wezterm/blueberry_peach_dark.toml",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/windows_terminal/blueberry_peach.json",
-    target = "./ports/windows_terminal/blueberry_peach_dark.json",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/waybar/blueberry_peach.css",
-    target = "./ports/waybar/blueberry_peach_dark.css",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/zsh_syntax_highlighting/blueberry_peach.sh",
-    target = "./ports/zsh_syntax_highlighting/blueberry_peach_dark-syntax-highlighting.sh",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/zsh_helix_mode/blueberry_peach.sh",
-    target = "./ports/zsh_helix_mode/blueberry_peach_dark-helix-mode.sh",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/yazi/blueberry_peach.toml",
-    target = "./ports/yazi/blueberry-peach-dark.yazi/flavor.toml",
-    colors = blueberry_peach_dark,
-  },
-  {
-    source = "./templates/bat/blueberry_peach.tmTheme",
-    target = "./ports/yazi/blueberry-peach-dark.yazi/tmtheme.xml",
-    colors = blueberry_peach_dark,
+    template = "./templates/zsh_helix_mode/blueberry_peach.sh",
+    dark = "./ports/zsh_helix_mode/blueberry_peach_dark-helix-mode.sh",
+    light = "./ports/zsh_helix_mode/blueberry_peach_light-helix-mode.sh",
   },
 }
 
--- Replaces based on catppuccin names in templates:
-for _, template_file in pairs(template_files) do
-  local file = io.open(template_file.source, "r")
-  if file == nil then
-    print("Error: Could not open source file " .. template_file.source)
-    return
-  end
-
-  local content = file:read("*all")
-  file:close()
-
-  local value_transform = template_file.value_transform or function(value)
-    return value
-  end
-  for key, value in pairs(template_file.colors) do
+local function write_port(content, target, colors, value_transform)
+  for key, value in pairs(colors) do
     content = content:gsub("{{" .. key .. "}}", value_transform(value))
   end
 
-  file = io.open(template_file.target, "w")
-  if file == nil then
-    print("Error: Could not open target file " .. template_file.target)
+  local target_file = io.open(target, "w")
+  if target_file == nil then
+    print("Error: Could not open target file " .. target_file)
     return
   end
-  file:write(content)
-  file:close()
+  target_file:write(content)
+  target_file:close()
+end
+
+-- Replaces based on catppuccin names in templates:
+for _, port in pairs(ports) do
+  local template = io.open(port.template, "r")
+  if template == nil then
+    print("Error: Could not open template file " .. port.template)
+    return
+  end
+  local content = template:read("*all")
+  template:close()
+
+  local value_transform = port.value_transform or function(value)
+    return value
+  end
+
+  write_port(content, port.dark, blueberry_peach_dark, value_transform)
+  write_port(content, port.light, blueberry_peach_light, value_transform)
 end
 
 --
@@ -230,14 +136,18 @@ end
 
 local file = io.open("./templates/svg/swatch.svg")
 if file == nil then
-  print("Error: Could not open source file ./templates/svg/swatch.svg")
+  print("Error: Could not open template file ./templates/svg/swatch.svg")
   return
 end
 
 local content = file:read("*all")
 file:close()
 
-for blueberry_color, _ in pairs(map_blueberry_peach_to_catppuccin) do
+-- `blueberry_peach_light` just to get the names, will actually do light and dark:
+for blueberry_color, _ in pairs(blueberry_peach_light) do
+  if blueberry_color == "id" or blueberry_color == "name" then
+    goto continue
+  end
   local svg = content:gsub("{{color}}", blueberry_peach_light[blueberry_color])
   file = io.open("./assets/light_" .. blueberry_color .. ".svg", "w")
   if file == nil then
@@ -255,4 +165,6 @@ for blueberry_color, _ in pairs(map_blueberry_peach_to_catppuccin) do
   end
   file:write(svg)
   file:close()
+
+  ::continue::
 end
