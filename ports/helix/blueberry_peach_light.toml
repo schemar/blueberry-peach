@@ -84,9 +84,9 @@
   "bold",
 ] }
 
-"ui.popup" = { fg = "text", bg = "surface1" }
+"ui.popup" = { fg = "text", bg = "surface0" }
 "ui.window" = { fg = "surface0" }
-"ui.help" = { fg = "text", bg = "surface1" }
+"ui.help" = { fg = "text", bg = "surface0" }
 
 "ui.bufferline" = { fg = "subtext", bg = "surface0" }
 "ui.bufferline.active" = { fg = "violet", bg = "surface1", underline = { color = "violet", style = "line" } }
