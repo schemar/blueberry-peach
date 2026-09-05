@@ -16,7 +16,7 @@ gui:
     optionsTextColor:
       - "#7AA8CE"
     searchingActiveBorderColor:
-      - "#C7B96F"
+      - "#B4A25A"
     selectedLineBgColor:
       - "#353144"
     unstagedChangesColor:

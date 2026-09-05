@@ -42,7 +42,7 @@ Check the [ports](#ports) below for installation instructions.
       <td><img valign='middle' src="./assets/light_yellow.svg" /></td>
       <td><code>#8A5C05</code></td>
       <td><img valign='middle' src="./assets/dark_yellow.svg" /></td>
-      <td><code>#C7B96F</code></td>
+      <td><code>#B4A25A</code></td>
     </tr>
     <tr>
       <td>green</td>

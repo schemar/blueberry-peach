@@ -44,13 +44,13 @@ ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]='fg=#DF8BA0'
 ## Serializable / Configuration Languages
 ## Storage
 ## Strings
-ZSH_HIGHLIGHT_STYLES[command-substitution-quoted]='fg=#C7B96F'
-ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-quoted]='fg=#C7B96F'
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=#C7B96F'
+ZSH_HIGHLIGHT_STYLES[command-substitution-quoted]='fg=#B4A25A'
+ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-quoted]='fg=#B4A25A'
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=#B4A25A'
 ZSH_HIGHLIGHT_STYLES[single-quoted-argument-unclosed]='fg=#DF8BA0'
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=#C7B96F'
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=#B4A25A'
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]='fg=#DF8BA0'
-ZSH_HIGHLIGHT_STYLES[rc-quote]='fg=#C7B96F'
+ZSH_HIGHLIGHT_STYLES[rc-quote]='fg=#B4A25A'
 ## Variables
 ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]='fg=#A0A1B6'
 ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument-unclosed]='fg=#DF8BA0'

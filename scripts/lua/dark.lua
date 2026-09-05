@@ -1,7 +1,7 @@
 return {
   red = "#DF8BA0",
   orange = "#C79A76",
-  yellow = "#C7B96F",
+  yellow = "#B4A25A",
   green = "#75B087",
   teal = "#5EB1AF",
   blue = "#7AA8CE",
