@@ -5,7 +5,7 @@
   "selectionBackground": "#353144",
 
   "background": "#191724",
-  "foreground": "#A2A2A9",
+  "foreground": "#A0A1B6",
 
   "black": "#353144",
   "blue": "#7AA8CE",
@@ -13,14 +13,14 @@
   "green": "#75B087",
   "purple": "#A19DD4",
   "red": "#DF8BA0",
-  "white": "#878794",
+  "white": "#8D8DA5",
   "yellow": "#C7B96F",
-  "brightBlack": "#7C7992",
+  "brightBlack": "#838098",
   "brightBlue": "#7AA8CE",
   "brightCyan": "#5EB1AF",
   "brightGreen": "#75B087",
   "brightPurple": "#A19DD4",
   "brightRed": "#DF8BA0",
-  "brightWhite": "#878794",
+  "brightWhite": "#8D8DA5",
   "brightYellow": "#C7B96F"
 }

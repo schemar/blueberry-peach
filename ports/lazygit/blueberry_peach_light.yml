@@ -10,9 +10,9 @@ gui:
     cherryPickedCommitFgColor:
       - "#6F58A2"
     defaultFgColor:
-      - "#6B635C"
+      - "#6F6358"
     inactiveBorderColor:
-      - "#746E68"
+      - "#746A5D"
     optionsTextColor:
       - "#2169A6"
     searchingActiveBorderColor:

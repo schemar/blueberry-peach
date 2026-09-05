@@ -6,9 +6,9 @@ set $bp_teal #5EB1AF
 set $bp_blue #7AA8CE
 set $bp_violet #A19DD4
 set $bp_pink #C394C2
-set $bp_text #A2A2A9
-set $bp_subtext #878794
-set $bp_dimmed #7C7992
+set $bp_text #A0A1B6
+set $bp_subtext #8D8DA5
+set $bp_dimmed #838098
 set $bp_surface2 #353144
 set $bp_surface1 #353144
 set $bp_background #191724

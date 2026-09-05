@@ -22,7 +22,7 @@ return {
     },
     c = {
       bg = "#08090C",
-      fg = "#7C7992"
+      fg = "#838098"
     }
   },
   insert = {
@@ -48,7 +48,7 @@ return {
     },
     c = {
       bg = "#08090C",
-      fg = "#A2A2A9"
+      fg = "#A0A1B6"
     }
   },
   replace = {

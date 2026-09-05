@@ -14,7 +14,7 @@ typeset -gA ZSH_HIGHLIGHT_STYLES
 ### Markup
 ## Classes
 ## Comments
-ZSH_HIGHLIGHT_STYLES[comment]='fg=#7C7992'
+ZSH_HIGHLIGHT_STYLES[comment]='fg=#838098'
 ## Constants
 ## Entitites
 ## Functions/methods
@@ -35,9 +35,9 @@ ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=#75B087'
 ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=#75B087'
 ## Punctuation
 ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=#DF8BA0'
-ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-unquoted]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[process-substitution-delimiter]='fg=#A2A2A9'
+ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[command-substitution-delimiter-unquoted]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[process-substitution-delimiter]='fg=#A0A1B6'
 ZSH_HIGHLIGHT_STYLES[back-quoted-argument-delimiter]='fg=#DF8BA0'
 ZSH_HIGHLIGHT_STYLES[back-double-quoted-argument]='fg=#DF8BA0'
 ZSH_HIGHLIGHT_STYLES[back-dollar-quoted-argument]='fg=#DF8BA0'
@@ -52,29 +52,29 @@ ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=#C7B96F'
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]='fg=#DF8BA0'
 ZSH_HIGHLIGHT_STYLES[rc-quote]='fg=#C7B96F'
 ## Variables
-ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]='fg=#A2A2A9'
+ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument]='fg=#A0A1B6'
 ZSH_HIGHLIGHT_STYLES[dollar-quoted-argument-unclosed]='fg=#DF8BA0'
-ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[assign]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[named-fd]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[numeric-fd]='fg=#A2A2A9'
+ZSH_HIGHLIGHT_STYLES[dollar-double-quoted-argument]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[assign]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[named-fd]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[numeric-fd]='fg=#A0A1B6'
 ## No category relevant in spec
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#DF8BA0'
-ZSH_HIGHLIGHT_STYLES[path]='fg=#A2A2A9,underline'
+ZSH_HIGHLIGHT_STYLES[path]='fg=#A0A1B6,underline'
 ZSH_HIGHLIGHT_STYLES[path_pathseparator]='fg=#DF8BA0,underline'
-ZSH_HIGHLIGHT_STYLES[path_prefix]='fg=#A2A2A9,underline'
+ZSH_HIGHLIGHT_STYLES[path_prefix]='fg=#A0A1B6,underline'
 ZSH_HIGHLIGHT_STYLES[path_prefix_pathseparator]='fg=#DF8BA0,underline'
-ZSH_HIGHLIGHT_STYLES[globbing]='fg=#A2A2A9'
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=#A0A1B6'
 ZSH_HIGHLIGHT_STYLES[history-expansion]='fg=#A19DD4'
 #ZSH_HIGHLIGHT_STYLES[command-substitution]='fg=?'
 #ZSH_HIGHLIGHT_STYLES[command-substitution-unquoted]='fg=?'
 #ZSH_HIGHLIGHT_STYLES[process-substitution]='fg=?'
 #ZSH_HIGHLIGHT_STYLES[arithmetic-expansion]='fg=?'
 ZSH_HIGHLIGHT_STYLES[back-quoted-argument-unclosed]='fg=#DF8BA0'
-ZSH_HIGHLIGHT_STYLES[redirection]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[arg0]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[default]='fg=#A2A2A9'
-ZSH_HIGHLIGHT_STYLES[cursor]='fg=#A2A2A9'
+ZSH_HIGHLIGHT_STYLES[redirection]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[arg0]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[default]='fg=#A0A1B6'
+ZSH_HIGHLIGHT_STYLES[cursor]='fg=#A0A1B6'
 
 # MIT License
 # 

@@ -48,7 +48,7 @@ return {
     },
     c = {
       bg = "#FEFDFB",
-      fg = "#6B635C"
+      fg = "#6F6358"
     }
   },
   replace = {

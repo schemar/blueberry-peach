@@ -6,8 +6,8 @@ set $bp_teal #017468
 set $bp_blue #2169A6
 set $bp_violet #6F58A2
 set $bp_pink #A5407B
-set $bp_text #6B635C
-set $bp_subtext #746E68
+set $bp_text #6F6358
+set $bp_subtext #746A5D
 set $bp_dimmed #8B6E6E
 set $bp_surface2 #F3E2D3
 set $bp_surface1 #F3E2D3
