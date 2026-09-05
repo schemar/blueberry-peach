@@ -75,13 +75,13 @@ return {
   },
   visual = {
     a = {
-      bg = "#A19DD4",
+      bg = "#A69CD9",
       fg = "#191724",
       gui = "bold"
     },
     b = {
       bg = "#353144",
-      fg = "#A19DD4"
+      fg = "#A69CD9"
     }
   }
 }

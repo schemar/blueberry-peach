@@ -4,7 +4,7 @@ set $bp_orange #C79A76
 set $bp_green #75B087
 set $bp_teal #5EB1AF
 set $bp_blue #7AA8CE
-set $bp_violet #A19DD4
+set $bp_violet #A69CD9
 set $bp_pink #C394C2
 set $bp_text #A0A1B6
 set $bp_subtext #8D8DA5

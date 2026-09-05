@@ -5,7 +5,7 @@ return {
   green = "#75B087",
   teal = "#5EB1AF",
   blue = "#7AA8CE",
-  violet = "#A19DD4",
+  violet = "#A69CD9",
   pink = "#C394C2",
   text = "#A0A1B6",
   subtext = "#8D8DA5",

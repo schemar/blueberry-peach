@@ -1,14 +1,14 @@
 gui:
   theme:
     activeBorderColor:
-      - "#A19DD4"
+      - "#A69CD9"
       - bold
     authorColors:
-      "*": "#A19DD4"
+      "*": "#A69CD9"
     cherryPickedCommitBgColor:
       - "#353144"
     cherryPickedCommitFgColor:
-      - "#A19DD4"
+      - "#A69CD9"
     defaultFgColor:
       - "#A0A1B6"
     inactiveBorderColor:
