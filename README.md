@@ -82,23 +82,23 @@ Check the [ports](#ports) below for installation instructions.
     <tr>
       <td>text</td>
       <td><img valign='middle' src="./assets/light_text.svg" /></td>
-      <td><code>#6B635C</code></td>
+      <td><code>#6F6358</code></td>
       <td><img valign='middle' src="./assets/dark_text.svg" /></td>
-      <td><code>#A2A2A9</code></td>
+      <td><code>#A0A1B6</code></td>
     </tr>
     <tr>
       <td>subtext</td>
       <td><img valign='middle' src="./assets/light_subtext.svg" /></td>
-      <td><code>#746E68</code></td>
+      <td><code>#746A5D</code></td>
       <td><img valign='middle' src="./assets/dark_subtext.svg" /></td>
-      <td><code>#878794</code></td>
+      <td><code>#8D8DA5</code></td>
     </tr>
     <tr>
       <td>dimmed</td>
       <td><img valign='middle' src="./assets/light_dimmed.svg" /></td>
       <td><code>#8B6E6E</code></td>
       <td><img valign='middle' src="./assets/dark_dimmed.svg" /></td>
-      <td><code>#7C7992</code></td>
+      <td><code>#838098</code></td>
     </tr>
     <tr>
       <td>surface1</td>
