@@ -4,34 +4,34 @@ overall = { bg = "{{background}}" }
 [mgr]
 cwd = { fg = "{{teal}}" }
 
-find_keyword  = { fg = "{{yellow}}", italic = true }
+find_keyword = { fg = "{{subtext}}", italic = true, bold = true }
 find_position = { fg = "{{violet}}", bg = "reset", italic = true }
 
-marker_copied   = { fg = "{{green}}", bg = "{{green}}" }
-marker_cut      = { fg = "{{red}}", bg = "{{red}}" }
-marker_marked   = { fg = "{{teal}}", bg = "{{teal}}" }
+marker_copied = { fg = "{{green}}", bg = "{{green}}" }
+marker_cut = { fg = "{{red}}", bg = "{{red}}" }
+marker_marked = { fg = "{{teal}}", bg = "{{teal}}" }
 marker_selected = { fg = "{{violet}}", bg = "{{violet}}" }
 
-count_copied   = { fg = "{{background}}", bg = "{{green}}" }
-count_cut      = { fg = "{{background}}", bg = "{{red}}" }
+count_copied = { fg = "{{background}}", bg = "{{green}}" }
+count_cut = { fg = "{{background}}", bg = "{{red}}" }
 count_selected = { fg = "{{background}}", bg = "{{violet}}" }
 
 border_symbol = "│"
-border_style  = { fg = "{{overlay1}}" }
+border_style = { fg = "{{overlay1}}" }
 
 [tabs]
-active   = { fg = "{{background}}", bg = "{{text}}", bold = true }
-inactive = { fg = "{{text}}", bg = "{{surface1}}" }
+active = { fg = "{{background}}", bg = "{{text}}", bold = true }
+inactive = { fg = "{{text}}", bg = "{{surface0}}" }
 
 [mode]
 normal_main = { fg = "{{background}}", bg = "{{violet}}", bold = true }
-normal_alt  = { fg = "{{violet}}", bg = "{{surface1}}"}
+normal_alt = { fg = "{{violet}}", bg = "{{surface1}}" }
 
 select_main = { fg = "{{background}}", bg = "{{green}}", bold = true }
-select_alt  = { fg = "{{green}}", bg = "{{surface1}}"}
+select_alt = { fg = "{{green}}", bg = "{{surface1}}" }
 
-unset_main  = { fg = "{{background}}", bg = "{{pink}}", bold = true }
-unset_alt   = { fg = "{{pink}}", bg = "{{surface1}}"}
+unset_main = { fg = "{{background}}", bg = "{{pink}}", bold = true }
+unset_alt = { fg = "{{pink}}", bg = "{{surface1}}" }
 
 [indicator]
 parent = { fg = "{{background}}", bg = "{{text}}" }
@@ -39,64 +39,64 @@ current = { fg = "{{background}}", bg = "{{violet}}" }
 preview = { fg = "{{background}}", bg = "{{text}}" }
 
 [status]
-sep_left  = { open = "", close = "" }
+sep_left = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
-progress_label  = { fg = "#ffffff", bold = true }
+progress_label = { fg = "#ffffff", bold = true }
 progress_normal = { fg = "{{green}}", bg = "{{surface1}}" }
-progress_error  = { fg = "{{yellow}}", bg = "{{red}}" }
+progress_error = { fg = "{{yellow}}", bg = "{{red}}" }
 
-perm_type  = { fg = "{{blue}}" }
-perm_read  = { fg = "{{yellow}}" }
+perm_type = { fg = "{{blue}}" }
+perm_read = { fg = "{{yellow}}" }
 perm_write = { fg = "{{red}}" }
-perm_exec  = { fg = "{{green}}" }
-perm_sep   = { fg = "{{overlay1}}" }
+perm_exec = { fg = "{{green}}" }
+perm_sep = { fg = "{{overlay1}}" }
 
 [input]
-border   = { fg = "{{violet}}" }
-title    = {}
-value    = {}
+border = { fg = "{{violet}}" }
+title = {}
+value = {}
 selected = { reversed = true }
 
 [pick]
-border   = { fg = "{{violet}}" }
-active   = { fg = "{{violet}}" }
+border = { fg = "{{violet}}" }
+active = { fg = "{{violet}}" }
 inactive = {}
 
 [confirm]
-border     = { fg = "{{violet}}" }
-title      = { fg = "{{violet}}" }
-body       = {}
-list       = {}
-btn_yes    = { reversed = true }
-btn_no     = {}
+border = { fg = "{{violet}}" }
+title = { fg = "{{violet}}" }
+body = {}
+list = {}
+btn_yes = { reversed = true }
+btn_no = {}
 
 [cmp]
 border = { fg = "{{violet}}" }
 
 [tasks]
-border  = { fg = "{{violet}}" }
-title   = {}
+border = { fg = "{{violet}}" }
+title = {}
 hovered = { fg = "{{violet}}", bold = true }
 
 [which]
-mask            = { bg = "{{surface1}}" }
-cand            = { fg = "{{teal}}" }
-rest            = { fg = "{{overlay2}}" }
-desc            = { fg = "{{violet}}" }
-separator       = "  "
+mask = { bg = "{{surface1}}" }
+cand = { fg = "{{teal}}" }
+rest = { fg = "{{overlay2}}" }
+desc = { fg = "{{violet}}" }
+separator = "  "
 separator_style = { fg = "{{dimmed}}" }
 
 [help]
-on      = { fg = "{{teal}}" }
-run     = { fg = "{{violet}}" }
-desc    = { fg = "{{overlay2}}" }
+on = { fg = "{{teal}}" }
+run = { fg = "{{violet}}" }
+desc = { fg = "{{overlay2}}" }
 hovered = { bg = "{{dimmed}}", bold = true }
-footer  = { fg = "{{text}}", bg = "{{surface1}}" }
+footer = { fg = "{{text}}", bg = "{{surface1}}" }
 
 [notify]
-title_info  = { fg = "{{teal}}" }
-title_warn  = { fg = "{{yellow}}" }
+title_info = { fg = "{{teal}}" }
+title_warn = { fg = "{{yellow}}" }
 title_error = { fg = "{{red}}" }
 
 [filetype]
@@ -112,11 +112,11 @@ rules = [
 	{ mime = "application/{pdf,doc,rtf}", fg = "{{teal}}" },
 
 	# Virtual file system
-	{ mime = "vfs/{absent,stale}", fg = "{{surface1}}" },
+	{ mime = "vfs/{absent,stale}", fg = "{{dimmed}}" },
 
 	# Special file
 	{ url = "*", is = "orphan", bg = "{{red}}" },
-	{ url = "*", is = "exec"  , fg = "{{green}}" },
+	{ url = "*", is = "exec", fg = "{{green}}" },
 
 	# Dummy file
 	{ url = "*", is = "dummy", bg = "{{red}}" },
@@ -128,7 +128,7 @@ rules = [
 
 [spot]
 border = { fg = "{{violet}}" }
-title  = { fg = "{{violet}}" }
+title = { fg = "{{violet}}" }
 tbl_cell = { fg = "{{violet}}", reversed = true }
 tbl_col = { bold = true }
 
