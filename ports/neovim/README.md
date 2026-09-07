@@ -1,6 +1,6 @@
 # 🫐 Blueberry Peach NeoVim 🍑
 
-Handcrafted dark *and* light neovim color scheme with legibility and consistency in mind.
+Handcrafted dark _and_ light neovim color scheme with legibility and consistency in mind.
 
 > [!NOTE]
 > For palettes, other ports, contribution info, etc. see [blueberry-peach on GitHub](https://github.com/schemar/blueberry-peach).
@@ -25,16 +25,33 @@ Supports almost all integrations that catppuccin includes.
 
 ## Installation
 
-1. Clone blueberry peach
-2. Symlink the color scheme into neovim:
-   ```bash
-   mkdir -p ~/.local/share/nvim/site/pack/themes/start
-   ln -s /path/to/blueberry-peach.nvim/ports/neovim ~/.local/share/nvim/site/pack/themes/start/blueberry-peach
-   ```
+Install the plugin like any other plugin with your plugin manager of choice.
+
+Example with [lazy](https://github.com/folke/lazy.nvim):
+
+```lua
+{
+  "schemar/blueberry-peach.nvim",
+  lazy = false, -- make sure we load this during startup if it is your main colorscheme
+  priority = 1000, -- make sure to load this before all the other start plugins
+  config = function()
+    -- load the colorscheme here
+    vim.cmd([[colorscheme blueberry-peach]])
+  end,
+},
+```
+
+Example with [vim.pack](https://neovim.io/doc/user/pack/#vim.pack):
+
+```lua
+vim.pack.add({
+  'https://github.com/schemar/blueberry-peach.nvim',
+})
+```
 
 ## Usage
 
-1. Set the colorscheme in your `init.lua`:
+1. Set the colorscheme in your `init.lua` (if you haven't done so already in your package manager):
    ```lua
    vim.cmd([[colorscheme blueberry-peach]])
    ```
