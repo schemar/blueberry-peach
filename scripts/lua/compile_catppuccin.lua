@@ -12,7 +12,7 @@ M.setup = function(variant)
     local catppuccin_names_to_blueberry_peach_names = require("map_catppuccin_blueberry_peach")
     for catppuccin_name, blueberry_peach_name in pairs(catppuccin_names_to_blueberry_peach_names) do
       catppuccin_names_to_blueberry_peach_colors[catppuccin_name] =
-        blueberry_peach[blueberry_peach_name]
+          blueberry_peach[blueberry_peach_name]
     end
 
     return catppuccin_names_to_blueberry_peach_colors
@@ -33,12 +33,12 @@ M.setup = function(variant)
       IblIndent = { fg = colors.surface1 },
 
       -- surface1:
-      SignColumn = { fg = colors.surface2 }, -- column where |signs| are displayed
+      SignColumn = { fg = colors.surface2 },   -- column where |signs| are displayed
       SignColumnSB = { fg = colors.surface2 }, -- column where |signs| are displayed
 
-      LineNr = { fg = colors.surface2 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' o…
+      LineNr = { fg = colors.surface2 },       -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' o…
       TreesitterContextLineNumber = { fg = colors.surface2 },
-      CursorLineNr = { fg = colors.blue }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+      CursorLineNr = { fg = colors.blue },     -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
 
       DapUIUnavailable = { fg = colors.surface2 },
 
@@ -48,10 +48,10 @@ M.setup = function(variant)
       Whitespace = { fg = colors.surface2 },
       EndOfBuffer = { fg = colors.surface2 },
 
-      Pmenu = { bg = colors.mantle, fg = colors.overlay2 }, -- Popup menu: normal item.
+      Pmenu = { bg = colors.mantle, fg = colors.overlay2 },    -- Popup menu: normal item.
       PmenuSel = { bg = colors.surface1, style = { "bold" } }, -- Popup menu: selected item.
 
-      WinSeparator = { fg = colors.surface2 }, -- Separator between windows.
+      WinSeparator = { fg = colors.surface2 },                 -- Separator between windows.
 
       -- Comments are important:
       Comment = { fg = colors.teal, style = { "italic" } }, -- Any comment
@@ -176,15 +176,51 @@ M.compile = function(variant)
   _G.loadstring = orig
   assert(captured, "Failed to capture compiled theme")
 
+  -- Helper to produce identical output for every invocation.
+  -- The compiler serializes highlight tables with `pairs`, so the key order
+  -- inside `{ ... }` varies between runs. Sort the fields to make it stable.
+  local sort_fields = function(line)
+    -- Example line: h(0, "@comment.error", { bg = "#DF8BA0", fg = "#191724" })
+    -- Only substitute inside matching curly braces:
+    return (line:gsub("%b{}", function(literal)
+      local inner = literal:sub(2, -2)
+      -- Nested table, leave it alone, as sorting the string would destroy the
+      -- lua semantics:
+      if inner:find("[{}]") then
+        return literal
+      end
+
+      local fields = {}
+      -- Splitting by `,` is safe-enough, as keys and values do not contain
+      -- commas:
+      for field in inner:gmatch("[^,]+") do
+        field = vim.trim(field)
+        if field ~= "" then
+          fields[#fields + 1] = field
+        end
+      end
+      if #fields == 0 then
+        return literal
+      end
+
+      -- Sorting the fields (`'key = "value"'`) produces identical output for
+      -- every run:
+      table.sort(fields)
+
+      -- Rebuild the table with the fields (`'key = "value"'`)
+      return "{ " .. table.concat(fields, ", ") .. " }"
+    end))
+  end
+
   local lines = {}
   for _, line in ipairs(vim.split(captured, "\n")) do
     if
-      not line:match("vim%.o%.background")
-      and not line:match("colors_name")
-      and not line:match("return string%.dump%(function%(flavour%)")
-      and not line:match("end, true%)")
+        not line:match("vim%.o%.background")
+        and not line:match("colors_name")
+        and not line:match("return string%.dump%(function%(flavour%)")
+        and not line:match("end, true%)")
     then
-      lines[#lines + 1] = line
+      lines[#lines + 1] = sort_fields(line)
     end
   end
 
