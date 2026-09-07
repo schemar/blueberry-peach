@@ -112,59 +112,120 @@ local function write_port(content, target, colors, value_transform)
   target_file:close()
 end
 
--- Replaces based on catppuccin names in templates:
-for _, port in pairs(ports) do
-  local template = io.open(port.template, "r")
-  if template == nil then
-    print("Error: Could not open template file " .. port.template)
-    return
-  end
-  local content = template:read("*all")
-  template:close()
+local function update_ports()
+  for _, port in pairs(ports) do
+    local template = io.open(port.template, "r")
+    if template == nil then
+      print("Error: Could not open template file " .. port.template)
+      return
+    end
+    local content = template:read("*all")
+    template:close()
 
-  local value_transform = port.value_transform or function(value)
-    return value
-  end
+    local value_transform = port.value_transform or function(value)
+      return value
+    end
 
-  write_port(content, port.dark, blueberry_peach_dark, value_transform)
-  write_port(content, port.light, blueberry_peach_light, value_transform)
+    write_port(content, port.dark, blueberry_peach_dark, value_transform)
+    write_port(content, port.light, blueberry_peach_light, value_transform)
+  end
 end
 
---
--- SVGs in README:
---
-
-local file = io.open("./templates/svg/swatch.svg")
-if file == nil then
-  print("Error: Could not open template file ./templates/svg/swatch.svg")
-  return
-end
-
-local content = file:read("*all")
-file:close()
-
--- `blueberry_peach_light` just to get the names, will actually do light and dark:
-for blueberry_color, _ in pairs(blueberry_peach_light) do
-  if blueberry_color == "id" or blueberry_color == "name" then
-    goto continue
-  end
-  local svg = content:gsub("{{color}}", blueberry_peach_light[blueberry_color])
-  file = io.open("./assets/light_" .. blueberry_color .. ".svg", "w")
+local function update_svgs()
+  local file = io.open("./templates/svg/swatch.svg")
   if file == nil then
-    print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")
+    print("Error: Could not open template file ./templates/svg/swatch.svg")
     return
   end
-  file:write(svg)
+
+  local content = file:read("*all")
   file:close()
 
-  svg = content:gsub("{{color}}", blueberry_peach_dark[blueberry_color])
-  file = io.open("./assets/dark_" .. blueberry_color .. ".svg", "w")
-  if file == nil then
-    print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")
+  -- `blueberry_peach_light` just to get the names, will actually do light and dark:
+  for blueberry_color, _ in pairs(blueberry_peach_light) do
+    if blueberry_color == "id" or blueberry_color == "name" then
+      goto continue
+    end
+    local svg = content:gsub("{{color}}", blueberry_peach_light[blueberry_color])
+    file = io.open("./assets/light_" .. blueberry_color .. ".svg", "w")
+    if file == nil then
+      print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")
+      return
+    end
+    file:write(svg)
+    file:close()
+
+    svg = content:gsub("{{color}}", blueberry_peach_dark[blueberry_color])
+    file = io.open("./assets/dark_" .. blueberry_color .. ".svg", "w")
+    if file == nil then
+      print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")
+      return
+    end
+    file:write(svg)
+    file:close()
+
+    ::continue::
+  end
+end
+
+local function add_palette_table(output)
+  -- Use dense numerical keys to guarantee order:
+  -- (instead of iterating over for example `blueberry_peach_dark`)
+  for _, key in ipairs({ "red", "orange", "yellow", "green", "teal", "blue", "violet", "pink", "text", "subtext", "dimmed", "surface1", "background", "surface0" }) do
+    if key == "id" or key == "name" then goto continue end
+
+    output[#output + 1] = "    <tr>\n"
+    output[#output + 1] = ("      <td>{{key}}</td>\n"):gsub("{{key}}", key)
+    output[#output + 1] = ("      <td><img valign='middle' src=\"./assets/light_{{key}}.svg\" /></td>\n"):gsub("{{key}}",
+      key)
+    output[#output + 1] = ("      <td><code>{{value}}</code></td>\n"):gsub("{{value}}", blueberry_peach_light[key])
+    output[#output + 1] = ("      <td><img valign='middle' src=\"./assets/dark_{{key}}.svg\" /></td>\n"):gsub("{{key}}",
+      key)
+    output[#output + 1] = ("      <td><code>{{value}}</code></td>\n"):gsub("{{value}}", blueberry_peach_dark[key])
+    output[#output + 1] = "    </tr>\n"
+
+    ::continue::
+  end
+  return output
+end
+
+local function update_palette_table()
+  local readme_file = io.open("./README.md")
+  if readme_file == nil then
+    print("Error: Could not open README file ./README.md")
     return
   end
-  file:write(svg)
-  file:close()
 
-  ::continue::
+  local readme = readme_file:read("*all")
+  readme_file:close()
+
+  local is_inside_palette_block = false
+  local output = {}
+  for line in string.gmatch(readme, "[^\r\n]*[\r\n]?") do
+    if string.match(line, "<![-]+ END:palette_table [-]+>") ~= nil then
+      is_inside_palette_block = false
+      output = add_palette_table(output)
+    end
+
+    if not is_inside_palette_block then
+      output[#output + 1] = line
+    end
+
+    if string.match(line, "<![-]+ BEGIN:palette_table [-]+>") ~= nil then
+      -- print the comment first before disabling further output
+      is_inside_palette_block = true
+    end
+  end
+
+  readme_file = io.open("./README.md", "w")
+  if readme_file == nil then
+    print("Error: Could not open target file ./README.md")
+    return
+  end
+  readme_file:write(table.concat(output))
+  readme_file:close()
 end
+
+update_ports()
+update_svgs()
+update_palette_table()
