@@ -54,7 +54,7 @@ push:
       git remote add origin-nvim git@github.com:schemar/blueberry-peach.nvim.git
     fi
 
-    echo "Pusing to blueberry-peach ..."
+    echo "Pushing to blueberry-peach ..."
     git push origin
 
     echo "Pushing to blueberry-peach.nvim ..."
