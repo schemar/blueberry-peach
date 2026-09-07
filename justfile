@@ -49,7 +49,7 @@ push:
       git remote add origin git@github.com:schemar/blueberry-peach.git
     fi
 
-    if ! git config remote.nvim-nvim.url >/dev/null 2>&1; then
+    if ! git config remote.origin-nvim.url >/dev/null 2>&1; then
       echo "Adding missing git remote 'nvim' ..."
       git remote add origin-nvim git@github.com:schemar/blueberry-peach.nvim.git
     fi
