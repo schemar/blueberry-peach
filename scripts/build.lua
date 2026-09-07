@@ -23,11 +23,9 @@ local function bare_hex(value)
   return string.sub(string.lower(value), 2)
 end
 
--- Each port renders `./templates/<name>/blueberry_peach<ext>` into
--- `./ports/<name>/blueberry_peach_<variant><suffix><ext>`, where:
---   suffix     extra text before the extension of the generated file
---   transform  rewrites every color before it is substituted
---   dark/light override the generated path entirely
+-- Each port renders `./templates/<name>/<template>` into
+-- `./ports/<name>/<variant>`, where variant is the file name for the dark and
+-- light theme, respectively.
 -- NeoVim is built from catppuccin directly in a separate build file.
 local ports = {
   {
