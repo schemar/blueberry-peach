@@ -2,8 +2,10 @@
 
 Handcrafted dark _and_ light neovim color scheme with legibility and consistency in mind.
 
-> [!NOTE]
+> [!IMPORTANT]
 > For palettes, other ports, contribution info, etc. see [blueberry-peach on GitHub](https://github.com/schemar/blueberry-peach).
+>
+> The same goes for issues, pull-requests, etc. See [Blueberry Peach's CONTRIBUTING.md](https://github.com/schemar/blueberry-peach/blob/main/CONTRIBUTING.md).
 
 Based on, but does not require [catppuccin/nvim](https://github.com/catppuccin/nvim).
 Supports almost all integrations that catppuccin includes.

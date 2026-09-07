@@ -180,6 +180,10 @@ Graphical:
   - [Dark](https://themes.vivaldi.net/themes/okQlZoM3vDX)
 - [windows terminal](./ports/windows_terminal)
 
+## Contributing
+
+If you want to contribue, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
 ## Standing on the shoulders of giants
 
 The color schemes are based on and/or utilize code from the following projects (see [LICENSES](./LICENSES)):
