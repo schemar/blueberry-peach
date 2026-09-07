@@ -155,7 +155,7 @@ Check the [ports](#ports) below for installation instructions.
 
 Terminal:
 
-- [neovim](./ports/neovim)
+- [neovim](https://github.com/schemar/blueberry-peach.nvim)
 - [helix](./ports/helix)
 - [tmux](./ports/tmux)
 - [fzf](./ports/fzf)
