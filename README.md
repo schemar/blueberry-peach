@@ -182,7 +182,7 @@ Graphical:
 
 ## Standing on the shoulders of giants
 
-The color schemes are based on and/or utilize code from the following projects:
+The color schemes are based on and/or utilize code from the following projects (see [LICENSES](./LICENSES)):
 
 - [Catppuccin](https://github.com/catppuccin/catppuccin)
 - [Rosé Pine](https://github.com/rose-pine/rose-pine-theme)

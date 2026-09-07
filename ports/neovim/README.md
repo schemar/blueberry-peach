@@ -2,6 +2,8 @@
 
 BlueberryPeach for [neovim](https://github.com/neovim/neovim).
 
+For palettes, other ports, contribution info, etc. see [blueberry-peach on GitHub](https://github.com/schemar/blueberry-peach).
+
 Based on, but does not require [catppuccin/nvim](https://github.com/catppuccin/nvim).
 Supports almost all integrations that catppuccin includes.
 
@@ -45,7 +47,14 @@ Supports almost all integrations that catppuccin includes.
    ```
 
 > [!NOTE]
-> 
+>
 > The theme should automatically select the light or dark variant based on your terminal setup.
 >
 > If you want to set the variant explicitly, use `:set background=dark` or `:set background=light` or set it from your `init.lua`.
+
+## Standing on the shoulders of giants
+
+The color schemes are based on and/or utilize code from the following projects (see [LICENSES](./LICENSES)):
+
+- [Catppuccin](https://github.com/catppuccin/catppuccin)
+- [Rosé Pine](https://github.com/rose-pine/rose-pine-theme)
