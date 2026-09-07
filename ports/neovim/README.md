@@ -1,4 +1,4 @@
-# 🫐 blueberry peach nvim 🍑
+# 🫐 Blueberry Peach NeoVim 🍑
 
 Handcrafted dark *and* light neovim color scheme with legibility and consistency in mind.
 
