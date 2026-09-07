@@ -3,168 +3,210 @@
 -- Make nix' lua happy:
 package.path = package.path .. ";./?.lua"
 
-local blueberry_peach_light = require("scripts.lua.light")
-local blueberry_peach_dark = require("scripts.lua.dark")
+local palettes = {
+  dark = require("scripts.lua.dark"),
+  light = require("scripts.lua.light"),
+}
 
+-- Colors to render as swatches and list in the README, in display order.
+local colors = {
+  "red", "orange", "yellow", "green", "teal", "blue", "violet", "pink",
+  "text", "subtext", "dimmed", "surface1", "background", "surface0",
+}
+
+local function identity(value)
+  return value
+end
+
+-- Lowercase hex without the leading `#`.
+local function bare_hex(value)
+  return string.sub(string.lower(value), 2)
+end
+
+-- Each port renders `./templates/<name>/<template>` into
+-- `./ports/<name>/<variant>`, where variant is the file name for the dark and
+-- light theme, respectively.
 -- NeoVim is built from catppuccin directly in a separate build file.
 local ports = {
   {
-    template = "./templates/bat/blueberry_peach.tmTheme",
-    dark = "./ports/bat/blueberry_peach_dark.tmTheme",
-    light = "./ports/bat/blueberry_peach_light.tmTheme",
+    name = "bat",
+    template = "blueberry_peach.tmTheme",
+    dark = "blueberry_peach_dark.tmTheme",
+    light = "blueberry_peach_light.tmTheme"
   },
   {
-    template = "./templates/fuzzel/blueberry_peach.ini",
-    dark = "./ports/fuzzel/blueberry_peach_dark.ini",
-    light = "./ports/fuzzel/blueberry_peach_light.ini",
-    value_transform = function(value)
-      -- Lowercase hex; remove leading #
-      return string.sub(string.lower(value), 2)
-    end,
+    name = "fuzzel",
+    template = "blueberry_peach.ini",
+    dark = "blueberry_peach_dark.ini",
+    light = "blueberry_peach_light.ini",
+    transform = bare_hex
   },
   {
-    template = "./templates/fzf/blueberry_peach.sh",
-    dark = "./ports/fzf/blueberry_peach_dark-fzf-colors.sh",
-    light = "./ports/fzf/blueberry_peach_light-fzf-colors.sh",
+    name = "fzf",
+    template = "blueberry_peach.sh",
+    dark = "blueberry_peach_dark-fzf-colors.sh",
+    light = "blueberry_peach_light-fzf-colors.sh"
   },
   {
-    template = "./templates/ghostty/blueberry_peach",
-    dark = "./ports/ghostty/blueberry_peach_dark",
-    light = "./ports/ghostty/blueberry_peach_light",
+    name = "ghostty",
+    template = "blueberry_peach",
+    dark = "blueberry_peach_dark",
+    light = "blueberry_peach_light"
   },
   {
-    template = "./templates/helix/blueberry_peach.toml",
-    dark = "./ports/helix/blueberry_peach_dark.toml",
-    light = "./ports/helix/blueberry_peach_light.toml",
+    name = "helix",
+    template = "blueberry_peach.toml",
+    dark = "blueberry_peach_dark.toml",
+    light = "blueberry_peach_light.toml"
   },
   {
-    template = "./templates/lazygit/blueberry_peach.yml",
-    dark = "./ports/lazygit/blueberry_peach_dark.yml",
-    light = "./ports/lazygit/blueberry_peach_light.yml",
+    name = "lazygit",
+    template = "blueberry_peach.yml",
+    dark = "blueberry_peach_dark.yml",
+    light = "blueberry_peach_light.yml"
   },
   {
-    template = "./templates/mako/blueberry_peach",
-    dark = "./ports/mako/blueberry_peach_dark",
-    light = "./ports/mako/blueberry_peach_light",
+    name = "mako",
+    template = "blueberry_peach",
+    dark = "blueberry_peach_dark",
+    light = "blueberry_peach_light"
   },
   {
-    template = "./templates/sway/blueberry_peach",
-    dark = "./ports/sway/blueberry_peach_dark",
-    light = "./ports/sway/blueberry_peach_light",
+    name = "sway",
+    template = "blueberry_peach",
+    dark = "blueberry_peach_dark",
+    light = "blueberry_peach_light"
   },
   {
-    template = "./templates/swaylock/blueberry_peach.conf",
-    dark = "./ports/swaylock/blueberry_peach_dark.conf",
-    light = "./ports/swaylock/blueberry_peach_light.conf",
-    value_transform = function(value)
-      -- Lowercase hex; remove leading #
-      return string.sub(string.lower(value), 2)
-    end,
+    name = "swaylock",
+    template = "blueberry_peach.conf",
+    dark = "blueberry_peach_dark.conf",
+    light = "blueberry_peach_light.conf",
+    transform = bare_hex
   },
   {
-    template = "./templates/tmux/blueberry_peach.conf",
-    dark = "./ports/tmux/blueberry_peach_dark.conf",
-    light = "./ports/tmux/blueberry_peach_light.conf",
+    name = "tmux",
+    template = "blueberry_peach.conf",
+    dark = "blueberry_peach_dark.conf",
+    light = "blueberry_peach_light.conf",
   },
   {
-    template = "./templates/waybar/blueberry_peach.css",
-    dark = "./ports/waybar/blueberry_peach_dark.css",
-    light = "./ports/waybar/blueberry_peach_light.css",
+    name = "waybar",
+    template = "blueberry_peach.css",
+    dark = "blueberry_peach_dark.css",
+    light = "blueberry_peach_light.css",
   },
   {
-    template = "./templates/wezterm/blueberry_peach.toml",
-    dark = "./ports/wezterm/blueberry_peach_dark.toml",
-    light = "./ports/wezterm/blueberry_peach_light.toml",
+    name = "wezterm",
+    template = "blueberry_peach.toml",
+    dark = "blueberry_peach_dark.toml",
+    light = "blueberry_peach_light.toml",
   },
   {
-    template = "./templates/windows_terminal/blueberry_peach.json",
-    dark = "./ports/windows_terminal/blueberry_peach_dark.json",
-    light = "./ports/windows_terminal/blueberry_peach_light.json",
+    name = "windows_terminal",
+    template = "blueberry_peach.json",
+    dark = "blueberry_peach_dark.json",
+    light = "blueberry_peach_light.json",
   },
   {
-    template = "./templates/yazi/blueberry_peach.toml",
-    dark = "./ports/yazi/blueberry-peach-dark.yazi/flavor.toml",
-    light = "./ports/yazi/blueberry-peach-light.yazi/flavor.toml",
+    name = "yazi",
+    template = "blueberry_peach.toml",
+    dark = "blueberry-peach-dark.yazi/flavor.toml",
+    light = "blueberry-peach-light.yazi/flavor.toml",
   },
   {
-    template = "./templates/zsh_syntax_highlighting/blueberry_peach.sh",
-    dark = "./ports/zsh_syntax_highlighting/blueberry_peach_dark-syntax-highlighting.sh",
-    light = "./ports/zsh_syntax_highlighting/blueberry_peach_light-syntax-highlighting.sh",
+    name = "zsh_syntax_highlighting",
+    template = "blueberry_peach.sh",
+    dark = "blueberry_peach_dark-syntax-highlighting.sh",
+    light = "blueberry_peach_light-syntax-highlighting.sh",
   },
   {
-    template = "./templates/zsh_helix_mode/blueberry_peach.sh",
-    dark = "./ports/zsh_helix_mode/blueberry_peach_dark-helix-mode.sh",
-    light = "./ports/zsh_helix_mode/blueberry_peach_light-helix-mode.sh",
+    name = "zsh_helix_mode",
+    template = "blueberry_peach.sh",
+    dark = "blueberry_peach_dark-helix-mode.sh",
+    light = "blueberry_peach_light-helix-mode.sh",
   },
 }
 
-local function write_port(content, target, colors, value_transform)
-  for key, value in pairs(colors) do
-    content = content:gsub("{{" .. key .. "}}", value_transform(value))
-  end
-
-  local target_file = io.open(target, "w")
-  if target_file == nil then
-    print("Error: Could not open target file " .. target_file)
-    return
-  end
-  target_file:write(content)
-  target_file:close()
-end
-
--- Replaces based on catppuccin names in templates:
-for _, port in pairs(ports) do
-  local template = io.open(port.template, "r")
-  if template == nil then
-    print("Error: Could not open template file " .. port.template)
-    return
-  end
-  local content = template:read("*all")
-  template:close()
-
-  local value_transform = port.value_transform or function(value)
-    return value
-  end
-
-  write_port(content, port.dark, blueberry_peach_dark, value_transform)
-  write_port(content, port.light, blueberry_peach_light, value_transform)
-end
-
---
--- SVGs in README:
---
-
-local file = io.open("./templates/svg/swatch.svg")
-if file == nil then
-  print("Error: Could not open template file ./templates/svg/swatch.svg")
-  return
-end
-
-local content = file:read("*all")
-file:close()
-
--- `blueberry_peach_light` just to get the names, will actually do light and dark:
-for blueberry_color, _ in pairs(blueberry_peach_light) do
-  if blueberry_color == "id" or blueberry_color == "name" then
-    goto continue
-  end
-  local svg = content:gsub("{{color}}", blueberry_peach_light[blueberry_color])
-  file = io.open("./assets/light_" .. blueberry_color .. ".svg", "w")
-  if file == nil then
-    print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")
-    return
-  end
-  file:write(svg)
+local function read_file(path)
+  local file = assert(io.open(path, "r"))
+  local content = file:read("*all")
   file:close()
-
-  svg = content:gsub("{{color}}", blueberry_peach_dark[blueberry_color])
-  file = io.open("./assets/dark_" .. blueberry_color .. ".svg", "w")
-  if file == nil then
-    print("Error: Could not open target file " .. "./assets/" .. blueberry_color .. ".svg")
-    return
-  end
-  file:write(svg)
-  file:close()
-
-  ::continue::
+  return content
 end
+
+local function write_file(path, content)
+  local file = assert(io.open(path, "w"))
+  file:write(content)
+  file:close()
+end
+
+-- Replace every `{{key}}` that names a color; leave unknown ones alone.
+local function render(template, palette, transform)
+  return (template:gsub("{{([%w_]+)}}", function(key)
+    local value = palette[key]
+    if value == nil then
+      return nil
+    end
+    return transform(value)
+  end))
+end
+
+local function update_ports()
+  for _, port in ipairs(ports) do
+    local template = read_file("./templates/" .. port.name .. "/" .. port.template)
+
+    for variant, palette in pairs(palettes) do
+      local target = "./ports/" .. port.name .. "/" .. port[variant]
+      write_file(target, render(template, palette, port.transform or identity))
+    end
+  end
+end
+
+local function update_svgs()
+  local template = read_file("./templates/svg/swatch.svg")
+
+  for variant, palette in pairs(palettes) do
+    for _, color in ipairs(colors) do
+      local svg = template:gsub("{{color}}", palette[color])
+      write_file(("./assets/%s_%s.svg"):format(variant, color), svg)
+    end
+  end
+end
+
+local palette_row = [[
+    <tr>
+      <td>%s</td>
+      <td><img valign='middle' src="./assets/light_%s.svg" /></td>
+      <td><code>%s</code></td>
+      <td><img valign='middle' src="./assets/dark_%s.svg" /></td>
+      <td><code>%s</code></td>
+    </tr>
+]]
+
+local function palette_table()
+  local rows = {}
+  for _, color in ipairs(colors) do
+    rows[#rows + 1] = palette_row:format(
+      color, color, palettes.light[color], color, palettes.dark[color]
+    )
+  end
+  return table.concat(rows)
+end
+
+local function update_palette_table()
+  local path = "./README.md"
+  local readme, replaced = read_file(path):gsub(
+    "(<!%-+ BEGIN:palette_table %-+>\r?\n).-(<!%-+ END:palette_table %-+>)",
+    function(begin_marker, end_marker)
+      return begin_marker .. palette_table() .. "    " .. end_marker
+    end
+  )
+  assert(replaced == 1, "Could not find the palette_table markers in " .. path)
+
+  write_file(path, readme)
+end
+
+update_ports()
+update_svgs()
+update_palette_table()

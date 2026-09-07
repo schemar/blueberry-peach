@@ -23,6 +23,7 @@ Check the [ports](#ports) below for installation instructions.
       <th colspan="2">Light</th>
       <th colspan="2">Dark</th>
     </tr>
+    <!-- BEGIN:palette_table -->
     <tr>
       <td>red</td>
       <td><img valign='middle' src="./assets/light_red.svg" /></td>
@@ -121,6 +122,7 @@ Check the [ports](#ports) below for installation instructions.
       <td><img valign='middle' src="./assets/dark_surface0.svg" /></td>
       <td><code>#08090C</code></td>
     </tr>
+    <!-- END:palette_table -->
 </table>
 </details>
 
