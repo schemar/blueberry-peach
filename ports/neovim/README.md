@@ -1,8 +1,9 @@
-# 🫐 neovim 🍑
+# 🫐 blueberry peach nvim 🍑
 
-BlueberryPeach for [neovim](https://github.com/neovim/neovim).
+Handcrafted dark *and* light neovim color scheme with legibility and consistency in mind.
 
-For palettes, other ports, contribution info, etc. see [blueberry-peach on GitHub](https://github.com/schemar/blueberry-peach).
+> [!NOTE]
+> For palettes, other ports, contribution info, etc. see [blueberry-peach on GitHub](https://github.com/schemar/blueberry-peach).
 
 Based on, but does not require [catppuccin/nvim](https://github.com/catppuccin/nvim).
 Supports almost all integrations that catppuccin includes.
@@ -28,7 +29,7 @@ Supports almost all integrations that catppuccin includes.
 2. Symlink the color scheme into neovim:
    ```bash
    mkdir -p ~/.local/share/nvim/site/pack/themes/start
-   ln -s /path/to/blueberry-peach/ports/neovim ~/.local/share/nvim/site/pack/themes/start/blueberry-peach
+   ln -s /path/to/blueberry-peach.nvim/ports/neovim ~/.local/share/nvim/site/pack/themes/start/blueberry-peach
    ```
 
 ## Usage
