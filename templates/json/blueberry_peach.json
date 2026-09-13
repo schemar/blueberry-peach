@@ -1,0 +1,76 @@
+    {
+      "id": "{{id}}",
+      "name": "{{name}}",
+      "colors": {
+        "red": {
+          "hex": "{{red}}",
+          "accent": true,
+          "order": 0
+        },
+        "orange": {
+          "hex": "{{orange}}",
+          "accent": true,
+          "order": 1
+        },
+        "yellow": {
+          "hex": "{{yellow}}",
+          "accent": true,
+          "order": 2
+        },
+        "green": {
+          "hex": "{{green}}",
+          "accent": true,
+          "order": 3
+        },
+        "teal": {
+          "hex": "{{teal}}",
+          "accent": true,
+          "order": 4
+        },
+        "blue": {
+          "hex": "{{blue}}",
+          "accent": true,
+          "order": 5
+        },
+        "violet": {
+          "hex": "{{violet}}",
+          "accent": true,
+          "order": 6
+        },
+        "pink": {
+          "hex": "{{pink}}",
+          "accent": true,
+          "order": 7
+        },
+        "text": {
+          "hex": "{{text}}",
+          "accent": false,
+          "order": 8
+        },
+        "subtext": {
+          "hex": "{{subtext}}",
+          "accent": false,
+          "order": 9
+        },
+        "dimmed": {
+          "hex": "{{dimmed}}",
+          "accent": false,
+          "order": 10
+        },
+        "surface1": {
+          "hex": "{{surface1}}",
+          "accent": false,
+          "order": 11
+        },
+        "background": {
+          "hex": "{{background}}",
+          "accent": false,
+          "order": 12
+        },
+        "surface0": {
+          "hex": "{{surface0}}",
+          "accent": false,
+          "order": 13
+        }
+      }
+    }

@@ -1,0 +1,158 @@
+{
+  "name": "Blueberry Peach",
+  "url": "https://github.com/schemar/blueberry-peach",
+  "variants": {
+    "dark":     {
+      "id": "dark",
+      "name": "Blueberry Peach Dark",
+      "colors": {
+        "red": {
+          "hex": "#DF8BA0",
+          "accent": true,
+          "order": 0
+        },
+        "orange": {
+          "hex": "#C79A76",
+          "accent": true,
+          "order": 1
+        },
+        "yellow": {
+          "hex": "#B4A25A",
+          "accent": true,
+          "order": 2
+        },
+        "green": {
+          "hex": "#75B087",
+          "accent": true,
+          "order": 3
+        },
+        "teal": {
+          "hex": "#5EB1AF",
+          "accent": true,
+          "order": 4
+        },
+        "blue": {
+          "hex": "#7AA8CE",
+          "accent": true,
+          "order": 5
+        },
+        "violet": {
+          "hex": "#A69CD9",
+          "accent": true,
+          "order": 6
+        },
+        "pink": {
+          "hex": "#C394C2",
+          "accent": true,
+          "order": 7
+        },
+        "text": {
+          "hex": "#A0A1B6",
+          "accent": false,
+          "order": 8
+        },
+        "subtext": {
+          "hex": "#8D8DA5",
+          "accent": false,
+          "order": 9
+        },
+        "dimmed": {
+          "hex": "#838098",
+          "accent": false,
+          "order": 10
+        },
+        "surface1": {
+          "hex": "#353144",
+          "accent": false,
+          "order": 11
+        },
+        "background": {
+          "hex": "#191724",
+          "accent": false,
+          "order": 12
+        },
+        "surface0": {
+          "hex": "#08090C",
+          "accent": false,
+          "order": 13
+        }
+      }
+    },
+    "light":     {
+      "id": "light",
+      "name": "Blueberry Peach Light",
+      "colors": {
+        "red": {
+          "hex": "#B43B3E",
+          "accent": true,
+          "order": 0
+        },
+        "orange": {
+          "hex": "#A7491B",
+          "accent": true,
+          "order": 1
+        },
+        "yellow": {
+          "hex": "#8A5C05",
+          "accent": true,
+          "order": 2
+        },
+        "green": {
+          "hex": "#247500",
+          "accent": true,
+          "order": 3
+        },
+        "teal": {
+          "hex": "#017468",
+          "accent": true,
+          "order": 4
+        },
+        "blue": {
+          "hex": "#2169A6",
+          "accent": true,
+          "order": 5
+        },
+        "violet": {
+          "hex": "#6F58A2",
+          "accent": true,
+          "order": 6
+        },
+        "pink": {
+          "hex": "#A5407B",
+          "accent": true,
+          "order": 7
+        },
+        "text": {
+          "hex": "#6B635C",
+          "accent": false,
+          "order": 8
+        },
+        "subtext": {
+          "hex": "#6D675F",
+          "accent": false,
+          "order": 9
+        },
+        "dimmed": {
+          "hex": "#8B6E6E",
+          "accent": false,
+          "order": 10
+        },
+        "surface1": {
+          "hex": "#F3E2D3",
+          "accent": false,
+          "order": 11
+        },
+        "background": {
+          "hex": "#FAF4ED",
+          "accent": false,
+          "order": 12
+        },
+        "surface0": {
+          "hex": "#FEFDFB",
+          "accent": false,
+          "order": 13
+        }
+      }
+    }
+  }
+}

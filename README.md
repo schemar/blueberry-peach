@@ -195,6 +195,8 @@ a spread of 0.15 and 0.11 respectively.
 
 ## Ports
 
+Palette in JSON format: [blueberry_peach.json](blueberry_peach.json)
+
 Terminal:
 
 - [neovim](https://github.com/schemar/blueberry-peach.nvim)

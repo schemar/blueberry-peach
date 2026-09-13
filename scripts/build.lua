@@ -165,6 +165,32 @@ local function update_ports()
   end
 end
 
+local function update_json()
+  local json_content = [[{
+  "name": "Blueberry Peach",
+  "url": "https://github.com/schemar/blueberry-peach",
+  "variants": {
+]]
+
+  for id, palette in pairs(palettes) do
+    local template = read_file("./templates/json/blueberry_peach.json")
+    local json_palette = render(template, palette, identity)
+
+    json_content = ("%s    \"%s\": %s,\n"):format(json_content, id, json_palette)
+  end
+
+  -- Remove trailing comma and newline
+  json_content = json_content:sub(1, -3)
+
+  json_content = json_content .. [[
+
+  }
+}
+]]
+
+  write_file("./blueberry_peach.json", json_content)
+end
+
 local function update_svgs()
   local template = read_file("./templates/svg/swatch.svg")
 
@@ -223,6 +249,7 @@ local function update_contrast_table()
 end
 
 update_ports()
+update_json()
 update_svgs()
 update_palette_table()
 update_contrast_table()
