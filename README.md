@@ -182,7 +182,9 @@ Graphical:
 
 ## Contributing
 
-If you want to contribue, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+I am happy about any and all contributions, like fixing typos, updating ports, or even creating new ports.
+
+For detailed instructions and help, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Standing on the shoulders of giants
 
