@@ -49,7 +49,7 @@ local function accent_range(palette)
   return lowest, highest
 end
 
-local contrast_row = "| %s | %.2f | %.2f |\n"
+local contrast_row = "<tr><td>%s</td><td>%.2f</td><td>%.2f</td></tr>\n"
 
 local contrast_summary = [[
 
@@ -61,8 +61,11 @@ a spread of %.2f and %.2f respectively.
 
 local function contrast_table(palettes)
   local rows = {
-    "| Color | Light | Dark |\n",
-    "| --- | --- | --- |\n",
+    "<table>\n",
+    "<thead>\n",
+    "<tr><th>Color</th><th>Light</th><th>Dark</th></tr>\n",
+    "</thead>\n",
+    "<tbody>\n",
   }
 
   for _, color in ipairs(contrast_colors) do
@@ -76,10 +79,15 @@ local function contrast_table(palettes)
   local light_low, light_high = accent_range(palettes.light)
   local dark_low, dark_high = accent_range(palettes.dark)
 
+  rows[#rows + 1] = "</tbody>\n"
+  rows[#rows + 1] = "</table>\n"
+
+  rows[#rows + 1] = "<p>\n"
   rows[#rows + 1] = contrast_summary:format(
     light_low, light_high, dark_low, dark_high,
     light_high - light_low, dark_high - dark_low
   )
+  rows[#rows + 1] = "</p>\n"
 
   return table.concat(rows)
 end
