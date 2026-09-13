@@ -1,6 +1,6 @@
 [colors]
 ansi = [
-  '{{surface1}}',
+  '{{surface0}}',
   '{{red}}',
   '{{green}}',
   '{{yellow}}',
@@ -11,14 +11,14 @@ ansi = [
 ]
 background = '{{background}}'
 brights = [
-  '{{dimmed}}',
+  '{{surface1}}',
   '{{red}}',
   '{{green}}',
   '{{yellow}}',
   '{{blue}}',
-  '{{violet}}',
+  '{{pink}}',
   '{{teal}}',
-  '{{subtext}}',
+  '{{text}}',
 ]
 compose_cursor = '{{pink}}'
 cursor_bg = '{{violet}}'
