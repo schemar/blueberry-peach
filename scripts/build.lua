@@ -3,6 +3,8 @@
 -- Make nix' lua happy:
 package.path = package.path .. ";./?.lua"
 
+local contrast = require("scripts.lua.contrast")
+
 local palettes = {
   dark = require("scripts.lua.dark"),
   light = require("scripts.lua.light"),
@@ -207,6 +209,20 @@ local function update_palette_table()
   write_file(path, readme)
 end
 
+local function update_contrast_table()
+  local path = "./README.md"
+  local readme, replaced = read_file(path):gsub(
+    "(<!%-+ BEGIN:contrast_table %-+>\r?\n).-(<!%-+ END:contrast_table %-+>)",
+    function(begin_marker, end_marker)
+      return begin_marker .. contrast.contrast_table(palettes) .. end_marker
+    end
+  )
+  assert(replaced == 1, "Could not find the contrast_table markers in " .. path)
+
+  write_file(path, readme)
+end
+
 update_ports()
 update_svgs()
 update_palette_table()
+update_contrast_table()

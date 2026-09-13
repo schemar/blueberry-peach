@@ -133,6 +133,30 @@ Check the [ports](#ports) below for installation instructions.
 - Uniform contrast between colors and backgrounds
 - As high a [color difference](https://en.wikipedia.org/wiki/Color_difference#CIELAB_%CE%94E*) between colors as possible (while keeping uniform contrast in mind)
 
+<details>
+<summary>Table of contrasts</summary>
+<!-- BEGIN:contrast_table -->
+| Color | Light | Dark |
+| --- | --- | --- |
+| red | 5.29 | 7.01 |
+| orange | 5.32 | 6.99 |
+| yellow | 5.32 | 6.94 |
+| green | 5.31 | 6.99 |
+| teal | 5.20 | 7.05 |
+| blue | 5.29 | 7.00 |
+| violet | 5.35 | 7.04 |
+| pink | 5.31 | 7.01 |
+| text | 5.39 | 6.95 |
+| subtext | 5.12 | 5.45 |
+| dimmed | 4.22 | 4.63 |
+
+Contrast is the [WCAG 2.1 contrast ratio](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+of each color against its variant's `background`.
+The eight accents span 5.20–5.35 in light mode and 6.94–7.05 in dark mode,
+a spread of 0.15 and 0.11 respectively.
+<!-- END:contrast_table -->
+</details>
+
 ## Screenshots
 
 <details>

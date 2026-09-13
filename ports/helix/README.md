@@ -26,7 +26,7 @@ BlueberryPeach for [helix](https://github.com/helix-editor/helix).
    # *One* of:
    theme = "blueberry_peach_dark"
    # *or:*
-   theme = "buleberry_peach_light"
+   theme = "blueberry_peach_light"
    ```
 
 ### Switch between dark and light mode
@@ -46,4 +46,4 @@ If the theme is still not working, it may be due to true color support. Make sur
 true-color = true
 ```
 
-If you still can't get the theme to work, please [open an issue](https://github.com/catppuccin/helix/issues)!
+If you still can't get the theme to work, please [open an issue](https://github.com/schemar/blueberry-peach/issues)!
