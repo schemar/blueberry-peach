@@ -11,9 +11,20 @@ Check the [ports](#ports) below for installation instructions.
 
 ---
 
-<p align="center">
-  <img src="./assets/social.png" alt="BlueberryPeach theme screenshot" />
-</p>
+<table>
+  <tr>
+    <td>
+      <a href="./assets/screenshot_dark.png">
+        <img src="./assets/screenshot_dark.png" />
+      </a>
+    </td>
+    <td>
+      <a href="./assets/screenshot_light.png">
+        <img src="./assets/screenshot_light.png" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <details>
   <summary>Full palettes with hex codes</summary>
