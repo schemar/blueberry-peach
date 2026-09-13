@@ -1,13 +1,10 @@
 {
   "name": "Blueberry Peach Dark",
-
   "cursorColor": "#A69CD9",
   "selectionBackground": "#353144",
-
   "background": "#191724",
   "foreground": "#A0A1B6",
-
-  "black": "#353144",
+  "black": "#08090C",
   "blue": "#7AA8CE",
   "cyan": "#5EB1AF",
   "green": "#75B087",
@@ -15,12 +12,12 @@
   "red": "#DF8BA0",
   "white": "#8D8DA5",
   "yellow": "#B4A25A",
-  "brightBlack": "#838098",
+  "brightBlack": "#353144",
   "brightBlue": "#7AA8CE",
   "brightCyan": "#5EB1AF",
   "brightGreen": "#75B087",
-  "brightPurple": "#A69CD9",
+  "brightPurple": "#C394C2",
   "brightRed": "#DF8BA0",
-  "brightWhite": "#8D8DA5",
+  "brightWhite": "#A0A1B6",
   "brightYellow": "#B4A25A"
 }
