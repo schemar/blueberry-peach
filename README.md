@@ -1,6 +1,7 @@
 # 🫐 BlueberryPeach 🍑
 
-Handcrafted dark *and* light color scheme with legibility and consistency in mind.
+Handcrafted dark *and* light color scheme with a focus on legibility and consistency.
+
 Check the [ports](#ports) below for installation instructions.
 
 <p>
