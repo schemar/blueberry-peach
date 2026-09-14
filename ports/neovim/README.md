@@ -1,6 +1,6 @@
 # 🫐 Blueberry Peach NeoVim 🍑
 
-Handcrafted dark _and_ light neovim color scheme with legibility and consistency in mind.
+Handcrafted dark *and* light color scheme with a focus on legibility and consistency.
 
 > [!IMPORTANT]
 > For palettes, other ports, contribution info, etc. see [blueberry-peach on GitHub](https://github.com/schemar/blueberry-peach).
