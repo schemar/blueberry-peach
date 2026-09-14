@@ -62,6 +62,12 @@ local ports = {
     light = "blueberry_peach_light.toml"
   },
   {
+    name = "kitty",
+    template = "blueberry_peach.conf",
+    dark = "blueberry_peach_dark.conf",
+    light = "blueberry_peach_light.conf"
+  },
+  {
     name = "lazygit",
     template = "blueberry_peach.yml",
     dark = "blueberry_peach_dark.yml",

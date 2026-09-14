@@ -214,7 +214,7 @@ Graphical:
 
 - [sway](./ports/sway)
 - [swaylock](./ports/swaylock)
-- [ghostty](./ports/ghostty)
+- [kitty](./ports/kitty)
 - [wezterm](./ports/wezterm)
 - [Waybar](./ports/waybar)
 - [fuzzel](./ports/fuzzel)
@@ -223,6 +223,7 @@ Graphical:
 - vivaldi browser
   - [Light](https://themes.vivaldi.net/themes/V6kJNwMp7WX)
   - [Dark](https://themes.vivaldi.net/themes/okQlZoM3vDX)
+- [ghostty](./ports/ghostty)
 - [windows terminal](./ports/windows_terminal)
 
 ## Contributing
