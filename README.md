@@ -55,7 +55,7 @@ Check the [ports](#ports) below for installation instructions.
       <td><img valign='middle' src="./assets/light_yellow.svg" /></td>
       <td><code>#8A5C05</code></td>
       <td><img valign='middle' src="./assets/dark_yellow.svg" /></td>
-      <td><code>#B4A25A</code></td>
+      <td><code>#B6A358</code></td>
     </tr>
     <tr>
       <td>green</td>
@@ -67,7 +67,7 @@ Check the [ports](#ports) below for installation instructions.
     <tr>
       <td>teal</td>
       <td><img valign='middle' src="./assets/light_teal.svg" /></td>
-      <td><code>#017468</code></td>
+      <td><code>#03726A</code></td>
       <td><img valign='middle' src="./assets/dark_teal.svg" /></td>
       <td><code>#5EB1AF</code></td>
     </tr>
@@ -95,14 +95,14 @@ Check the [ports](#ports) below for installation instructions.
     <tr>
       <td>text</td>
       <td><img valign='middle' src="./assets/light_text.svg" /></td>
-      <td><code>#6B635C</code></td>
+      <td><code>#6C6460</code></td>
       <td><img valign='middle' src="./assets/dark_text.svg" /></td>
-      <td><code>#A0A1B6</code></td>
+      <td><code>#9FA2BC</code></td>
     </tr>
     <tr>
       <td>subtext</td>
       <td><img valign='middle' src="./assets/light_subtext.svg" /></td>
-      <td><code>#6D675F</code></td>
+      <td><code>#866864</code></td>
       <td><img valign='middle' src="./assets/dark_subtext.svg" /></td>
       <td><code>#8D8DA5</code></td>
     </tr>
@@ -155,14 +155,14 @@ Check the [ports](#ports) below for installation instructions.
 <tbody>
 <tr><td>red</td><td>5.29</td><td>7.01</td></tr>
 <tr><td>orange</td><td>5.32</td><td>6.99</td></tr>
-<tr><td>yellow</td><td>5.32</td><td>6.94</td></tr>
+<tr><td>yellow</td><td>5.32</td><td>7.04</td></tr>
 <tr><td>green</td><td>5.31</td><td>6.99</td></tr>
-<tr><td>teal</td><td>5.20</td><td>7.05</td></tr>
+<tr><td>teal</td><td>5.31</td><td>7.05</td></tr>
 <tr><td>blue</td><td>5.29</td><td>7.00</td></tr>
 <tr><td>violet</td><td>5.35</td><td>7.04</td></tr>
 <tr><td>pink</td><td>5.31</td><td>7.01</td></tr>
-<tr><td>text</td><td>5.39</td><td>6.95</td></tr>
-<tr><td>subtext</td><td>5.12</td><td>5.45</td></tr>
+<tr><td>text</td><td>5.30</td><td>7.04</td></tr>
+<tr><td>subtext</td><td>4.60</td><td>5.45</td></tr>
 <tr><td>dimmed</td><td>4.22</td><td>4.63</td></tr>
 </tbody>
 </table>
@@ -170,8 +170,8 @@ Check the [ports](#ports) below for installation instructions.
 
 Contrast is the [WCAG 2.1 contrast ratio](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
 of each color against its variant's `background`.
-The eight accents span 5.20–5.35 in light mode and 6.94–7.05 in dark mode,
-a spread of 0.15 and 0.11 respectively.
+The eight accents span 5.29–5.35 in light mode and 6.99–7.05 in dark mode,
+a spread of 0.06 and 0.06 respectively.
 </p>
 <!-- END:contrast_table -->
 </details>

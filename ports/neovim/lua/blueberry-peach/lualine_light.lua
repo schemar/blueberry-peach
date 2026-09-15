@@ -1,87 +1,87 @@
 return {
   command = {
     a = {
-      bg = "#A7491B",
-      fg = "#FAF4ED",
+      bg = "#A7491c",
+      fg = "#FAF4ee",
       gui = "bold"
     },
     b = {
-      bg = "#F3E2D3",
-      fg = "#A7491B"
+      bg = "#F3E2d4",
+      fg = "#A7491c"
     }
   },
   inactive = {
     a = {
-      bg = "#FEFDFB",
-      fg = "#2169A6"
+      bg = "#FEFDfc",
+      fg = "#2169a7"
     },
     b = {
-      bg = "#FEFDFB",
-      fg = "#F3E2D3",
+      bg = "#FEFDfc",
+      fg = "#F3E2d4",
       gui = "bold"
     },
     c = {
-      bg = "#FEFDFB",
-      fg = "#8B6E6E"
+      bg = "#FEFDfc",
+      fg = "#8B6E6f"
     }
   },
   insert = {
     a = {
-      bg = "#247500",
-      fg = "#FAF4ED",
+      bg = "#247501",
+      fg = "#FAF4ee",
       gui = "bold"
     },
     b = {
-      bg = "#F3E2D3",
-      fg = "#247500"
+      bg = "#F3E2d4",
+      fg = "#247501"
     }
   },
   normal = {
     a = {
-      bg = "#2169A6",
-      fg = "#FEFDFB",
+      bg = "#2169a7",
+      fg = "#FEFDfc",
       gui = "bold"
     },
     b = {
-      bg = "#F3E2D3",
-      fg = "#2169A6"
+      bg = "#F3E2d4",
+      fg = "#2169a7"
     },
     c = {
-      bg = "#FEFDFB",
-      fg = "#6B635C"
+      bg = "#FEFDfc",
+      fg = "#6C6461"
     }
   },
   replace = {
     a = {
-      bg = "#B43B3E",
-      fg = "#FAF4ED",
+      bg = "#B43B3f",
+      fg = "#FAF4ee",
       gui = "bold"
     },
     b = {
-      bg = "#F3E2D3",
-      fg = "#B43B3E"
+      bg = "#F3E2d4",
+      fg = "#B43B3f"
     }
   },
   terminal = {
     a = {
-      bg = "#247500",
-      fg = "#FAF4ED",
+      bg = "#247501",
+      fg = "#FAF4ee",
       gui = "bold"
     },
     b = {
-      bg = "#F3E2D3",
-      fg = "#247500"
+      bg = "#F3E2d4",
+      fg = "#247501"
     }
   },
   visual = {
     a = {
-      bg = "#6F58A2",
-      fg = "#FAF4ED",
+      bg = "#6F58a3",
+      fg = "#FAF4ee",
       gui = "bold"
     },
     b = {
-      bg = "#F3E2D3",
-      fg = "#6F58A2"
+      bg = "#F3E2d4",
+      fg = "#6F58a3"
     }
   }
 }

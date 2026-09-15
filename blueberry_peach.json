@@ -17,7 +17,7 @@
           "order": 1
         },
         "yellow": {
-          "hex": "#B4A25A",
+          "hex": "#B6A358",
           "accent": true,
           "order": 2
         },
@@ -47,7 +47,7 @@
           "order": 7
         },
         "text": {
-          "hex": "#A0A1B6",
+          "hex": "#9FA2BC",
           "accent": false,
           "order": 8
         },
@@ -103,7 +103,7 @@
           "order": 3
         },
         "teal": {
-          "hex": "#017468",
+          "hex": "#03726A",
           "accent": true,
           "order": 4
         },
@@ -123,12 +123,12 @@
           "order": 7
         },
         "text": {
-          "hex": "#6B635C",
+          "hex": "#6C6460",
           "accent": false,
           "order": 8
         },
         "subtext": {
-          "hex": "#6D675F",
+          "hex": "#866864",
           "accent": false,
           "order": 9
         },
