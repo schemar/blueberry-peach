@@ -2,7 +2,7 @@
 
 Handcrafted dark *and* light color scheme with a focus on legibility and consistency.
 
-Check the [ports](#ports) below for installation instructions.
+Check the [ports](#ports) below for installation instructions or read my [blog post on BlueberryPeach's 1.0 release](https://blog.schemar.net/posts/blueberry-peach/) for more details.
 
 <p>
   Dark: <img valign="middle" src="./assets/dark_background.svg" />&nbsp;<img valign="middle" src="./assets/dark_text.svg" />&nbsp;<img valign="middle" src="./assets/dark_red.svg" />&nbsp;<img valign="middle" src="./assets/dark_orange.svg" />&nbsp;<img valign="middle" src="./assets/dark_yellow.svg" />&nbsp;<img valign="middle" src="./assets/dark_green.svg" />&nbsp;<img valign="middle" src="./assets/dark_teal.svg" />&nbsp;<img valign="middle" src="./assets/dark_blue.svg" />&nbsp;<img valign="middle" src="./assets/dark_violet.svg" />&nbsp;<img valign="middle" src="./assets/dark_pink.svg" />
