@@ -37,6 +37,12 @@ local ports = {
     light = "blueberry_peach_light.tmTheme"
   },
   {
+    name = "eza",
+    template = "blueberry_peach.yml",
+    dark = "blueberry_peach_dark.yml",
+    light = "blueberry_peach_light.yml"
+  },
+  {
     name = "fuzzel",
     template = "blueberry_peach.ini",
     dark = "blueberry_peach_dark.ini",

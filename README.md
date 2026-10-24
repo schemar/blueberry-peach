@@ -200,12 +200,13 @@ Palette in JSON format: [blueberry_peach.json](blueberry_peach.json)
 
 Terminal:
 
-- [neovim](https://github.com/schemar/blueberry-peach.nvim)
-- [helix](./ports/helix)
-- [tmux](./ports/tmux)
-- [fzf](./ports/fzf)
 - [bat](./ports/bat)
+- [eza](./ports/eza)
+- [fzf](./ports/fzf)
+- [helix](./ports/helix)
 - [lazygit](./ports/lazygit)
+- [neovim](https://github.com/schemar/blueberry-peach.nvim)
+- [tmux](./ports/tmux)
 - [yazi](./ports/yazi)
 - [zsh helix mode](./ports/zsh_helix_mode)
 - [zsh syntax highlighting](./ports/zsh_syntax_highlighting)

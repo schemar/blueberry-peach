@@ -1,0 +1,101 @@
+colourful: true
+
+filekinds:
+  normal: {foreground: "{{text}}"}
+  directory: {foreground: "{{blue}}"}
+  symlink: {foreground: "{{blue}}"}
+  pipe: {foreground: "{{subtext}}"}
+  block_device: {foreground: "{{red}}"}
+  char_device: {foreground: "{{red}}"}
+  socket: {foreground: "{{subtext}}"}
+  special: {foreground: "{{violet}}"}
+  executable: {foreground: "{{green}}"}
+  mount_point: {foreground: "{{teal}}"}
+
+perms:
+  user_read: {foreground: "{{red}}", is_bold: true}
+  user_write: {foreground: "{{yellow}}", is_bold: true}
+  user_execute_file: {foreground: "{{green}}", is_bold: true}
+  user_execute_other: {foreground: "{{green}}", is_bold: true}
+  group_read: {foreground: "{{red}}"}
+  group_write: {foreground: "{{yellow}}"}
+  group_execute: {foreground: "{{green}}"}
+  other_read: {foreground: "{{red}}"}
+  other_write: {foreground: "{{yellow}}"}
+  other_execute: {foreground: "{{green}}"}
+  special_user_file: {foreground: "{{violet}}"}
+  special_other: {foreground: "{{dimmed}}"}
+  attribute: {foreground: "{{dimmed}}"}
+
+size:
+  major: {foreground: "{{subtext}}"}
+  minor: {foreground: "{{teal}}"}
+  number_byte: {foreground: "{{subtext}}"}
+  number_kilo: {foreground: "{{subtext}}"}
+  number_mega: {foreground: "{{blue}}"}
+  number_giga: {foreground: "{{violet}}"}
+  number_huge: {foreground: "{{violet}}"}
+  unit_byte: {foreground: "{{subtext}}"}
+  unit_kilo: {foreground: "{{teal}}"}
+  unit_mega: {foreground: "{{violet}}"}
+  unit_giga: {foreground: "{{violet}}"}
+  unit_huge: {foreground: "{{teal}}"}
+
+users:
+  user_you: {foreground: "{{text}}"}
+  user_root: {foreground: "{{red}}"}
+  user_other: {foreground: "{{red}}"}
+  group_yours: {foreground: "{{subtext}}"}
+  group_other: {foreground: "{{dimmed}}"}
+  group_root: {foreground: "{{red}}"}
+
+links:
+  normal: {foreground: "{{blue}}"}
+  multi_link_file: {foreground: "{{blue}}"}
+
+git:
+  new: {foreground: "{{green}}"}
+  modified: {foreground: "{{yellow}}"}
+  deleted: {foreground: "{{red}}"}
+  renamed: {foreground: "{{teal}}"}
+  typechange: {foreground: "{{violet}}"}
+  ignored: {foreground: "{{dimmed}}"}
+  conflicted: {foreground: "{{orange}}"}
+
+git_repo:
+  branch_main: {foreground: "{{subtext}}"}
+  branch_other: {foreground: "{{violet}}"}
+  git_clean: {foreground: "{{green}}"}
+  git_dirty: {foreground: "{{red}}"}
+
+security_context:
+  colon: {foreground: "{{dimmed}}"}
+  user: {foreground: "{{dimmed}}"}
+  role: {foreground: "{{violet}}"}
+  typ: {foreground: "{{dimmed}}"}
+  range: {foreground: "{{violet}}"}
+
+file_type:
+  image: {foreground: "{{yellow}}"}
+  video: {foreground: "{{red}}"}
+  music: {foreground: "{{green}}"}
+  lossless: {foreground: "{{teal}}"}
+  crypto: {foreground: "{{dimmed}}"}
+  document: {foreground: "{{text}}"}
+  compressed: {foreground: "{{violet}}"}
+  temp: {foreground: "{{red}}"}
+  compiled: {foreground: "{{teal}}"}
+  source: {foreground: "{{blue}}"}
+
+punctuation: {foreground: "{{dimmed}}"}
+date: {foreground: "{{yellow}}"}
+inode: {foreground: "{{subtext}}"}
+blocks: {foreground: "{{dimmed}}"}
+header: {foreground: "{{text}}"}
+octal: {foreground: "{{teal}}"}
+flags: {foreground: "{{violet}}"}
+
+symlink_path: {foreground: "{{teal}}"}
+control_char: {foreground: "{{teal}}"}
+broken_symlink: {foreground: "{{red}}"}
+broken_path_overlay: {foreground: "{{dimmed}}"}
