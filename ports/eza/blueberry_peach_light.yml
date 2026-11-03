@@ -2,13 +2,13 @@ colourful: true
 
 filekinds:
   normal: {foreground: "#6C6460"}
-  directory: {foreground: "#2169A6"}
-  symlink: {foreground: "#2169A6"}
+  directory: {foreground: "#6F58A2"}
+  symlink: {foreground: "#6F58A2"}
   pipe: {foreground: "#866864"}
   block_device: {foreground: "#B43B3E"}
   char_device: {foreground: "#B43B3E"}
   socket: {foreground: "#866864"}
-  special: {foreground: "#6F58A2"}
+  special: {foreground: "#2169A6"}
   executable: {foreground: "#247500"}
   mount_point: {foreground: "#03726A"}
 
@@ -32,9 +32,9 @@ size:
   minor: {foreground: "#03726A"}
   number_byte: {foreground: "#866864"}
   number_kilo: {foreground: "#866864"}
-  number_mega: {foreground: "#2169A6"}
-  number_giga: {foreground: "#6F58A2"}
-  number_huge: {foreground: "#6F58A2"}
+  number_mega: {foreground: "#6F58A2"}
+  number_giga: {foreground: "#2169A6"}
+  number_huge: {foreground: "#2169A6"}
   unit_byte: {foreground: "#866864"}
   unit_kilo: {foreground: "#03726A"}
   unit_mega: {foreground: "#6F58A2"}
@@ -82,10 +82,10 @@ file_type:
   lossless: {foreground: "#03726A"}
   crypto: {foreground: "#8B6E6E"}
   document: {foreground: "#6C6460"}
-  compressed: {foreground: "#6F58A2"}
+  compressed: {foreground: "#2169A6"}
   temp: {foreground: "#B43B3E"}
   compiled: {foreground: "#03726A"}
-  source: {foreground: "#2169A6"}
+  source: {foreground: "#6F58A2"}
 
 punctuation: {foreground: "#8B6E6E"}
 date: {foreground: "#8A5C05"}

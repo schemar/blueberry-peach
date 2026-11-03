@@ -2,13 +2,13 @@ colourful: true
 
 filekinds:
   normal: {foreground: "{{text}}"}
-  directory: {foreground: "{{blue}}"}
-  symlink: {foreground: "{{blue}}"}
+  directory: {foreground: "{{violet}}"}
+  symlink: {foreground: "{{violet}}"}
   pipe: {foreground: "{{subtext}}"}
   block_device: {foreground: "{{red}}"}
   char_device: {foreground: "{{red}}"}
   socket: {foreground: "{{subtext}}"}
-  special: {foreground: "{{violet}}"}
+  special: {foreground: "{{blue}}"}
   executable: {foreground: "{{green}}"}
   mount_point: {foreground: "{{teal}}"}
 
@@ -32,9 +32,9 @@ size:
   minor: {foreground: "{{teal}}"}
   number_byte: {foreground: "{{subtext}}"}
   number_kilo: {foreground: "{{subtext}}"}
-  number_mega: {foreground: "{{blue}}"}
-  number_giga: {foreground: "{{violet}}"}
-  number_huge: {foreground: "{{violet}}"}
+  number_mega: {foreground: "{{violet}}"}
+  number_giga: {foreground: "{{blue}}"}
+  number_huge: {foreground: "{{blue}}"}
   unit_byte: {foreground: "{{subtext}}"}
   unit_kilo: {foreground: "{{teal}}"}
   unit_mega: {foreground: "{{violet}}"}
@@ -82,10 +82,10 @@ file_type:
   lossless: {foreground: "{{teal}}"}
   crypto: {foreground: "{{dimmed}}"}
   document: {foreground: "{{text}}"}
-  compressed: {foreground: "{{violet}}"}
+  compressed: {foreground: "{{blue}}"}
   temp: {foreground: "{{red}}"}
   compiled: {foreground: "{{teal}}"}
-  source: {foreground: "{{blue}}"}
+  source: {foreground: "{{violet}}"}
 
 punctuation: {foreground: "{{dimmed}}"}
 date: {foreground: "{{yellow}}"}
